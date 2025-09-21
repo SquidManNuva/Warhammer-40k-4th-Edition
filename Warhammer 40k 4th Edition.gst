@@ -1202,7 +1202,7 @@ Terrain in the Assault Phase.</description>
         <infoLink id="df17-1d0d-4b60-e426" name="Deathwatch" hidden="false" targetId="2d1a-ee41-20f6-a6c8" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5364-ae7c-0e35-fe79" name="Kill Team Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="fbe4-73d3-df6b-230c">
+        <selectionEntryGroup id="5364-ae7c-0e35-fe79" name="Kill Team " hidden="false" collective="false" import="true" defaultSelectionEntryId="fbe4-73d3-df6b-230c">
           <constraints>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21ef-3b86-a62c-818f" type="max"/>
             <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2656-4893-44d6-ebaa" type="min"/>
@@ -1240,20 +1240,12 @@ Terrain in the Assault Phase.</description>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d32-d501-a754-c471" type="max"/>
                   </constraints>
-                  <profiles>
-                    <profile id="1455-a085-4987-17c2" name="Smite" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
-                        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
-                        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
-                        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 1 Blast</characteristic>
-                        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Autohits</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
                   <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
                   </costs>
+                  <infoLinks>
+                    <infoLink name="Force Weapon" id="681a-34ae-f0a0-4c11" hidden="false" type="profile" targetId="e5ab-52f0-b14b-e93c"/>
+                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry id="6fd0-f616-349f-41b3" name="Minor Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -1618,12 +1610,13 @@ Terrain in the Assault Phase.</description>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntryGroup>
+                <selectionEntryGroup name="Weapons" id="af33-15eb-fc8e-37f5" hidden="false"/>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fbe4-73d3-df6b-230c" name="Deathwatch Space Marine" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="fbe4-73d3-df6b-230c" name="Space Marine" hidden="false" collective="false" import="true" type="model">
               <profiles>
                 <profile id="ff72-8b54-7d1a-f46e" name="Deathwatch Space Marine" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
                   <modifiers>
@@ -1647,8 +1640,6 @@ Terrain in the Assault Phase.</description>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="dba5-aa2b-7eea-b1aa" name="Boltgun" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
-                <infoLink id="ebea-80ff-2e28-9337" name="Close Combat Weapon (CCW)" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
                 <infoLink id="251e-c43c-ae62-a497" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
                 <infoLink id="570f-0a31-a05b-fbf0" name="Melta Bombs" hidden="false" targetId="87d0-8c40-7bcb-8cbb" type="profile"/>
               </infoLinks>
@@ -1678,9 +1669,10 @@ Terrain in the Assault Phase.</description>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="b704-b0ec-820d-793f" name="Weapon Options" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="b704-b0ec-820d-793f" name="Weapons" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ce6-f9a9-9056-8bd1" type="max"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c7e7-1030-2699-70b3"/>
                   </constraints>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="96b4-ed13-0bc9-dd90" name="Special Weapon" hidden="false" collective="false" import="true">
@@ -1858,11 +1850,27 @@ Terrain in the Assault Phase.</description>
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bolter &amp; CCW" hidden="false" id="033d-8686-0ae0-77d8">
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="dba5-aa2b-7eea-b1aa" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
+                        <infoLink name="Close Combat Weapon (CCW)" id="ebea-80ff-2e28-9337" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
+                        <infoLink name="Rapid Fire" id="d5b3-088f-da4a-06b1" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="Veteran Space Marine" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="8697-f18c-8800-4356" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2042,6 +2050,37 @@ Terrain in the Assault Phase.</description>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grav-Attack Tank (Chapter Approved)" hidden="false" id="b646-9e84-2bec-8c14">
+      <categoryLinks>
+        <categoryLink targetId="aacb-8a81-62c0-3db8" id="d7c1-e82f-c5a2-b28f" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="e6d5-bc03-5827-d5da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Grav-Attack Tank (Chapter Approved)" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle" hidden="false" id="8023-80d5-f252-adcb">
+          <characteristics>
+            <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+            <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+            <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">11</characteristic>
+            <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Lascannon" id="5b54-a1a7-ce4f-107d" hidden="false" type="profile" targetId="a160-d79e-e7a9-2e9c"/>
+        <infoLink name="Missile Launcher (frag)" id="a97c-e9a4-8640-e320" hidden="false" type="profile" targetId="aa04-2d5e-da7e-2d25"/>
+        <infoLink name="Missile Launcher (krak)" id="907d-5bd4-206b-e8e6" hidden="false" type="profile" targetId="4e6c-7b62-ba6d-05cf"/>
+        <infoLink name="Tank" id="f0a8-9237-4628-d798" hidden="false" type="rule" targetId="5150-e938-2792-646f"/>
+        <infoLink name="Skimmer" id="997c-7fc9-5136-92b7" hidden="false" type="rule" targetId="e111-c9c6-72de-1626"/>
+        <infoLink name="Heavy" id="87e4-7125-351d-554f" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+        <infoLink name="Blast" id="07e9-72d8-513e-c32d" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -2681,17 +2720,11 @@ Vehicles and Monstrous Creatures ignore this restrictions on movement</descripti
       <description>Units that use this weapon during the Shooting Phase cannot Charge during the Assault Phase. 
 
 
-
-
 Select a target and place the Large Blast Marker (5” diameter) such that the center mark does not exceed the weapon’s Range. The center mark must
 be over a model. 
 
 
-
-
 Roll a Scatter Die: if the result is not a Direct Hit, the center mark shifts 1D6 inches in the specified direction. 
-
-
 
 
 When Ordnance is fired by a moving Vehicle , roll 2D6 and keep the highest result instead.</description>
@@ -3366,11 +3399,17 @@ For a single model equipped with two, +1 Attack.</characteristic>
     </profile>
     <profile id="c7f7-e5ab-17a7-1cf9" name="Dreadnought Close Combat Weapons" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376"/>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844"/>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855"/>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13"/>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Dreadnoughts with close combat weapons double their Strength in close combat (max 10) and ignore armour saves. These weapons count as power fists but strike at the Dreadnought’s normal Initiative. &amp; If armed with two close combat weapons, the Dreadnought gains +1 Attack</characteristic>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">x2</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Doubles Strength up to 10
+
+
+Ignores armor saves
+
+
+Counts as a [ower fist but strikes at the Dreadnought’s normal Initiative. &amp; If armed with two close combat weapons, the Dreadnought gains +1 Attack</characteristic>
       </characteristics>
     </profile>
     <profile id="ff9c-5b94-680f-36d5" name="Power Claw" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
@@ -4270,7 +4309,7 @@ Roll 2D6 for armor penetration.</characteristic>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">72&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">9</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heacy 1/Blast</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1/Blast</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>

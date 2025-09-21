@@ -99,6 +99,8 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="85cd-6f0b-f440-669f" includeChildSelections="true"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry name="Deathwatch" id="f471-06f2-30cb-6a3b" hidden="false"/>
+    <categoryEntry name="Cursed Champion" id="a502-0d0a-2966-a0f1" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="42a3-487a-8d98-5c47" name="Commander" hidden="false" collective="false" import="true" targetId="043b-1cc7-9a38-8133" type="selectionEntry"/>
@@ -248,24 +250,9 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="c9f7-9b72-a1be-1b65" name="Tarantula Sentry Gun (IA)" hidden="false" collective="false" import="true" targetId="82c5-8065-6903-5174" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3261-6601-5bfe-f5d0" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bb7-4116-b299-aa65" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="1f8d-f4f4-58fb-d980" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="99e5-ce2a-aa97-1f0e" name="Hyperious Air Defence Battery (IA)" hidden="false" collective="false" import="true" targetId="fde5-3ce5-0c7a-820c" type="selectionEntry"/>
+    <entryLink id="99e5-ce2a-aa97-1f0e" name="Hyperios Air Defence Battery (IA)" hidden="false" collective="false" import="true" targetId="fde5-3ce5-0c7a-820c" type="selectionEntry"/>
     <entryLink id="da2e-7a38-f740-fee7" name="Contemptor Dreadnought (Homebrew)" hidden="false" collective="false" import="true" targetId="9042-1a04-ca8a-4f29" type="selectionEntry"/>
-    <entryLink id="0c2c-3624-9152-bc6f" name="Deathwatch Kill Team (Chapter Approved)" hidden="false" collective="false" import="true" targetId="1004-74e9-5ee6-c51f" type="selectionEntry">
+    <entryLink id="0c2c-3624-9152-bc6f" name="Deathwatch Kill-Team (Chapter Approved)" hidden="false" collective="false" import="true" targetId="6fcd-421e-9829-1d0f" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed02-4d25-bc13-6ba2" type="max"/>
       </constraints>
@@ -354,6 +341,27 @@
     <entryLink import="true" name="Captain Lysander of the Imperial Fists" hidden="false" id="a210-e014-e36c-05a0" type="selectionEntry" targetId="4aa5-8554-b5b4-f6e5"/>
     <entryLink import="true" name="Tyrannic War Veterans" hidden="false" id="2c5c-ed57-b8bc-4fc6" type="selectionEntry" targetId="df79-8a13-ed26-2366"/>
     <entryLink import="true" name="Chaplain Dreadnought (IA)" hidden="false" id="b989-2718-e3ec-89df" type="selectionEntry" targetId="3442-ad4d-bedd-a895"/>
+    <entryLink import="true" name="Tarantula Sentry Gun (IA)" hidden="false" id="d870-1e6d-0849-5232" type="selectionEntry" targetId="0172-2ae4-fad7-4482"/>
+    <entryLink import="true" name="Siege Dreadnought (IA)" hidden="false" id="5100-3cfa-d8ff-db41" type="selectionEntry" targetId="2c7e-b32c-968d-1faa">
+      <comment>Elites</comment>
+      <categoryLinks>
+        <categoryLink targetId="6d25-b346-c314-6911" id="dc1b-b6d7-3455-145b" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Siege Dreadnought (IA)" hidden="false" id="225d-c77e-90be-48f0" type="selectionEntry" targetId="2c7e-b32c-968d-1faa">
+      <comment>Heavy Support</comment>
+      <categoryLinks>
+        <categoryLink targetId="aacb-8a81-62c0-3db8" id="bc59-441a-8c13-150a" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="775a-f704-5030-7f7b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Grav-Attack Tank (Chapter Approved)" hidden="false" id="be0c-b6a4-b78c-54ce" type="selectionEntry" targetId="b646-9e84-2bec-8c14"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="043b-1cc7-9a38-8133" name="Commander" hidden="false" collective="false" import="true" type="model">
@@ -421,15 +429,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ec-5680-b002-3ccc" type="max"/>
           </constraints>
-        </entryLink>
-        <entryLink id="ab11-f261-82c2-27c7" name="Deathwatch Special Ammo" hidden="false" collective="false" import="true" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="340a-63dd-f55e-9d16" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="ce97-23a5-5c61-bb1a" type="selectionEntryGroup" targetId="175a-d904-f65a-6dd4"/>
+          </entryLinks>
         </entryLink>
       </entryLinks>
       <selectionEntryGroups>
@@ -688,15 +690,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e8d-dc9a-216f-8086" type="max"/>
           </constraints>
-        </entryLink>
-        <entryLink id="515a-9411-b089-eb60" name="Deathwatch Special Ammo" hidden="false" collective="false" import="true" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="340a-63dd-f55e-9d16" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="d8fa-9355-1d68-e9aa" type="selectionEntryGroup" targetId="175a-d904-f65a-6dd4"/>
+          </entryLinks>
         </entryLink>
         <entryLink import="true" name="Space Marine Librarian Psychic Powers" hidden="false" id="af46-67f5-ef94-cf9f" type="selectionEntryGroup" targetId="0dfb-30a7-673c-3c36"/>
       </entryLinks>
@@ -837,15 +833,6 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="8d4c-2300-84b5-489b" name="Space Marine Armory" hidden="false" collective="false" import="true" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
-        <entryLink id="4035-932e-2875-6f73" name="Deathwatch Special Ammo" hidden="false" collective="false" import="true" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="340a-63dd-f55e-9d16" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
         <entryLink id="2163-ac87-7071-c34d" name="Deathwatch Veteran (Chapter Approved)" hidden="false" collective="false" import="true" targetId="340a-63dd-f55e-9d16" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -862,6 +849,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cfc-e05b-5055-250f" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="77d2-e3a1-ab27-346d" type="selectionEntryGroup" targetId="175a-d904-f65a-6dd4"/>
+          </entryLinks>
         </entryLink>
       </entryLinks>
       <selectionEntryGroups>
@@ -1048,15 +1038,9 @@
                       </conditions>
                     </modifier>
                   </modifiers>
-                </entryLink>
-                <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="be2f-3e94-e7b8-c226" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
+                  <entryLinks>
+                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="be2f-3e94-e7b8-c226" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup"/>
+                  </entryLinks>
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
@@ -1249,15 +1233,9 @@
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c974-998f-f816-1d88" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="619b-5284-be63-05b3" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
+                      <entryLinks>
+                        <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="619b-5284-be63-05b3" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup"/>
+                      </entryLinks>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -1363,15 +1341,9 @@
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d97-69fe-9921-9765" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="a788-a3c2-9e51-ebec" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
+                      <entryLinks>
+                        <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="a788-a3c2-9e51-ebec" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup"/>
+                      </entryLinks>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -1592,15 +1564,9 @@
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ffe-7143-cdb3-6dad" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="b6d5-056d-f2fc-7bf9" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
+                      <entryLinks>
+                        <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="b6d5-056d-f2fc-7bf9" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup"/>
+                      </entryLinks>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -1717,15 +1683,9 @@
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36d3-be0d-78eb-5024" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="2d12-043e-b97b-c3f8" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
+                      <entryLinks>
+                        <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="2d12-043e-b97b-c3f8" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup"/>
+                      </entryLinks>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -2203,15 +2163,6 @@
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Space Marine Armory" hidden="false" id="6a85-95e3-8b5b-79fc" collective="false" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
-            <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="f176-0652-e20c-a9bf" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
             <entryLink import="true" name="Deathwatch Veteran (Chapter Approved)" hidden="false" id="c128-b331-8c10-9f34" collective="false" targetId="340a-63dd-f55e-9d16" type="selectionEntry">
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
@@ -2228,6 +2179,9 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d9b-3de2-cb3d-5a42" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="5f9d-ebbe-1a14-8085" type="selectionEntryGroup" targetId="175a-d904-f65a-6dd4"/>
+              </entryLinks>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
@@ -2376,15 +2330,9 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4687-162e-2eed-848c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
-            </entryLink>
-            <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="62a0-bf88-68c4-5079" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+              <entryLinks>
+                <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="160e-044a-4668-ba8d" type="selectionEntryGroup" targetId="175a-d904-f65a-6dd4"/>
+              </entryLinks>
             </entryLink>
             <entryLink import="true" name="Space Marine Librarian Psychic Powers" hidden="false" id="139a-693c-923c-bdf2" type="selectionEntryGroup" targetId="0dfb-30a7-673c-3c36"/>
           </entryLinks>
@@ -3554,15 +3502,9 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f97-6a70-0785-61d7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
-                </entryLink>
-                <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="1c89-84f8-4c0e-bb3b" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
+                  <entryLinks>
+                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="1c89-84f8-4c0e-bb3b" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup"/>
+                  </entryLinks>
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
@@ -3805,15 +3747,9 @@
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0895-540b-8634-4476" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="72f7-bd07-d346-a46f" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
+                      <entryLinks>
+                        <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="72f7-bd07-d346-a46f" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup"/>
+                      </entryLinks>
                     </entryLink>
                   </entryLinks>
                   <selectionEntryGroups>
@@ -3918,15 +3854,9 @@
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1832-a2aa-db01-6d78" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="f0a3-4ea5-848c-2da5" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
+                      <entryLinks>
+                        <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="f0a3-4ea5-848c-2da5" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup"/>
+                      </entryLinks>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -4394,15 +4324,9 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9713-48a1-da8b-6f04" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
-                </entryLink>
-                <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="895d-c04b-ed8b-a425" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
+                  <entryLinks>
+                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="b99f-cb24-d2f4-389d" type="selectionEntryGroup" targetId="175a-d904-f65a-6dd4"/>
+                  </entryLinks>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -4571,7 +4495,15 @@
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="ea83-58f3-6403-0226">
                       <infoLinks>
-                        <infoLink name="Boltgun" id="520f-a766-f6ac-15ad" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
+                        <infoLink name="Boltgun" id="520f-a766-f6ac-15ad" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="parent" childId="b99f-cb24-d2f4-389d" shared="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
                         <infoLink name="Rapid Fire" id="dc0d-5ece-caf4-abe5" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
                         <infoLink name="Close Combat Weapon (CCW)" id="1399-9d10-e3f8-809d" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2">
                           <modifiers>
@@ -4680,15 +4612,17 @@
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a5d-3d99-f79d-6f11" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="4202-4430-3c5e-377c" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
+                      <entryLinks>
+                        <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="4202-4430-3c5e-377c" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -4713,8 +4647,24 @@
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="aa2c-5725-f67d-d0e0">
                           <infoLinks>
-                            <infoLink name="Boltgun" id="3945-e3e4-46b2-c219" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
-                            <infoLink name="Rapid Fire" id="8aef-6891-d49f-a05d" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                            <infoLink name="Boltgun" id="3945-e3e4-46b2-c219" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+                              <modifiers>
+                                <modifier type="set" value="true" field="hidden">
+                                  <conditions>
+                                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="4202-4430-3c5e-377c" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Rapid Fire" id="8aef-6891-d49f-a05d" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744">
+                              <modifiers>
+                                <modifier type="set" value="true" field="hidden">
+                                  <conditions>
+                                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="4202-4430-3c5e-377c" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </infoLink>
                             <infoLink name="Close Combat Weapon (CCW)" id="66a5-329b-2190-d1cf" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2">
                               <modifiers>
                                 <modifier type="set" value="true" field="hidden">
@@ -4828,15 +4778,17 @@
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d70-e8f7-fdd4-3591" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="71a9-295b-db76-0ac3" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
+                      <entryLinks>
+                        <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="71a9-295b-db76-0ac3" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="parent" childId="340a-63dd-f55e-9d16" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -4861,7 +4813,15 @@
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="57a2-15ae-9b40-d4fc">
                           <infoLinks>
-                            <infoLink name="Boltgun" id="f1d2-9a61-e6e5-a00d" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
+                            <infoLink name="Boltgun" id="f1d2-9a61-e6e5-a00d" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+                              <modifiers>
+                                <modifier type="set" value="true" field="hidden">
+                                  <conditions>
+                                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="71a9-295b-db76-0ac3" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </infoLink>
                             <infoLink name="Rapid Fire" id="ea07-a236-2a46-b5fb" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
                             <infoLink name="Close Combat Weapon (CCW)" id="ce51-b829-9572-8f19" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2">
                               <modifiers>
@@ -8826,7 +8786,7 @@ Master crafted" field="492d-1f80-b777-26f2"/>
       <infoLinks>
         <infoLink id="f2db-314f-8aa5-f71b" name="Rhino" hidden="false" targetId="870a-b8e6-ca97-deec" type="profile">
           <modifiers>
-            <modifier type="set" value="" field="ec07-2d55-2ba5-6080"/>
+            <modifier type="set" field="ec07-2d55-2ba5-6080"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -9724,7 +9684,6 @@ After the first turn of firing the Deathwind cannot fire again.</description>
         <rule id="5aa6-974b-f169-f85e" name="Ceramite Shielding" hidden="false">
           <description>The Thunderhawk&apos;s reentry shielding makes it resistant to melta weapons. Melta weapons, including melta bombs, never roll a extra dice for armour penetration due to being at half range against a Thunderhawk.</description>
         </rule>
-        <rule id="4bed-15f1-9c0f-6dc1" name="Transport" hidden="false"/>
         <rule id="0d2c-a98b-3f65-eb42" name="Flare/Chaff Launcher" hidden="false">
           <description>One use only. If the vehicle takes the Immobilised damage result then re-roll the result.</description>
         </rule>
@@ -9759,6 +9718,8 @@ After the first turn of firing the Deathwind cannot fire again.</description>
             <selectionEntry id="2bbb-4291-ca6b-9b91" name="Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="cb8e-25cc-2f57-a0bb" name="Battle Cannon" hidden="false" targetId="3a2e-94e4-b9a3-bb11" type="profile"/>
+                <infoLink name="Ordnance" id="6ef3-442e-5472-36f6" hidden="false" type="rule" targetId="e01d-80f2-ff4e-2f70"/>
+                <infoLink name="Blast" id="754d-2053-17f1-e789" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
@@ -9767,6 +9728,8 @@ After the first turn of firing the Deathwind cannot fire again.</description>
             <selectionEntry id="ef60-27f5-8878-0b27" name="Turbo-laser" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="90b9-6381-c13e-d396" name="Turbo-laser" hidden="false" targetId="d05d-f8bb-2011-6807" type="profile"/>
+                <infoLink name="Heavy" id="e4a8-02de-54f8-edc1" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                <infoLink name="Blast" id="25c6-aaec-a891-272c" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
@@ -9789,6 +9752,7 @@ After the first turn of firing the Deathwind cannot fire again.</description>
                     <modifier type="set" field="name" value="Hellstrike Missiles"/>
                   </modifiers>
                 </infoLink>
+                <infoLink name="Heavy" id="0f1c-4275-b9c9-2703" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
@@ -9804,6 +9768,8 @@ After the first turn of firing the Deathwind cannot fire again.</description>
                     <modifier type="set" field="name" value="18x Bombs"/>
                   </modifiers>
                 </infoLink>
+                <infoLink name="Heavy" id="55b2-6570-f3ee-0acf" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                <infoLink name="Blast" id="5748-f9b6-6fbc-7ecc" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="90"/>
@@ -9816,7 +9782,7 @@ After the first turn of firing the Deathwind cannot fire again.</description>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="680"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fde5-3ce5-0c7a-820c" name="Hyperious Air Defence Battery (IA)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fde5-3ce5-0c7a-820c" name="Hyperios Air Defence Battery (IA)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9833,6 +9799,9 @@ After the first turn of firing the Deathwind cannot fire again.</description>
         </rule>
         <rule id="a737-6d17-43a4-9439" name="Victory Points" hidden="false">
           <description>The Air Defense Battery cannot claim to occupy table quarters or objectives.</description>
+        </rule>
+        <rule name="Damage" id="8f98-ccce-9a39-d3f1" hidden="false">
+          <description>Both components are destroyed by any glancing or penetrating hits</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -9949,19 +9918,7 @@ After the first turn of firing the Deathwind cannot fire again.</description>
                   <description>-All models gain +1 Attack and pass all Morale and Pinning tests.
 
 
-
-
-
-
-
-
 -Must also Assault the nearest enemy in range at the start of their Assault Phase
-
-
-
-
-
-
 
 
 -Must Sweeping Advance on successful Assault unless wearing Terminator Armor or having &quot;moral high ground&quot;</description>
@@ -9975,12 +9932,6 @@ After the first turn of firing the Deathwind cannot fire again.</description>
               <rules>
                 <rule name="Apparitions" id="62e4-02fb-e74d-dadd" hidden="false">
                   <description>Always deploys in Deep Strike before the game begins. May be set up anywhere on the battlefield not within the opponent&apos;s deployment zone.
-
-
-
-
-
-
 
 
 Infantry and Vehicles also receive a 6+ Invulnerable Save.</description>
@@ -10004,8 +9955,6 @@ Infantry and Vehicles also receive a 6+ Invulnerable Save.</description>
               <rules>
                 <rule name="Immolation" id="a6d9-55df-a73a-a51d" hidden="false">
                   <description>Always receives a 5+ Cover Save from enemy shooting and always counts as in cover when being charged by the enemy.
-
-
 
 
 No units other than Cursed Knights may take or enter a transport</description>
@@ -10656,6 +10605,9 @@ Twin-linked Assault Cannon:52</comment>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="f471-06f2-30cb-6a3b" id="f52c-bdc7-831e-195e" primary="false" name="Deathwatch"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="434b-365f-43ff-1c14" name="Terminator Command Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -11241,6 +11193,28 @@ Twin-linked Assault Cannon:52</comment>
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Deathwatch Veteran (Chapter Approved)" hidden="false" id="942e-ac26-17cf-f530" collective="false" targetId="340a-63dd-f55e-9d16" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="e6d5-bc03-5827-d5da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="9d6b-d195-877e-09cb" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c31d-b18c-4d32-de4f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="e0ed-f558-28cc-24af" type="selectionEntryGroup" targetId="175a-d904-f65a-6dd4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Suffer Not the Alien to Live" hidden="false" id="7312-f398-6ba6-26e4">
       <infoLinks>
@@ -12165,6 +12139,706 @@ Is a master-crafted power weapon that provides a 4+ invulnerable save (in profil
         <entryLink import="true" name="Space Marine Vehicle Upgrades" hidden="false" id="7013-5bd9-f322-608f" type="selectionEntryGroup" targetId="93a4-c4f2-3183-a640"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tarantula Sentry Gun (IA)" hidden="false" id="0172-2ae4-fad7-4482" collective="false">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3261-6601-5bfe-f5d0" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Firing Modes" id="3d00-523a-ecd9-cf82" hidden="false">
+          <description>At deployment, you must select a firing mode. It cannot be changed once the game begins.
+
+Point Defence Mode: Choose a fixed 90 degree arc. The gun will engage enemy targets up to 24&quot; away within the arc.
+
+Sentry Mode: The gun will fire at the nearest enemy target within 12&quot; that it can see.</description>
+        </rule>
+        <rule name="Targetting Priority" id="9616-77e7-59c1-9f3f" hidden="false">
+          <description>A heavy bolter Sentry gun will fire at the nearest non-vehicle unit it can hit. A lascannon Sentry gun will fire at the closest enemy vehicle it can hit. If no preferred target can be hit they will shoot at non-preferred targets.</description>
+        </rule>
+        <rule name="Damage" id="71b0-d566-3f3e-024a" hidden="false">
+          <description>A Tarantula is destroyed by any glancing or penetrating hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Immobile" id="5b64-cc4c-7481-f4cc" hidden="false" targetId="de3d-c21c-3d4f-5259" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Sentry Gun" hidden="false" id="c37b-8a47-fdcf-44f7" collective="false">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="f4c5-c2a9-2ed4-2e7f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3996-9ca2-f620-d722" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Weapon Plaform" id="59c4-8156-2248-3c7b" hidden="false" targetId="a6bb-7a68-e3e4-d388" type="profile">
+              <modifiers>
+                <modifier type="set" value="2" field="b109-f88e-dcc7-8a24"/>
+                <modifier type="set" value="Sentry Gun" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapon" id="ec6d-d020-c01e-c228" hidden="false" collective="false" import="true" defaultSelectionEntryId="5aca-0154-fdaf-94b6">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Twin-Linked Heavy Bolter" hidden="false" id="d760-3dad-c911-3ec6" collective="false">
+                  <infoLinks>
+                    <infoLink name="Twin-Linked" id="6ebf-400c-504c-0038" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                    <infoLink name="Heavy Bolter" id="68a5-02a4-121e-d30d" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile">
+                      <modifiers>
+                        <modifier type="set" value="Twin-Linked Heavy Bolters" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Heavy" id="a356-97d0-aa26-338b" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin-Linked Lascannons" hidden="false" id="3dd4-e273-2efa-98dd" collective="false">
+                  <infoLinks>
+                    <infoLink name="Twin-Linked" id="55a1-6a1c-cb79-b415" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                    <infoLink name="Lascannon" id="7deb-31e4-8f1b-b18d" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile">
+                      <modifiers>
+                        <modifier type="set" value="Twin-Linked Lascannons" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Heavy" id="0176-efc0-f97b-9c5a" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Multi-Melta" hidden="false" id="c797-8c1d-1a7a-d766">
+                  <infoLinks>
+                    <infoLink name="Heavy" id="739c-c435-0688-44be" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                    <infoLink name="Melta" id="136c-9b98-4d0c-f294" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+                    <infoLink name="Multi-melta" id="f3f4-8e4a-c8ae-9204" hidden="false" type="profile" targetId="7077-4e34-5c92-5320"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+      </costs>
+      <comment>Space Marines</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e6a2-40b3-6b5d-3de3" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="a8a7-7a4b-5f7e-2138" id="976f-994f-ea26-7412" primary="true" name="HQ"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Siege Dreadnought (IA)" hidden="false" id="2c7e-b32c-968d-1faa">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="85bd-ed40-d379-ceef" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3261-6601-5bfe-f5d0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="85bd-ed40-d379-ceef">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="775a-f704-5030-7f7b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Dreadnought" id="bf4d-1db6-f33b-5313" hidden="false" type="profile" targetId="528d-0883-0dd5-a47d"/>
+        <infoLink name="Inferno Cannon" id="9ea4-f13a-b813-ab8a" hidden="false" type="profile" targetId="6a00-06f9-5972-4b79"/>
+        <infoLink name="Template" id="59a9-3f8d-c59a-d4c6" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+        <infoLink name="Heavy" id="d6f1-e074-18bf-42c6" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+        <infoLink name="Heavy Flamer" id="870e-f2b9-6774-4c0d" hidden="false" type="profile" targetId="6d36-2c09-dfc3-f257"/>
+        <infoLink name="Dreadnought Close Combat Weapons" id="800e-f66c-2518-3cba" hidden="false" type="profile" targetId="c7f7-e5ab-17a7-1cf9">
+          <modifiers>
+            <modifier type="set" value="Assault Drill" field="name"/>
+            <modifier type="set" value="Doubles Strength up to 10
+
+
+Ignores armor saves
+
+
+Counts as a [ower fist but strikes at the Dreadnought’s normal Initiative. &amp; If armed with two close combat weapons, the Dreadnought gains +1 Attack
+
+
+Roll 2D6 for penetration against bunkers or buildings &amp; add the dice together
+
+
+May make a Heavy Flamer attack against anyone inside a bunker/pillbox/building. Models inside are hit automatically" field="492d-1f80-b777-26f2"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="120"/>
+      </costs>
+      <rules>
+        <rule name="Wrecker" id="0b5a-57d8-9fcd-da4f" hidden="false">
+          <description>In City Fights, the Siege Dreadnought may count as having the Wrecker stratagem</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Deathwatch Kill-Team (Chapter Approved)" hidden="false" id="6fcd-421e-9829-1d0f">
+      <categoryLinks>
+        <categoryLink targetId="a8a7-7a4b-5f7e-2138" id="67f0-d123-2171-e584" primary="true" name="HQ"/>
+        <categoryLink targetId="f471-06f2-30cb-6a3b" id="2632-95e5-cfd3-2431" primary="false" name="Deathwatch"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="e6d5-bc03-5827-d5da" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="dc95-2fff-5665-b3d9" hidden="false" type="rule" targetId="5715-6219-5059-9bcf"/>
+        <infoLink name="True Grit" id="3118-89fa-a4a9-cce3" hidden="false" type="rule" targetId="ea58-a881-49ac-587d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Transport Vehicle" id="80d2-fd59-abfb-9d07" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" value="1" field="1476-4ea1-186c-fac3">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="parent" childId="8f0b-3e54-c10f-0a71" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c615-6ef9-a6ac-9068" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1476-4ea1-186c-fac3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Rhino" hidden="false" id="1f75-ad96-654a-9b88" collective="false" targetId="a0bd-2758-8540-c713" type="selectionEntry"/>
+            <entryLink import="true" name="Razorback" hidden="false" id="b5c5-0899-b087-7903" collective="false" targetId="af87-d6ac-8955-8877" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="0" field="805c-9801-1e79-5fef">
+                  <conditions>
+                    <condition type="greaterThan" value="6" field="selections" scope="parent" childId="faba-2324-126b-7da3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="parent" childId="2de3-5ccc-967b-e580" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="805c-9801-1e79-5fef" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Drop Pod" hidden="false" id="df0a-d76a-c4a5-b986" collective="false" targetId="a9cd-beaa-0d6b-0086" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="4663-cb6b-fa64-6b84" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="0" field="4ed5-2f92-9abc-2870"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4054-5c25-1145-2f0a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Kill-Team" id="faba-2324-126b-7da3" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Squad Leader" id="d1ea-5116-fc0c-7dcc" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ff0-a147-4b94-d6b4"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1192-f5fa-9903-dba9"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Captain" hidden="false" id="a822-e4e8-c471-a999">
+                  <categoryLinks>
+                    <categoryLink targetId="3c96-248b-affd-e504" id="489c-a26e-53ac-24c3" primary="false" name="Independent Character"/>
+                    <categoryLink targetId="dd36-bad3-d4cd-f9c1" id="91e4-9431-cf9a-02a3" primary="false" name="2 Wounds"/>
+                    <categoryLink targetId="2148-f2df-d400-d35e" id="eb64-1581-82ce-5e2e" primary="false" name="Commander"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Grenades" id="4b1f-3b5d-352f-5559" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+                    <infoLink name="Melta Bombs" id="f47b-9298-a912-1f74" hidden="false" type="profile" targetId="87d0-8c40-7bcb-8cbb"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Space Marine Armory" hidden="false" id="1d1a-85d7-72cd-d490" type="selectionEntryGroup" targetId="bfc9-22b8-1379-3112"/>
+                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="be62-094a-1622-7376" type="selectionEntryGroup" targetId="175a-d904-f65a-6dd4"/>
+                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Weapons" id="73ec-b48c-d2df-59c1" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Special Bolter Ammo" id="f325-a492-18c5-5768" hidden="false" collective="false" import="true">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3edd-a8de-ff6e-259d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </constraints>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bolter w/ Metal Storm Bolts &amp; CCW" hidden="false" id="a30d-d720-8b7f-ca61" collective="false">
+                              <profiles>
+                                <profile name="Metal Storm Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="2415-e124-6ddc-ae20">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Assault" id="48f0-8d0d-1fe4-cd7a" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                                <infoLink name="Close Combat Weapon (CCW)" id="fc68-af16-7e8e-67b6" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
+                              </infoLinks>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Bolter w/ Inferno Bolts &amp; CCW" hidden="false" id="c129-d7ef-ee81-248c" collective="false">
+                              <profiles>
+                                <profile name="Inferno Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="0861-1701-70a4-aa51">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Reroll Failed Wounds</characteristic>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Rapid Fire" id="e2e9-7a65-9811-d7c1" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                                <infoLink name="Close Combat Weapon (CCW)" id="aa16-b25d-bda5-1341" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
+                              </infoLinks>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Bolter w/ Kraken Bolts &amp; CCW" hidden="false" id="d8f2-1ef2-19c4-37ff" collective="false">
+                              <profiles>
+                                <profile name="Kraken Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="afb5-811c-3da5-ab5a">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Rapid Fire" id="445e-f057-28a0-b171" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                                <infoLink name="Close Combat Weapon (CCW)" id="8f15-d2fe-9204-acc9" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
+                              </infoLinks>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Bolter &amp; CCW" hidden="false" id="11e1-06f0-0aa2-1aab">
+                          <infoLinks>
+                            <infoLink name="Boltgun" id="e9bb-f904-3885-9133" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
+                            <infoLink name="Rapid Fire" id="9180-af0e-905e-4278" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                            <infoLink name="Close Combat Weapon (CCW)" id="f3cf-ced5-086e-0316" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fbd8-5b95-b061-ff30"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eeaf-519b-7b0a-2a97"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="0" field="fbd8-5b95-b061-ff30">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="9d75-6589-d30c-4ed9" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="0" field="eeaf-519b-7b0a-2a97">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="9d75-6589-d30c-4ed9" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Librarian" hidden="false" id="d328-fc09-a464-bd5b">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="100"/>
+                  </costs>
+                  <categoryLinks>
+                    <categoryLink targetId="3c96-248b-affd-e504" id="856f-6719-0fe2-6b92" primary="false" name="Independent Character"/>
+                    <categoryLink targetId="dd36-bad3-d4cd-f9c1" id="8a99-c0ab-d3c3-26a3" primary="false" name="2 Wounds"/>
+                    <categoryLink targetId="02ee-bc24-ec98-8712" id="81d2-5bd5-5a15-21de" primary="false" name="Librarian"/>
+                  </categoryLinks>
+                  <infoLinks>
+                    <infoLink name="Melta Bombs" id="ad84-7887-2502-37fb" hidden="false" type="profile" targetId="87d0-8c40-7bcb-8cbb"/>
+                    <infoLink name="Frag Grenades" id="a8bd-fc83-7080-3784" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+                    <infoLink name="Psychic Hood" id="41bd-36c4-5610-570a" hidden="false" type="rule" targetId="d637-ddb3-5ed3-bee8"/>
+                    <infoLink name="Force Weapon" id="bad4-a19a-f4ff-3b48" hidden="false" type="profile" targetId="e5ab-52f0-b14b-e93c"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Space Marine Librarian Psychic Powers" hidden="false" id="4c2b-7d4a-959a-ed50" type="selectionEntryGroup" targetId="0dfb-30a7-673c-3c36"/>
+                    <entryLink import="true" name="Space Marine Armory" hidden="false" id="573e-91af-669d-320f" type="selectionEntryGroup" targetId="bfc9-22b8-1379-3112"/>
+                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="b348-cd4a-1a48-278c" type="selectionEntryGroup" targetId="175a-d904-f65a-6dd4"/>
+                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Weapons" id="e0d4-7b58-36ff-4fc2" hidden="false">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="e681-c89b-727e-2598">
+                          <infoLinks>
+                            <infoLink name="Boltgun" id="e693-4538-1921-e279" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
+                            <infoLink name="Rapid Fire" id="a4a6-bcf8-0ddf-c1da" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a707-2176-e40b-a417"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71d2-708f-b87f-12f7"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="0" field="a707-2176-e40b-a417">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="9d75-6589-d30c-4ed9" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="0" field="71d2-708f-b87f-12f7">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="9d75-6589-d30c-4ed9" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="e5c2-7003-7bbf-2857"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="3fe8-b2eb-bfdb-dccf"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Space Marine" hidden="false" id="205b-3742-fc3a-2fe6">
+              <infoLinks>
+                <infoLink name="Melta Bombs" id="2800-eac8-1df0-9fc6" hidden="false" type="profile" targetId="87d0-8c40-7bcb-8cbb"/>
+                <infoLink name="Frag Grenades" id="ca43-3372-915c-968e" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapons" id="b31b-dcd3-0377-20ff" hidden="false">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Ranged Weapon" id="4919-5716-5694-45f4" hidden="false">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="0e55-7e87-6877-b9a4">
+                          <infoLinks>
+                            <infoLink name="Boltgun" id="327a-645d-39fc-f985" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
+                            <infoLink name="Rapid Fire" id="97b6-e289-1c18-07bc" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a6c-0082-b502-85f7"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f96-5243-cd6f-28a1"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Special Weapons" id="3e8b-c5db-3452-34a2" hidden="false" collective="false" import="true">
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="faba-2324-126b-7da3" shared="true" id="9060-1827-5b17-bf0c" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af44-2494-e97b-fd20" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </constraints>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Heavy Bolter w/ Hellfire Ammo and Suspensors" hidden="false" id="5767-7001-7e6d-ab09" collective="false">
+                              <profiles>
+                                <profile name="Heavy Bolter w/Suspensors" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="9236-c70b-faa8-8161">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 3</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Heavy Bolter - Hellfire Round" id="3d26-d2df-5da5-de09" hidden="false" type="profile" targetId="d36c-8ff7-d597-a81e"/>
+                                <infoLink name="Assault" id="edec-dc67-dab5-0e14" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                                <infoLink name="Heavy" id="8030-743f-8a5b-87af" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                                <infoLink name="Blast" id="2e29-595e-1a1d-abf2" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
+                              </infoLinks>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Bolter w/ M.40 Targeter" hidden="false" id="e2ea-5bad-9fc7-4057" collective="false">
+                              <profiles>
+                                <profile name="Bolter w/ M.40 Targeter" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="7e56-d389-500d-31ef">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 2</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Pinning</characteristic>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Heavy" id="9d80-cc30-04ae-38cc" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                                <infoLink name="Pinning" id="cb30-83ba-a422-fc44" hidden="false" type="rule" targetId="943e-e70e-9219-0f67"/>
+                              </infoLinks>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="9acf-628f-75a3-e514" collective="false">
+                              <infoLinks>
+                                <infoLink name="Plasma Gun" id="709e-075f-2c62-5c6a" hidden="false" targetId="112a-baea-9eeb-b1b5" type="profile"/>
+                                <infoLink name="Rapid Fire" id="4f43-4aaa-fdde-5238" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                                <infoLink name="Gets Hot!" id="778c-2331-b476-bbfb" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="bb34-a899-6a82-6c9b" collective="false">
+                              <infoLinks>
+                                <infoLink name="Meltagun" id="eb7a-8577-7c35-be37" hidden="false" targetId="737d-c7ef-4cb5-e6fa" type="profile"/>
+                                <infoLink name="Melta" id="b048-2228-f228-f9bc" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+                                <infoLink name="Assault" id="ad56-be98-fca5-cdea" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="78e1-2934-660d-f04a" collective="false">
+                              <infoLinks>
+                                <infoLink name="Flamer" id="7c48-26af-13be-9965" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
+                                <infoLink name="Assault" id="456e-ff6f-2aba-c53b" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                                <infoLink name="Template" id="ee16-d075-7010-fd86" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="3"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <modifiers>
+                            <modifier type="set" value="0" field="af44-2494-e97b-fd20">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="205b-3742-fc3a-2fe6" childId="bf47-863b-cef3-3f8f" shared="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Special Bolter Ammo" id="bfa4-e11b-ebdc-5fc4" hidden="false">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bolter w/ Inferno Bolts" hidden="false" id="321a-cc8c-c8aa-60fb" collective="false">
+                              <profiles>
+                                <profile name="Inferno Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="da18-e854-5fa3-56cc">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Reroll Failed Wounds</characteristic>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Rapid Fire" id="7595-30e8-b323-8e57" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                              </infoLinks>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Bolter w/ Kraken Bolts" hidden="false" id="ec0a-f97e-11b0-c3f3" collective="false">
+                              <profiles>
+                                <profile name="Kraken Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="8a99-ae3f-85f2-d967">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Rapid Fire" id="91a8-9837-2ac5-c211" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                              </infoLinks>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Bolter w/ Metal Storm Bolts" hidden="false" id="76b9-93ca-91a8-f18d" collective="false">
+                              <profiles>
+                                <profile name="Metal Storm Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="303e-5f79-1f39-2399">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Assault" id="8aaa-9012-3ede-69e4" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                              </infoLinks>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6691-184c-e822-53ef"/>
+                          </constraints>
+                          <modifiers>
+                            <modifier type="set" value="0" field="6691-184c-e822-53ef">
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="equalTo" value="1" field="selections" scope="205b-3742-fc3a-2fe6" childId="3e8b-c5db-3452-34a2" shared="true"/>
+                                    <condition type="equalTo" value="1" field="selections" scope="205b-3742-fc3a-2fe6" childId="bf47-863b-cef3-3f8f" shared="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="0" field="7a6c-0082-b502-85f7">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="205b-3742-fc3a-2fe6" childId="7ec0-1b4c-d29d-ec53" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="0" field="0f96-5243-cd6f-28a1">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="205b-3742-fc3a-2fe6" childId="7ec0-1b4c-d29d-ec53" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Melee Weapon" id="b8b8-3a80-07be-0ba6" hidden="false">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="f43e-a4b2-eba9-1a69">
+                          <infoLinks>
+                            <infoLink name="Close Combat Weapon (CCW)" id="22e6-2925-be83-4d2a" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Veteran Weapons" id="bf47-863b-cef3-3f8f" hidden="false" collective="false" import="true">
+                          <modifiers>
+                            <modifier type="set" value="0" field="99cd-6026-27c1-08cc">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="205b-3742-fc3a-2fe6" childId="3e8b-c5db-3452-34a2" shared="true"/>
+                              </conditions>
+                            </modifier>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="205b-3742-fc3a-2fe6" childId="1b65-423c-20ef-44af" shared="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99cd-6026-27c1-08cc"/>
+                          </constraints>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="abd0-31e2-6329-59d1" collective="false">
+                              <infoLinks>
+                                <infoLink name="Power Fist/Claw" id="e2b6-e1c2-b8a7-38b4" hidden="false" targetId="a161-ed4b-bcb7-0a01" type="profile">
+                                  <modifiers>
+                                    <modifier type="set" value="Power Fist" field="name"/>
+                                  </modifiers>
+                                </infoLink>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="ffb8-8449-8d88-e5a3" collective="false">
+                              <infoLinks>
+                                <infoLink name="Lightning Claw" id="d51c-ee9f-7773-491f" hidden="false" targetId="c7a3-7006-5226-8181" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="500d-0b1b-fef2-1044" collective="false">
+                              <infoLinks>
+                                <infoLink name="Power Weapon" id="5154-6c3d-693f-257a" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Pair of Lightning Claws" hidden="false" id="7ec0-1b4c-d29d-ec53" collective="false">
+                              <infoLinks>
+                                <infoLink name="Lightning Claw" id="616b-f567-e5b7-4c87" hidden="false" targetId="c7a3-7006-5226-8181" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="58da-374f-d5e0-831f"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adfc-f051-ee35-5767"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Profile" id="db27-5006-9998-2849" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea02-00ed-169c-4bde"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10a7-7cbb-83ab-9fe6"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Space Marine" hidden="false" id="f9d5-761b-7612-cd5b">
+                      <infoLinks>
+                        <infoLink name="Space Marine" id="8967-41cc-39c4-527e" hidden="false" type="profile" targetId="9514-67fd-b082-445f"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Veteran Space Marine" hidden="false" id="1b65-423c-20ef-44af">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Veteran Space Marine" id="6c76-f84f-8549-0b81" hidden="false" type="profile" targetId="2729-9458-bd05-2a9c">
+                          <modifiers>
+                            <modifier type="set" value="2" field="abbf-0d11-fd86-d938"/>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8d9b-4c58-1bc3-b92f"/>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="f069-0218-e866-8dff"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bfc9-22b8-1379-3112" name="Space Marine Armory" hidden="false" collective="false" import="true">
@@ -12430,6 +13104,9 @@ Is a master-crafted power weapon that provides a 4+ invulnerable save (in profil
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd1a-4e42-2fb2-7088"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Blessed Hull" hidden="false" id="88ad-c3f0-a6fc-49c2">
           <costs>
@@ -12805,17 +13482,15 @@ Is a master-crafted power weapon that provides a 4+ invulnerable save (in profil
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
-                <conditionGroup type="and">
+                <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63f7-a02b-edf8-fde2" type="notInstanceOf"/>
                     <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e99-a0cf-9812-b860" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1bae-6fdc-fadc-4aa1" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c91-d214-036a-50a2" type="notInstanceOf"/>
                     <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5338-cafe-fa14-f5d7" type="notInstanceOf"/>
                     <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="043b-1cc7-9a38-8133" type="notInstanceOf"/>
                     <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b216-ba2e-4d56-b986" type="notInstanceOf"/>
                     <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="notInstanceOf"/>
                     <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5709-6bb9-f3f9-07f2" type="notInstanceOf"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a502-0d0a-2966-a0f1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -13681,10 +14356,10 @@ Once an opponent gets inside their guard the bearer suffers -1 Initative when no
         <selectionEntry id="c8b0-70ab-828f-7f52" name="Combi-plasma gun" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="526c-fc4c-f4d6-2ab9" name="Combi Weapons" hidden="false" targetId="e65f-0536-e057-e2d2" type="rule"/>
-            <infoLink id="8f29-b8a9-a18d-1303" name="Boltgun" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
             <infoLink id="9fa5-4e6c-955b-28bf" name="Plasma Gun" hidden="false" targetId="112a-baea-9eeb-b1b5" type="profile"/>
             <infoLink name="Rapid Fire" id="cf41-b430-e9b1-d5d6" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
             <infoLink name="Gets Hot!" id="595f-8846-aa44-4566" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+            <infoLink name="Boltgun" id="3c97-84f8-3941-5605" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
@@ -13700,11 +14375,11 @@ Once an opponent gets inside their guard the bearer suffers -1 Initative when no
         <selectionEntry id="efcb-a5b5-5480-681e" name="Combi-flamer" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="eb51-d49f-1ca9-8e0c" name="Combi Weapons" hidden="false" targetId="e65f-0536-e057-e2d2" type="rule"/>
-            <infoLink id="f41b-903a-785d-7db7" name="Boltgun" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
             <infoLink id="93b2-e387-2d3b-30bd" name="Flamer" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
             <infoLink name="Rapid Fire" id="3d7a-1e27-10c7-bca9" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
             <infoLink name="Assault" id="b0a1-fd31-c60b-e8fe" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
             <infoLink name="Template" id="942b-112f-6cb8-93e2" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+            <infoLink name="Boltgun" id="c5cc-348e-b848-a676" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
@@ -13720,11 +14395,11 @@ Once an opponent gets inside their guard the bearer suffers -1 Initative when no
         <selectionEntry id="b4bd-df6f-ec5e-60e5" name="Combi-meltagun" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="19bb-0b46-9b3c-fbc8" name="Combi Weapons" hidden="false" targetId="e65f-0536-e057-e2d2" type="rule"/>
-            <infoLink id="c388-b906-f055-7b5c" name="Boltgun" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
             <infoLink id="73b1-3bf6-89e9-409c" name="Meltagun" hidden="false" targetId="737d-c7ef-4cb5-e6fa" type="profile"/>
             <infoLink name="Rapid Fire" id="f539-7d48-ef37-0415" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
             <infoLink name="Assault" id="45e6-e101-3ec2-7bbf" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
             <infoLink name="Melta" id="a589-3547-2498-883c" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+            <infoLink name="Boltgun" id="5882-e544-cf0b-c9ae" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
@@ -13769,21 +14444,65 @@ Once an opponent gets inside their guard the bearer suffers -1 Initative when no
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
           </costs>
+          <profiles>
+            <profile name="Bolter w/ M.40 Targeter" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="45a8-f7ea-61c8-43b1">
+              <characteristics>
+                <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+                <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 2</characteristic>
+                <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Pinning</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
         <selectionEntry id="481c-7597-3de3-37e6" name="Inferno Bolts" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
           </costs>
+          <profiles>
+            <profile name="Inferno Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="66ed-d272-cc9b-d392">
+              <characteristics>
+                <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+                <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Reroll Failed Wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
         <selectionEntry id="04b2-6e5c-1a67-6392" name="Kraken Bolts" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
           </costs>
+          <profiles>
+            <profile name="Kraken Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="26f7-80f1-1d4c-53de">
+              <characteristics>
+                <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
+                <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+                <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
-        <selectionEntry id="05d8-1757-09bb-3e85" name="Inferno Bolts" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="05d8-1757-09bb-3e85" name="Metal Storm Ammunition" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
           </costs>
+          <profiles>
+            <profile name="Metal Storm Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="eb5a-15eb-04bf-7546">
+              <characteristics>
+                <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+                <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
+                <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
+                <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+                <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -15481,7 +16200,16 @@ Shooting attack, used instead of shooting a weapon.</characteristic>
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">10</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">3</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11">30 Marines
+
+
+15 Terminators. Each counts as 2 Marines
+
+
+1 Bike Squadron. Each Biker counts as 3 Marines
+
+
+Attack Bikes. Each counts as 4 Marines</characteristic>
       </characteristics>
     </profile>
     <profile id="3646-d081-8001-8bce" name="Naaman" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
