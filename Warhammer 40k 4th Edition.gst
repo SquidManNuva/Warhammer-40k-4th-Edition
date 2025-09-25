@@ -4,26 +4,26 @@
   <publications>
     <publication id="263c-b15e-84a3-a711" name="Codex Necrons 3rd Edition" shortName="Necrons" publisher="Codex Necrons" publicationDate="2002"/>
     <publication id="aca0-89fc-f496-a111" name="Chapter Approved 2004"/>
-    <publication id="8acd-6511-d7f4-63c7" name="Warhammer 40k 3rd Edition Rulebook" shortName="3ED Rulebook" publisher="Warhammer 40,000" publicationDate="1998" publisherUrl="www.games-workshop.com"/>
-    <publication id="2b63-6841-db19-e6fa" name="Codex Armageddon 3rd Edition" shortName="Armageddon" publicationDate="2000"/>
+    <publication id="8acd-6511-d7f4-63c7" name="Warhammer 40k 4th Edition Core Rules" shortName="4e Core Rules" publisher="Warhammer 40,000" publicationDate="2004" publisherUrl="www.games-workshop.com"/>
+    <publication id="2b63-6841-db19-e6fa" name="Codex Armageddon" shortName="Armageddon" publicationDate="2000" publisher="Warhammer 40,000" publisherUrl="www.games-workshop.com"/>
     <publication id="26e5-ce39-9a6e-4817" name="Chapter Approved 2001"/>
     <publication id="133d-f866-dd04-b26c" name="Chapter Approved 2003"/>
     <publication id="9213-1cee-8660-e0d6" name="Codex Assassins 3rd Edition" shortName="Assassins"/>
     <publication id="924f-1bb6-b9bd-0e77" name="Codex Blood Angels 3rd Edition" shortName="Blood Angels"/>
-    <publication id="dbca-eca3-8aba-92fe" name="Codex Chaos Space Marines 3.5 Edition" shortName="CSM 3.5Ed"/>
+    <publication id="dbca-eca3-8aba-92fe" name="Codex Chaos Space Marines 3rd Edition (2nd Codex)" shortName="CSM 3.5"/>
     <publication id="dade-b299-7254-72fb" name="Codex Craftworld Eldar 3rd Edition" shortName="Craftworld"/>
-    <publication id="47bf-ebbd-6752-89c3" name="Codex Daemon Hunters 3rd Edition" shortName="Daemon Hunters"/>
+    <publication id="47bf-ebbd-6752-89c3" name="Codex Daemon Hunters" shortName="Daemon Hunters" publisherUrl="www.games-workshop.com" publisher="Warhammer 40,000"/>
     <publication id="84ae-73e9-f754-9349" name="Codex Dark Angels 3rd Edition" shortName="Dark Angels"/>
     <publication id="2da3-b15a-5ffe-aa7a" name="Codex Dark Eldar 3.5 Edition" shortName="Dark Eldar"/>
     <publication id="5eaa-7676-fd04-242d" name="Codex Eldar 3rd Edition" shortName="Eldar"/>
     <publication id="c913-da13-e7ac-b53f" name="Codex Harlequins 3rd Edition" shortName="Harlequins"/>
-    <publication id="7c27-7a0b-91e6-df04" name="Codex Imperial Guard 3.5 Edition" shortName="Imperial Guard 3.5Ed"/>
+    <publication id="7c27-7a0b-91e6-df04" name="Codex Imperial Guard 3rd Edition (2nd Codex)" shortName="IG 3.5" publisherUrl="www.games-workshop.com" publicationDate="2003" publisher="Warhammer 40,000"/>
     <publication id="d14c-86e5-a183-e568" name="Codex Imperial Guard 3rd Edition" shortName="Imperial Guard 3Ed"/>
     <publication id="7f3a-bc20-c411-2e02" name="Codex Orks 3rd Edition" shortName="Orks"/>
-    <publication id="a32d-d82d-5f82-b13a" name="Codex Space Marines 3rd Edition" shortName="Space Marines"/>
+    <publication id="a32d-d82d-5f82-b13a" name="Codex Space Marines 4th Edition" shortName="SM" publicationDate="2004" publisherUrl="www.games-workshop.com" publisher="Warhammer 40,000"/>
     <publication id="3d8e-2aa5-a1d3-b4d4" name="Codex Tau Empire 3rd Edition" shortName="Tau"/>
-    <publication id="f79b-7033-9d04-3162" name="Cpdex Space Wolves 3rd Edition" shortName="Space Wolves"/>
-    <publication id="3bd9-41d8-79ac-3cb0" name="Codex Witch Hunters 3rd Edition" shortName="Witch Hunters"/>
+    <publication id="f79b-7033-9d04-3162" name="Codex Space Wolves 3rd Edition" shortName="SW" publisher="Warhammer 40,000" publicationDate="2000" publisherUrl="www.games-workshop.com"/>
+    <publication id="3bd9-41d8-79ac-3cb0" name="Codex Witch Hunters" shortName="Witch Hunters" publisherUrl="www.games-workshop.com" publisher="Warhammer 40,000"/>
     <publication id="4577-599e-e7f7-d154" name="Eye of Terror" shortName="Eye of Terror"/>
     <publication id="82e6-04f1-b8fa-c616" name="Imperial Armor 1" shortName="Imperial Armor 1" publicationDate="2000"/>
     <publication id="bb2f-d9c3-d249-dd4e" name="Imperial Armor II" shortName="Imperial Armor II"/>

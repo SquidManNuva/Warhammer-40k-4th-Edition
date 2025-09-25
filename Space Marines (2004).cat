@@ -525,6 +525,32 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="afa9-b63b-edd4-3617">
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Stubborn" id="4614-7283-77ef-940c" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f3fd-78a3-2da9-9e9f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4dc2-c2a9-07b7-df84"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="f3fd-78a3-2da9-9e9f">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry id="1bae-6fdc-fadc-4aa1" name="Leader" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -670,6 +696,30 @@
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="08cb-6e38-b78d-320e">
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Stubborn" id="8880-f75f-7f41-65e0" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a8eb-2d7e-1b1d-f7c4"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ba7-1730-6943-1ab6"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="a8eb-2d7e-1b1d-f7c4">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -939,6 +989,32 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="9ea9-8714-7ce4-a0c6">
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Stubborn" id="08c5-e1f2-17d0-ab38" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3764-0af8-5eb9-005b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd4b-587f-26fa-c97c"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="3764-0af8-5eb9-005b">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry id="bc53-c50d-f840-ebaa" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1410,6 +1486,32 @@
                       </modifiers>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="4928-b353-ab77-34d9">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Stubborn" id="d22a-9a2a-839b-c943" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9d8a-b9d0-ffbb-d779"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b52b-74c4-0dc7-2644"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="1" field="9d8a-b9d0-ffbb-d779">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -1489,6 +1591,32 @@
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
                   </costs>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="2007-5e3f-7706-4421">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Stubborn" id="097a-6250-e777-f754" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ca95-6b9f-1257-2fce"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7c8-30a1-7fa0-ae07"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="1" field="ca95-6b9f-1257-2fce">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Standard Bearer" hidden="false" id="4d79-06bc-7daf-0aa0" collective="false">
                   <modifiers>
@@ -1618,6 +1746,32 @@
                       </constraints>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="3f4d-635f-ee14-310f">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Stubborn" id="f6d8-13f6-7449-44f0" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="bd9e-4ec2-8907-b695"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="253a-b7a6-add6-430d"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="1" field="bd9e-4ec2-8907-b695">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Apothecary" hidden="false" id="63f7-a02b-edf8-fde2" collective="false">
                   <modifiers>
@@ -1740,6 +1894,32 @@
                   <categoryLinks>
                     <categoryLink targetId="3715-8c87-3311-1498" id="4c44-4b82-5b0f-646d" primary="false" name="Apothecary"/>
                   </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="06d1-290a-da00-fc8e">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Stubborn" id="6fb0-7e97-6e63-c10f" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4a11-1689-b7b6-373b"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9de4-26ca-ea05-ca6b"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="1" field="4a11-1689-b7b6-373b">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -2237,6 +2417,32 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df5d-9760-a0c3-e590"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="3e67-8501-fefe-0585">
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Stubborn" id="1bad-f87f-b2aa-d72c" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="76ca-1078-5c53-9637"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9701-1580-54ab-1943"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="76ca-1078-5c53-9637">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Chapter Librarian" hidden="false" id="c126-61f3-92ce-a7c8" collective="false">
           <modifiers>
@@ -2310,6 +2516,30 @@
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="1118-8618-36b5-cb32">
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Stubborn" id="5fd8-10aa-3ffd-51c4" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2532-fab2-f57f-a089"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3381-93c7-cbb8-9f04"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="2532-fab2-f57f-a089">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2737,6 +2967,32 @@
               <categoryLinks>
                 <categoryLink name="Terminator Sergeant" hidden="false" id="e39a-c425-0cce-27c2" targetId="ef19-c6dd-a73f-e723" primary="false"/>
               </categoryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="620e-54a2-8796-90c1">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stubborn" id="9225-a6c2-5e90-acac" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3a39-1252-c041-b53f"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46b8-89a0-242a-d2b2"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="3a39-1252-c041-b53f">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Terminator" hidden="false" id="dd65-922d-60cc-2bcc" collective="false">
               <modifiers>
@@ -2870,6 +3126,32 @@
                   </selectionEntryGroups>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="ee2b-bcb3-521a-ef89">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stubborn" id="59b8-a1e7-5bfa-c16e" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7598-d750-49f9-b56e"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f44f-571c-91f4-6da9"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="7598-d750-49f9-b56e">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3035,6 +3317,32 @@
               <categoryLinks>
                 <categoryLink targetId="ef19-c6dd-a73f-e723" id="d2c3-d7f9-0c72-0ca5" primary="false" name="Terminator Sergeant"/>
               </categoryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="3718-7adc-c8f0-cafc">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stubborn" id="4a51-c753-5173-95a1" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7cb0-c287-4589-06e2"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="227d-36eb-26e8-64f9"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="7cb0-c287-4589-06e2">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
             <selectionEntry id="67d5-e495-043e-0d5b" name="Terminator" hidden="false" collective="false" import="true" type="model">
               <modifiers>
@@ -3110,6 +3418,32 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="402d-b7de-936e-d686">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stubborn" id="05de-cde4-5bca-80ed" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b963-46a8-281a-0b29"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1163-4db0-e754-fd71"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="b963-46a8-281a-0b29">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3351,6 +3685,24 @@
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="9e9c-fac1-70ce-f40a" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2fd7-7952-378f-d82d" name="Plasma Cannon" hidden="false" targetId="9a19-ea1c-3d75-94aa" type="profile"/>
+                <infoLink name="Blast" id="f290-166a-d28a-0200" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
+                <infoLink name="Heavy" id="956c-1e4a-bc70-5340" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                <infoLink name="Gets Hot!" id="054e-2255-42ca-38f7" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -4583,20 +4935,29 @@
                     <infoLink name="Veteran Sergeant" id="16b5-952e-eb61-1b97" hidden="false" targetId="87bf-a0f5-0c67-2bae" type="profile"/>
                   </infoLinks>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="5601-37f7-9116-9094" collective="false">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="840c-1ba3-f798-0a67" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
+                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="ec25-5a95-1735-5fa1">
                       <costs>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                       </costs>
+                      <infoLinks>
+                        <infoLink name="Stubborn" id="ae08-00ed-c2d4-b8a7" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a90b-3368-b35b-e83a"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="316d-11eb-061a-9cb4"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="1" field="a90b-3368-b35b-e83a">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -5335,20 +5696,29 @@
                     <infoLink name="Veteran Scout Sergeant" id="efbb-8188-f017-4493" hidden="false" targetId="1b97-64e3-1217-1e14" type="profile"/>
                   </infoLinks>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="34af-39e0-bf1b-68aa" collective="false">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea8f-f8d7-f846-b942" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
+                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="49b2-b125-f4c7-9045">
                       <costs>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                       </costs>
+                      <infoLinks>
+                        <infoLink name="Stubborn" id="5346-30d9-2beb-bb67" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7970-bc79-0b3d-2f6f"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d62-0a70-17d8-cf94"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="1" field="7970-bc79-0b3d-2f6f">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -5862,20 +6232,29 @@
                     <infoLink name="Frag Grenades" id="302e-848c-fc83-1368" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
                   </infoLinks>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="e3e6-c72c-b2b9-0c58" collective="false">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb5a-3065-6867-8d8d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
+                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="32af-6061-751e-8fd0">
                       <costs>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                       </costs>
+                      <infoLinks>
+                        <infoLink name="Stubborn" id="ac6b-69c4-eb03-3099" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b5e8-7dd7-57e2-bb5f"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="463f-9dc1-6600-aad9"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="1" field="b5e8-7dd7-57e2-bb5f">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -6429,6 +6808,32 @@
                   <categoryLinks>
                     <categoryLink targetId="1f99-c234-4b18-2900" id="a306-b907-0217-23ab" primary="false" name="Veteran Sergeant"/>
                   </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="e783-a532-d6e3-b7f9">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Stubborn" id="cf95-76bb-8821-3604" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="84d8-908c-05ad-973a"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98e2-aad7-32d6-e820"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="1" field="84d8-908c-05ad-973a">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -6861,20 +7266,29 @@
                     <infoLink name="Frag Grenades" id="eec7-3669-b843-cc4b" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
                   </infoLinks>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="6fcc-48b9-8f57-652a" collective="false">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fdc9-f2af-10dd-af0b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
+                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="6fdb-5d9a-af3d-b2ad">
                       <costs>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                       </costs>
+                      <infoLinks>
+                        <infoLink name="Stubborn" id="ae30-7699-2ad9-1c85" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="8de0-98ca-98a2-6ac9"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a83-6de2-8c10-f8f0"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="1" field="8de0-98ca-98a2-6ac9">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -7532,20 +7946,29 @@
                     <infoLink name="Veteran Sergeant" id="3896-5e86-d50c-6d1b" hidden="false" targetId="87bf-a0f5-0c67-2bae" type="profile"/>
                   </infoLinks>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="1adf-4c81-1888-c65e" collective="false">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ae1-e1f3-5f70-f55e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
+                    <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="5481-2bdd-c86d-90bc">
                       <costs>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                       </costs>
+                      <infoLinks>
+                        <infoLink name="Stubborn" id="76f6-b812-f7a3-113b" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c0e0-f85c-aaae-b16b"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b55a-5b3f-4720-c0d6"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="1" field="c0e0-f85c-aaae-b16b">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -10673,6 +11096,32 @@ Twin-linked Assault Cannon:52</comment>
               <categoryLinks>
                 <categoryLink targetId="ef19-c6dd-a73f-e723" id="4bab-2555-9774-c465" primary="false" name="Terminator Sergeant"/>
               </categoryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="d217-db22-25d6-6290">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stubborn" id="7309-190e-d724-5aad" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="76d6-a19a-c1c9-149d"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d3d-8858-9ad1-f455"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="76d6-a19a-c1c9-149d">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
             <selectionEntry id="be23-7a87-5942-cf1c" name="Terminator" hidden="false" collective="false" import="true" type="model">
               <modifiers>
@@ -10806,6 +11255,32 @@ Twin-linked Assault Cannon:52</comment>
                   </selectionEntryGroups>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="9fcd-b697-c4bb-e45c">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stubborn" id="e652-adc6-ef80-5460" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f732-2102-26f7-9a6f"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="704e-bb35-7887-088b"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="f732-2102-26f7-9a6f">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -11075,6 +11550,30 @@ Twin-linked Assault Cannon:52</comment>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac1d-8583-1316-c197"/>
                   </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="d0b7-e64f-655a-bbb0">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stubborn" id="ec96-abd2-8356-b699" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="fa8f-5045-a910-a559"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e013-79b9-fb1f-dd8d"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="fa8f-5045-a910-a559">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -13625,243 +14124,6 @@ May make a Heavy Flamer attack against anyone inside a bunker/pillbox/building. 
           </costs>
           <comment>Blood Angels</comment>
         </selectionEntry>
-        <selectionEntry id="7284-1311-bd4f-799c" name="Lion Helm" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a0a1-0673-b637-2cc4" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5992-9b5f-b0e9-d902" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <comment>Not available to Termies according to CA:2003</comment>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef19-c6dd-a73f-e723" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff92-8ddc-3424-5923" type="equalTo">
-                      <comment>Termi can&apos;t equip</comment>
-                    </condition>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0ac-cb49-d41e-bba3" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd13-f433-c3fe-e81a" type="max">
-              <comment>Max one according to CA 2003</comment>
-            </constraint>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b02-5e65-4f49-1d35" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="240a-dfd9-e9ae-5243" name="Lion Helm" hidden="false" targetId="6deb-edba-53ca-53b5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
-          </costs>
-          <comment>Dark Angels</comment>
-        </selectionEntry>
-        <selectionEntry id="f8d6-5e69-c76a-09ee" name="Sword of Secrets" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a0a1-0673-b637-2cc4" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5992-9b5f-b0e9-d902" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ab-f832-384f-4b51" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="7117-13ed-d0ea-cfc6" name="Sword of Secrets" hidden="false" targetId="73fd-818d-e387-e703" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
-          </costs>
-          <comment>Dark Angels</comment>
-        </selectionEntry>
-        <selectionEntry id="7ea8-a2d9-6ee6-53f2" name="Book of Salvation" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="188b-39f3-ae3a-00da" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02ee-bc24-ec98-8712" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c2-5261-677e-41a8" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="9880-ccb8-fafb-553d" name="Book of Salvation" hidden="false" targetId="38a3-2029-a26a-69de" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
-          </costs>
-          <comment>Dark Angels</comment>
-        </selectionEntry>
-        <selectionEntry id="3800-7993-cdb1-2d98" name="Blades of Reason" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="188b-39f3-ae3a-00da" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b216-ba2e-4d56-b986" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <comment>Not available to Termies according to CA:2003</comment>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef19-c6dd-a73f-e723" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff92-8ddc-3424-5923" type="equalTo">
-                      <comment>Termi can&apos;t equip</comment>
-                    </condition>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0ac-cb49-d41e-bba3" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ccc-bf99-92a0-51bc" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="70ad-635f-6e30-5cde" name="Blades of Reason" hidden="false" targetId="7177-bf98-d1f1-c06b" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
-          </costs>
-          <comment>Dark Angels</comment>
-        </selectionEntry>
-        <selectionEntry id="73f4-c2ef-0011-ee98" name="Cup of Retribution" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a0a1-0673-b637-2cc4" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <comment>Not available to Termies according to CA:2003</comment>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef19-c6dd-a73f-e723" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff92-8ddc-3424-5923" type="equalTo">
-                      <comment>Termi can&apos;t equip</comment>
-                    </condition>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0ac-cb49-d41e-bba3" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef01-2299-5ed6-5edf" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="c60a-69ea-864b-7004" name="Cup of Retribution" hidden="false" targetId="eb88-3b95-a020-38c0" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
-          </costs>
-          <comment>Dark Angels</comment>
-        </selectionEntry>
-        <selectionEntry id="81de-c3b2-f749-a3b7" name="Standard of Devastation" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a0a1-0673-b637-2cc4" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c91-d214-036a-50a2" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d47-db18-3cfa-fdda" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="0049-8725-2cb0-e044" name="Standard of Devastation" hidden="false" targetId="2925-28e3-33e7-101b" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
-          </costs>
-          <comment>Dark Angels</comment>
-        </selectionEntry>
-        <selectionEntry id="47ec-cf3e-7a37-f896" name="Standard of Fortitude" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a0a1-0673-b637-2cc4" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c91-d214-036a-50a2" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c10-52cb-6020-9c45" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="fb85-5e37-e107-420b" name="Standard of Fortitude" hidden="false" targetId="061d-26d8-4ad2-d2dc" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
-          </costs>
-          <comment>Dark Angels</comment>
-        </selectionEntry>
-        <selectionEntry id="aba5-c4b2-91c0-5ab9" name="Standard of Retribution" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a0a1-0673-b637-2cc4" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c91-d214-036a-50a2" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9dd-f1fc-f391-a091" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="9da2-670b-76d1-03b1" name="Standard of Retribution" hidden="false" targetId="f403-bb3d-e854-1b24" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
-          </costs>
-          <comment>Dark Angels</comment>
-        </selectionEntry>
         <selectionEntry id="839c-8dc7-f621-5727" name="Grail" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -13950,6 +14212,171 @@ May make a Heavy Flamer attack against anyone inside a bunker/pillbox/building. 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82a1-86de-db0d-bf9c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Blades of Reason" hidden="false" id="3800-7993-cdb1-2d98" collective="false">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="b216-ba2e-4d56-b986" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <comment>Not available to Termies according to CA:2003</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ef19-c6dd-a73f-e723" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="ff92-8ddc-3424-5923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                          <comment>Termi can&apos;t equip</comment>
+                        </condition>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d0ac-cb49-d41e-bba3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ccc-bf99-92a0-51bc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Blades of Reason" id="70ad-635f-6e30-5cde" hidden="false" targetId="7177-bf98-d1f1-c06b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+              </costs>
+              <comment>Dark Angels</comment>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Book of Salvation" hidden="false" id="7ea8-a2d9-6ee6-53f2" collective="false">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="02ee-bc24-ec98-8712" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12c2-5261-677e-41a8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Book of Salvation" id="9880-ccb8-fafb-553d" hidden="false" targetId="38a3-2029-a26a-69de" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
+              </costs>
+              <comment>Dark Angels</comment>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cup of Retribution" hidden="false" id="73f4-c2ef-0011-ee98" collective="false">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="3c96-248b-affd-e504" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <comment>Not available to Termies according to CA:2003</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ef19-c6dd-a73f-e723" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="ff92-8ddc-3424-5923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                          <comment>Termi can&apos;t equip</comment>
+                        </condition>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d0ac-cb49-d41e-bba3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef01-2299-5ed6-5edf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Cup of Retribution" id="c60a-69ea-864b-7004" hidden="false" targetId="eb88-3b95-a020-38c0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
+              </costs>
+              <comment>Dark Angels</comment>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lion Helm" hidden="false" id="7284-1311-bd4f-799c" collective="false">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="3dc0-9597-ab93-899d" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <comment>Not available to Termies according to CA:2003</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ef19-c6dd-a73f-e723" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="ff92-8ddc-3424-5923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                          <comment>Termi can&apos;t equip</comment>
+                        </condition>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d0ac-cb49-d41e-bba3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cd13-f433-c3fe-e81a" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>Max one according to CA 2003</comment>
+                </constraint>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b02-5e65-4f49-1d35" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Lion Helm" id="240a-dfd9-e9ae-5243" hidden="false" targetId="6deb-edba-53ca-53b5" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
+              </costs>
+              <comment>Dark Angels</comment>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sword of Secrets" hidden="false" id="f8d6-5e69-c76a-09ee" collective="false">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="3dc0-9597-ab93-899d" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7ab-f832-384f-4b51" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Sword of Secrets" id="7117-13ed-d0ea-cfc6" hidden="false" targetId="73fd-818d-e387-e703" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
+              </costs>
+              <comment>Dark Angels</comment>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -14046,6 +14473,78 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
                   </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Standard of Devastation" hidden="false" id="81de-c3b2-f749-a3b7" collective="false">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="a0a1-0673-b637-2cc4" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="6c91-d214-036a-50a2" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d47-db18-3cfa-fdda" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Standard of Devastation" id="0049-8725-2cb0-e044" hidden="false" targetId="2925-28e3-33e7-101b" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
+                  </costs>
+                  <comment>Dark Angels</comment>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Standard of Fortitude" hidden="false" id="47ec-cf3e-7a37-f896" collective="false">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="a0a1-0673-b637-2cc4" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="6c91-d214-036a-50a2" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c10-52cb-6020-9c45" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Standard of Fortitude" id="fb85-5e37-e107-420b" hidden="false" targetId="061d-26d8-4ad2-d2dc" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
+                  </costs>
+                  <comment>Dark Angels</comment>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Standard of Retribution" hidden="false" id="aba5-c4b2-91c0-5ab9" collective="false">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="a0a1-0673-b637-2cc4" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="6c91-d214-036a-50a2" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9dd-f1fc-f391-a091" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Standard of Retribution" id="9da2-670b-76d1-03b1" hidden="false" targetId="f403-bb3d-e854-1b24" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
+                  </costs>
+                  <comment>Dark Angels</comment>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
