@@ -1180,7 +1180,7 @@
                             <infoLink name="Gets Hot!" id="a4b6-8e83-59b6-d0d9" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6"/>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="5172-6d40-276a-16ee" collective="false">
@@ -3936,7 +3936,7 @@
                             <infoLink name="Gets Hot!" id="5ee7-e281-f7e2-7fe5" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6"/>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Bolt Pistol &amp; Power Weapon" hidden="false" id="41ba-1d9c-1212-05c6">
@@ -4827,7 +4827,7 @@
                             <infoLink name="Gets Hot!" id="1164-b5b2-a34d-d1f7" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6"/>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -6700,7 +6700,7 @@
                         <infoLink name="Gets Hot!" id="414c-166a-5bbd-127b" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6"/>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
