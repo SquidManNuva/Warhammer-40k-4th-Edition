@@ -36,26 +36,6 @@
         <categoryLink id="ecc0-5ef4-25cc-3a9e" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="46ae-e6a2-78d5-e6d3" name="Venerable Dreadnought (IA)" hidden="false" collective="false" import="true" targetId="784e-79ec-558e-26ee" type="selectionEntry">
-      <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d1a-09d1-8279-5a9b" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="8cd5-da41-1743-9a3a" name="Black Rage" hidden="false">
-          <description>The dreadnought must always move towards the enemy as fast as possible, and must assault an enemy within range in the assault phase.</description>
-        </rule>
-        <rule id="0372-bcce-c560-0dff" name="Rampage" hidden="false">
-          <description>The dreadnought ignores any Crew Shaken and Crew Stunned results.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="73e6-533e-02c3-eee4" name="Death Company Special Rules" hidden="false" targetId="71bf-c6ac-56a8-9599" type="infoGroup"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="dc1c-e679-ee10-3f6d" name="Death Company" hidden="false" targetId="4663-cb6b-fa64-6b84" primary="false"/>
-        <categoryLink id="cd3b-3c5c-8dbe-2b91" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="5e45-3aac-069a-1f0a" name="Assault Squad" hidden="false" collective="false" import="true" targetId="6f82-235d-a765-6ab6" type="selectionEntry">
       <infoLinks>
         <infoLink id="546a-6953-256a-f81b" name="Death Company Special Rules" hidden="false" targetId="71bf-c6ac-56a8-9599" type="infoGroup"/>
@@ -102,24 +82,6 @@
       <categoryLinks>
         <categoryLink id="eaaf-d37e-cbe8-4411" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
         <categoryLink id="534e-3bce-7185-6444" name="Death Company" hidden="false" targetId="4663-cb6b-fa64-6b84" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="d0f4-6aca-cadc-5070" name="Blood Angels Force Commander" hidden="false" collective="false" import="true" targetId="2569-af62-8085-c846" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="2ab9-7024-7b96-679d" name="Death Company Special Rules" hidden="false" targetId="71bf-c6ac-56a8-9599" type="infoGroup"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="0a96-e333-98e3-4a2e" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
-        <categoryLink id="625f-ba39-6af1-46a0" name="Death Company" hidden="false" targetId="4663-cb6b-fa64-6b84" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="cc03-9f38-2f14-0203" name="Blood Angels Leader" hidden="false" collective="false" import="true" targetId="644f-8ec9-137a-8bc8" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="e6e5-171a-ddc8-559d" name="Death Company Special Rules" hidden="false" targetId="71bf-c6ac-56a8-9599" type="infoGroup"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="51e4-0088-3e8d-e908" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
-        <categoryLink id="288c-b116-95f7-a605" name="Death Company" hidden="false" targetId="4663-cb6b-fa64-6b84" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9b91-11bc-bb60-640d" name="Blood Angels Librarian" hidden="false" collective="false" import="true" targetId="44f9-6c25-c16b-e254" type="selectionEntry">
@@ -230,6 +192,10 @@
         <categoryLink id="444a-67b6-52d8-9125" name="Death Company" hidden="false" targetId="4663-cb6b-fa64-6b84" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Chaplain Dreadnought (IA)" hidden="false" id="b35f-efea-bd85-e6a3" type="selectionEntry" targetId="3442-ad4d-bedd-a895"/>
+    <entryLink import="true" name="Siege Dreadnought (IA)" hidden="false" id="ad34-eb33-eae9-f374" type="selectionEntry" targetId="2c7e-b32c-968d-1faa"/>
+    <entryLink import="true" name="Hyperios Air Defence Battery (IA)" hidden="false" id="e98a-f376-354a-58a8" type="selectionEntry" targetId="fde5-3ce5-0c7a-820c"/>
+    <entryLink import="true" name="Tarantula Sentry Gun (IA)" hidden="false" id="c0f4-a702-ed97-82f5" type="selectionEntry" targetId="0172-2ae4-fad7-4482"/>
   </entryLinks>
   <sharedRules>
     <rule id="3782-e249-5b58-2b5f" name="The Black Rage" hidden="false">

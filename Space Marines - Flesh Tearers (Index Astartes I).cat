@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="5a00-24fa-38c7-5026" name="Space Marines - Flesh Tearers (Index Astartes I)" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Space Marines - Blood Angels (1998 + FAQ)" id="4b74-5451-2815-5694" targetId="0e77-e514-f572-9f22"/>
+    <catalogueLink type="catalogue" name="Space Marines (2004)" id="79f5-ca86-e0d2-141c" targetId="9d6b-d195-877e-09cb"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Assault Squad" hidden="false" id="17d0-083b-97bf-6fc4" collective="false" targetId="6f82-235d-a765-6ab6" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="4a44-2778-4602-6056" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="e2bd-e933-acf0-3100" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="The Call of the Black Rage" id="1893-61e5-eb2e-e6b8" hidden="false">
+          <description>When rolling for the Death Company, the first model removed from a unit must always be a Sergeant.
+
+
+Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
+        </rule>
+      </rules>
+    </entryLink>
+    <entryLink import="true" name="Attack Bike Squadron" hidden="false" id="ce00-22f5-86df-1287" collective="false" targetId="26b2-8587-e170-87ee" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="5b76-eab5-6dc0-ecef" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="a1b2-41df-e9ce-6ee1" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink name="Fast Attack" hidden="false" id="20d5-d3c3-a2c2-b9e9" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Baal Predator (IA)" hidden="false" id="4f10-0be8-d4a9-6f43" collective="false" targetId="b919-b409-2216-d3d5" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="Baal Predator" field="name"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="7cb0-29b5-ff5c-2f1a" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="f746-91af-d53a-4d1d" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bike Squadron" hidden="false" id="2e40-6ae5-873e-d005" collective="false" targetId="b866-0628-5964-334c" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="5f9f-76a7-0998-f8d5" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="51d6-3cfd-d390-491f" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink name="Fast Attack" hidden="false" id="eeb1-3440-5466-60af" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+      <rules>
+        <rule name="The Call of the Black Rage" id="ccbb-344d-b90a-400d" hidden="false">
+          <description>When rolling for the Death Company, the first model removed from a unit must always be a Sergeant.
+
+
+Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
+        </rule>
+      </rules>
+    </entryLink>
+    <entryLink import="true" name="Blood Angels Chaplain" hidden="false" id="232c-b2b1-a542-27d4" collective="false" targetId="ebb4-4e0b-f983-1fcf" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="bf7f-7956-c1be-3f98" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="22c2-cdbd-f305-17f4" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Blood Angels Commander" hidden="false" id="5376-0241-18d8-2f82" collective="false" targetId="b266-743c-fa51-2ab8" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="d955-a46d-f77b-c738" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="e1ee-fba2-134a-6321" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Blood Angels Librarian" hidden="false" id="3a87-3bca-8c91-8dd0" collective="false" targetId="44f9-6c25-c16b-e254" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="da83-ef0f-9e06-a968" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="e59a-412d-e800-7e87" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Blood Angels Scout Squad" hidden="false" id="92ac-437f-44d5-f320" collective="false" targetId="d1f7-6b7c-67ce-c814" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="b334-7e99-0328-cb09" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="1c40-70d3-7916-bb88" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Blood Angels Veteran Assault Squad" hidden="false" id="2868-1137-fdd5-09df" collective="false" targetId="7fbc-2970-e421-6c7e" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="e9f1-3d91-6881-ac2c" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="4dc4-13dc-4686-e5da" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="The Call of the Black Rage" id="97e9-0c57-5c03-2eb5" hidden="false">
+          <description>When rolling for the Death Company, the first model removed from a unit must always be a Sergeant.
+
+
+Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
+        </rule>
+      </rules>
+    </entryLink>
+    <entryLink import="true" name="Brother Captain Tycho" hidden="false" id="ac2f-c8ed-b638-b6d5" collective="false" targetId="5b52-fa19-64e5-2a60" type="selectionEntry"/>
+    <entryLink import="true" name="Brother Captain Tycho (Death Company)" hidden="false" id="bef0-0719-63cf-dea6" collective="false" targetId="f974-9355-4ddd-ccb5" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="4179-3687-5aec-ffd9" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink import="true" name="Brother Corbulo, Sanguinary High Priest" hidden="false" id="864c-e63f-edfc-d569" collective="false" targetId="44dc-151a-e345-606b" type="selectionEntry"/>
+    <entryLink import="true" name="Chaplain Dreadnought (IA)" hidden="false" id="e344-38b1-1c1b-8d27" type="selectionEntry" targetId="3442-ad4d-bedd-a895">
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="e467-d53f-cda4-2fec" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaplain Lemartes" hidden="false" id="94e1-5bfd-e104-71fe" collective="false" targetId="f2f0-1f3c-acea-bd23" type="selectionEntry"/>
+    <entryLink import="true" name="Chief Librarian Mephiston" hidden="false" id="9cd9-502d-d229-9b0c" collective="false" targetId="c722-8e89-b67e-9ee1" type="selectionEntry"/>
+    <entryLink import="true" name="Contemptor Dreadnought (Homebrew)" hidden="false" id="53d3-f95d-1654-93b2" collective="false" targetId="9042-1a04-ca8a-4f29" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="d181-a32d-a8a1-e5be" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Damocles Command Rhino (IA)" hidden="false" id="2450-5e5d-5cfc-c02b" collective="false" targetId="56bf-16e9-79ee-abd3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="5e5f-f331-b0f2-612e" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Death Company" hidden="false" id="78ab-1e95-94d3-bdc3" collective="false" targetId="6c49-6711-a182-f554" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="5f9b-5e51-3856-bd13" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="2615-bc35-9ca9-1c4e" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deathwind Drop Pod (IA)" hidden="false" id="046e-fa92-912c-5f51" collective="false" targetId="9470-3822-9925-43d2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="f495-a137-b726-b41e" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Devastator Squad" hidden="false" id="f09e-8f40-0b0e-90ef" collective="false" targetId="cd84-93d1-4f4c-77b7" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="1f6e-04ce-0ccf-6f82" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="6212-e78f-c454-bcc5" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="The Call of the Black Rage" id="7d78-4b37-96dd-a831" hidden="false">
+          <description>When rolling for the Death Company, the first model removed from a unit must always be a Sergeant.
+
+
+Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
+        </rule>
+      </rules>
+    </entryLink>
+    <entryLink import="true" name="Dreadnought" hidden="false" id="ed9b-29fe-21e4-5f88" collective="false" targetId="3f7e-ad94-b024-1a57" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="cea6-2440-f2e8-e366" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="af31-cc58-b975-91c4" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink name="Heavy Support" hidden="false" id="86d2-b39f-2c40-e9bf" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink targetId="62b7-0b90-f078-f36c" id="96e2-af72-bda8-9cc8" primary="false" name="Flesh Tearers Dreadnought"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Furioso Dreadnought (IA)" hidden="false" id="ca7f-4dcc-20b0-f44f" collective="false" targetId="8ae8-dc88-bee4-5350" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="Furioso Dreadnought" field="name"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="3dd2-768b-b608-2a3d" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="718a-45cf-6dec-224c" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink targetId="62b7-0b90-f078-f36c" id="34d6-0036-2db9-4b1e" primary="false" name="Flesh Tearers Dreadnought"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hunter (Homebrew)" hidden="false" id="ef07-e175-c752-2844" collective="false" targetId="7baa-b96b-fff0-33ea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="7e65-ed55-9437-ddb8" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hyperios Air Defence Battery (IA)" hidden="false" id="1206-b09c-a298-c187" collective="false" targetId="fde5-3ce5-0c7a-820c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="2605-02a3-8752-a778" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Navy Support (IA)" hidden="true" id="7c1d-2571-b496-6b79" collective="false" targetId="3e43-ec0f-64ff-daaa" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="56bf-16e9-79ee-abd3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="152b-91dd-7767-ae4f">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="53da-c029-041d-37e4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="152b-91dd-7767-ae4f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Land Raider" hidden="false" id="68c7-69b3-1a46-e927" collective="false" targetId="0432-2db6-5eda-20d8" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="871d-677c-c11b-d9b6" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="9a9b-9335-92d4-d047" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink name="Heavy Support" hidden="false" id="7d61-cadd-67e6-b1f1" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink targetId="27c3-48e4-fad7-03d3" id="1ccd-752c-c2dc-c7ff" primary="false" name="Flesh Tearers Tank"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Crusader" hidden="false" id="80b2-aea5-31d4-d9c2" collective="false" targetId="d7d7-d12e-387b-1b3b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="95de-5eff-d4ba-6c40" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink targetId="27c3-48e4-fad7-03d3" id="5d07-c74d-1575-1d08" primary="false" name="Flesh Tearers Tank"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Helios (IA)" hidden="false" id="a08d-ecb7-cfd6-7221" collective="false" targetId="1be4-df32-2640-9413" type="selectionEntry">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3b50-b637-2879-cf41" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="4840-adda-7aab-f781" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink targetId="27c3-48e4-fad7-03d3" id="5285-54cd-4e87-097b" primary="false" name="Flesh Tearers Tank"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Prometheus (IA)" hidden="false" id="6042-8daa-2fe6-bf3d" collective="false" targetId="2fa6-311f-c6bd-6a9d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="29a0-3bd4-9a54-f84c" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink name="Heavy Support" hidden="false" id="a8a1-0e45-0c82-5d19" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink targetId="27c3-48e4-fad7-03d3" id="07fa-e9ec-d10a-ea5c" primary="false" name="Flesh Tearers Tank"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Speeder Squadron" hidden="false" id="85b2-9eaa-b6a3-f688" collective="false" targetId="417c-9227-f9a3-8f58" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="7f55-3aaa-f353-a8b7" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="5c55-2fdb-62ca-aa02" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Speeder Tempest (IA)" hidden="false" id="684f-3436-bfcc-ddd4" collective="false" targetId="7c0e-8c2e-0bfb-7646" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="6dab-7429-4de2-241a" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lord Dante" hidden="false" id="a5fa-7098-9610-ed31" collective="false" targetId="fbec-e532-c1b4-ca24" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="621d-724b-af5f-718f" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Moriar the Chosen" hidden="false" id="e4a9-87d4-6911-c220" collective="false" targetId="804d-474e-74ef-fbfe" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="6662-4a78-3065-47ac" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Orbital Strike (IA)" hidden="true" id="53da-c029-041d-37e4" collective="false" targetId="9419-6303-5744-f2b2" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="56bf-16e9-79ee-abd3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="93d9-8b1c-1d5b-dfc9">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="7c1d-2571-b496-6b79" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="93d9-8b1c-1d5b-dfc9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="6a9b-fd01-69ec-7494" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Predator Annihilator" hidden="false" id="aac9-54b8-a398-5caa" collective="false" targetId="75b1-7506-f196-951d" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="8d45-ab9f-ce4a-1de0" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="880f-d90c-4a46-0616" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink targetId="27c3-48e4-fad7-03d3" id="b516-a04f-25df-acd2" primary="false" name="Flesh Tearers Tank"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Predator Destructor" hidden="false" id="dadd-32fe-9a48-4c99" collective="false" targetId="156e-b697-5422-38ff" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="4364-6316-8fcc-39f6" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="bded-61d9-284b-2547" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink targetId="27c3-48e4-fad7-03d3" id="1cce-fa67-27d2-d6d2" primary="false" name="Flesh Tearers Tank"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sanguinary High Priest" hidden="false" id="7384-2262-1660-9851" collective="false" targetId="1353-1161-f51c-aff5" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="e56e-2e8e-874e-0f6d" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="4a36-567a-615f-b407" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scout Bike Squadron" hidden="false" id="2bcd-1dc1-5d19-f90f" collective="false" targetId="e8c8-4bfb-5e2b-7737" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="37a1-fcd3-6078-f1e2" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="baaa-a475-de46-f73a" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="The Call of the Black Rage" id="5115-b669-ed20-f491" hidden="false">
+          <description>When rolling for the Death Company, the first model removed from a unit must always be a Sergeant.
+
+
+Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
+        </rule>
+      </rules>
+    </entryLink>
+    <entryLink import="true" name="Scout Squad" hidden="false" id="d66d-220c-a467-c197" collective="false" targetId="e811-e637-bb36-1ad7" type="selectionEntry">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c7ae-c005-1f61-c43d" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="2364-b68d-8c21-0bf7" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="1017-d379-0d9f-1832" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Siege Dreadnought (IA)" hidden="false" id="b046-d51c-e8d6-4bff" type="selectionEntry" targetId="2c7e-b32c-968d-1faa">
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="9142-aad0-6f8d-0982" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="c843-184d-ce7a-e489" collective="false" targetId="eebe-d468-31d3-6f58" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="b2ef-1fe7-4f78-ee41" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="ebf3-0547-7aa8-9328" collective="false" targetId="a437-f9fe-eb04-57bd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="cd41-ca6c-d0d2-4cbd" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="d402-0451-238a-86f2" collective="false" targetId="fb33-3e36-b9a7-679d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="9b7f-6bcc-51d1-4fc9" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="1859-92ec-ab12-631c" collective="false" targetId="2bfb-ac8e-748b-2de0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="4757-0ca7-d013-5a19" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tactical Squad" hidden="false" id="b65d-9787-2d4a-6b1d" collective="false" targetId="2a63-ef79-7e7a-03aa" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="0e99-df14-9cec-1c01" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="d538-707a-43a1-5599" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="The Call of the Black Rage" id="35c8-1320-3a00-0059" hidden="false">
+          <description>When rolling for the Death Company, the first model removed from a unit must always be a Sergeant.
+
+
+Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
+        </rule>
+      </rules>
+    </entryLink>
+    <entryLink import="true" name="Tarantula Sentry Gun (IA)" hidden="false" id="a262-b159-12b2-105d" collective="false" targetId="82c5-8065-6903-5174" type="selectionEntry">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4ed7-5864-8298-dafe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="ecf4-904f-9616-f91c" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink name="Heavy Support" hidden="false" id="f869-ee82-8886-945c" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Techmarine" hidden="false" id="3716-7ea5-1885-6152" type="selectionEntry" targetId="5b12-8a99-a93d-dedc">
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="0bfe-dd16-b536-89c7" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Terminator Assault Squad" hidden="false" id="4f09-4881-f4df-82f5" collective="false" targetId="4e6a-bed3-e270-b411" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="f52e-461d-204b-53d1" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="26ef-552c-a675-4778" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Terminator Squad" hidden="false" id="8b10-053e-5d23-e4a3" collective="false" targetId="46ea-d664-7417-e3f7" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="e620-3c87-2aa1-debd" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="5f78-d3a5-7e09-c665" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thunderhawk Gunship (IA)" hidden="false" id="4f96-9fa2-0f88-311f" collective="false" targetId="81c2-8110-65c2-82cd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="6257-7d9e-bafd-6ce0" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venerable Dreadnought (IA)" hidden="false" id="d0aa-5889-9bb9-490d" collective="false" targetId="784e-79ec-558e-26ee" type="selectionEntry">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ee53-63fb-058b-4d82" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="6fa6-29f9-2281-15ce" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Veteran Squad" hidden="false" id="037e-11bf-3ba0-7e73" collective="false" targetId="9003-88bd-bc93-1355" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="3ef5-a7c1-4848-a94e" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="cb85-a56d-219e-7726" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="The Call of the Black Rage" id="84f3-7e06-cb74-22f8" hidden="false">
+          <description>When rolling for the Death Company, the first model removed from a unit must always be a Sergeant.
+
+
+Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
+        </rule>
+      </rules>
+    </entryLink>
+    <entryLink import="true" name="Vindicator" hidden="false" id="8212-f080-5fa1-18ba" collective="false" targetId="86f9-0db1-c67b-3442" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="3234-0668-9e4c-83d2" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="01cf-87b6-14ce-2ac9" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink targetId="27c3-48e4-fad7-03d3" id="bba2-7ba1-9937-8fe8" primary="false" name="Flesh Tearers Tank"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Whirlwind" hidden="false" id="551d-ad88-e6fb-2a95" collective="false" targetId="d13e-3fe7-b445-511c" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="7da0-85e8-3e73-d5b2" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="b7fa-8f9d-1598-ce62" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink targetId="27c3-48e4-fad7-03d3" id="c26a-2709-65b3-1611" primary="false" name="Flesh Tearers Tank"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Whirlwind Hyperios (IA)" hidden="false" id="2b8d-68d6-6df7-d80d" collective="false" targetId="1466-696f-2a85-14b5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Blood Angel" hidden="false" id="2c94-8a95-d235-95b1" targetId="a527-734f-2081-58cd" primary="false"/>
+        <categoryLink targetId="27c3-48e4-fad7-03d3" id="a81e-a8ab-3a05-30ae" primary="false" name="Flesh Tearers Tank"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Death Company Dreadnought" hidden="false" id="a868-e0f4-849f-151f" type="selectionEntry" targetId="44b5-2dd1-578c-318f"/>
+  </entryLinks>
+  <categoryEntries>
+    <categoryEntry name="Flesh Tearers Tank" id="27c3-48e4-fad7-03d3" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9f2f-7f66-8363-d4f6" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Flesh Tearers Dreadnought" id="62b7-0b90-f078-f36c" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e50c-c1e1-c073-8fa1" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedRules>
+    <rule name="The Call of the Black Rage" id="42bf-da68-42e5-8c84" hidden="false">
+      <description>When rolling for the Death Company, the first model removed from a unit must always be a Sergeant.
+
+
+Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Death Company Dreadnought" hidden="false" id="44b5-2dd1-578c-318f">
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="135"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="8f6c-e0de-fded-2875" id="88be-ea8e-e4ea-b0fa" primary="false" name="Walkers"/>
+        <categoryLink targetId="6d25-b346-c314-6911" id="40c5-a20b-c683-0978" primary="true" name="Elites"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Dreadnought" id="c6b0-3007-0862-fa55" hidden="false" type="profile" targetId="528d-0883-0dd5-a47d">
+          <modifiers>
+            <modifier type="set" value="3(4)" field="bb33-7ddf-2296-174e"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Dreadnought Close Combat Weapons" id="a0a9-59bb-69a3-bf28" hidden="false" type="profile" targetId="c7f7-e5ab-17a7-1cf9">
+          <modifiers>
+            <modifier type="set" value="2x Dreadnought CCW&apos;s" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Meltagun" id="21f3-3832-cc62-3122" hidden="false" type="profile" targetId="737d-c7ef-4cb5-e6fa"/>
+        <infoLink name="Assault" id="a789-9993-ef8c-5fd7" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+        <infoLink name="Melta" id="c745-5ad7-3de7-6ebd" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Left Gun" id="0caf-3583-17d2-4bfc" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e78-d2ee-b4f3-463c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f170-4ad5-aead-12fa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fab9-f8e1-d3b4-a4d7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="9412-a17e-5724-8411" collective="false">
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="f64e-a4c8-e427-49b2" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
+                <infoLink name="Assault" id="7d3a-6b6b-5a78-d8c8" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="ff0e-86a6-16dd-1cd7" collective="false">
+              <infoLinks>
+                <infoLink name="Heavy Flamer" id="b315-924b-811f-a6b7" hidden="false" targetId="6d36-2c09-dfc3-f257" type="profile"/>
+                <infoLink name="Template" id="898c-a0f6-a0ed-e320" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+                <infoLink name="Assault" id="6fca-0ce7-f322-a76c" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <rules>
+        <rule name="Tear Attack" id="a632-9bc5-53e3-dd6d" hidden="false">
+          <description>The Death Company Dreadnought rolls 2D6 + Strength as Armour Penetration against vehicles</description>
+        </rule>
+        <rule name="Black Rage" id="102d-5c69-aa20-7e06" hidden="false">
+          <description>Must move towards the enemy as fast as possible and must assault an enemy within range whenever possible</description>
+        </rule>
+        <rule name="Rampage" id="1492-59d8-0e65-e98e" hidden="false">
+          <description>Ignores Crew Shaken or Crew Stunned results</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
