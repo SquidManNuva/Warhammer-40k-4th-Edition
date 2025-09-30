@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="fba5-5e1c-ac91-359a" name="Space Marines - Blood Angels (2007)" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Space Marines (2004)" id="5ae2-ca3c-7b22-ffdb" targetId="9d6b-d195-877e-09cb"/>
+  </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Commander Dante" hidden="false" id="e479-272f-09da-4324">
+      <profiles>
+        <profile name="Lord Dante" typeId="1e16-2bd8-7cad-379b" typeName="Unit" hidden="false" id="1d9a-03ca-9117-6c49">
+          <characteristics>
+            <characteristic name="WS" typeId="c704-6128-f143-935a">6</characteristic>
+            <characteristic name="BS" typeId="7928-3a9b-6080-ed95">5</characteristic>
+            <characteristic name="S" typeId="df03-6292-d3f5-f778">4</characteristic>
+            <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4</characteristic>
+            <characteristic name="W" typeId="4dc2-c603-0bc5-0561">3</characteristic>
+            <characteristic name="I" typeId="eeda-4fb4-901e-b70d">5</characteristic>
+            <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
+            <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
+            <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Frag Grenades" id="f30b-b1dc-5a74-2906" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+        <infoLink name="Krak Grenades" id="ec86-3e78-5b96-2a3c" hidden="false" type="profile" targetId="9c1b-bf93-059b-27f5"/>
+        <infoLink name="Artificer Armor" id="a413-43e2-edd7-3119" hidden="false" type="rule" targetId="7a02-cc04-9d97-3493"/>
+        <infoLink name="Jump Packs" id="6e58-1a42-9b26-03d2" hidden="false" type="rule" targetId="2563-092a-a5bc-992f"/>
+        <infoLink name="Iron Halo" id="905f-70ab-2b4e-495e" hidden="false" type="rule" targetId="c214-19e6-edea-0f81"/>
+        <infoLink name="Power Weapon" id="d0a6-8bc2-d54a-b825" hidden="false" type="profile" targetId="5774-7187-2616-dd8a">
+          <modifiers>
+            <modifier type="set" value="Axe Mortalis (Master-crafted Power Weapon)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Master-crafted Weapons" id="b708-e4d3-7fd7-03bb" hidden="false" type="rule" targetId="0e54-6618-9b31-0f81"/>
+        <infoLink name="Fearless" id="e3a4-1915-31df-aaa7" hidden="false" type="rule" targetId="b137-13a1-eb97-c5e5"/>
+        <infoLink name="Rites of Battle" id="b544-e3df-da73-0c25" hidden="false" type="rule" targetId="84bb-c247-d103-8893"/>
+        <infoLink name="Independent Character" id="fd09-01ff-e9a1-7849" hidden="false" type="rule" targetId="4a60-7f7e-c37f-a4d6"/>
+        <infoLink name="Meltagun" id="8f9c-5aea-9184-a3f0" hidden="false" type="profile" targetId="737d-c7ef-4cb5-e6fa">
+          <modifiers>
+            <modifier type="set" value="Pistol 1 Melta" field="d3f6-19e8-ac9e-ae13"/>
+            <modifier type="set" value="Perdition Pistol" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Pistol" id="01b1-fff1-52e4-2ceb" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+        <infoLink name="Melta" id="b195-3cf9-08c9-7a42" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+      </infoLinks>
+      <rules>
+        <rule name="Blood Angels Chapter Banner" id="d080-9287-91fc-d01f" hidden="false">
+          <description>If Dante is included in the army, one Standard Bearer may carry the Blood Angels Chapter Banner</description>
+        </rule>
+        <rule name="Death Mask of Sanguinius" id="28c2-dd64-7c7c-6238" hidden="false">
+          <description>Any enemy model within 6&quot; suffers -1 WS &amp; BS</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink targetId="a8a7-7a4b-5f7e-2138" id="de08-50ec-3855-d4b6" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="254f-0e6e-d290-849c" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <rules>
+    <rule name="Blood Angels Chapter Banner" id="36d0-d41a-dfbf-2b25" hidden="false">
+      <description>Blood Angels within 12&quot; of the Banner may re-roll failed Morale &amp; Pinning Test
+
+
+In addition, all models in the bearer&apos;s unit adds +1 to their Attacks</description>
+    </rule>
+  </rules>
+  <entryLinks>
+    <entryLink import="true" name="Commander Dante" hidden="false" id="63eb-0b6b-7360-ed21" type="selectionEntry" targetId="e479-272f-09da-4324"/>
+  </entryLinks>
+</catalogue>

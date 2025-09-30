@@ -36,11 +36,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="d80a-494d-a84b-a915" name="Chapter Librarian" hidden="false" collective="false" import="true" targetId="5338-cafe-fa14-f5d7" type="selectionEntry">
-      <rules>
-        <rule id="06df-d833-3604-d8be" name="Howl of the Cursed" hidden="false">
-          <description>After a successful psychic test, every enemy squad with at least one model within 6&quot; of the Librarian must make a Morale check or fall back according to the normal morale rules. Units who ignore Morale checks are immune to this power. This power is used instead of shooting. Howl of the Cursed may not be used if the Librarian is engaged in an assault or is falling back. This power replaces the Librarian&apos;s Smite.</description>
-        </rule>
-      </rules>
       <categoryLinks>
         <categoryLink id="d726-094e-45d1-5097" name="HQ" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
         <categoryLink id="9b1a-da5b-cc73-61ee" name="Cursed Founding" hidden="false" targetId="2de3-5ccc-967b-e580" primary="false"/>
