@@ -362,6 +362,8 @@
       </modifiers>
     </entryLink>
     <entryLink import="true" name="Grav-Attack Tank (Chapter Approved)" hidden="false" id="be0c-b6a4-b78c-54ce" type="selectionEntry" targetId="b646-9e84-2bec-8c14"/>
+    <entryLink import="true" name="Captain Cortez of the Crimson Fists (3E)" hidden="false" id="823c-9363-2e9d-0992" type="selectionEntry" targetId="095c-81d6-2cb9-777e"/>
+    <entryLink import="true" name="Chaplain Xavier of the Salamanders (3E)" hidden="false" id="e8dd-c48b-419c-93c2" type="selectionEntry" targetId="0196-c398-93e6-94d7"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="043b-1cc7-9a38-8133" name="Commander" hidden="false" collective="false" import="true" type="model">
@@ -484,7 +486,15 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Master" hidden="false" id="3dc0-9597-ab93-899d">
               <infoLinks>
-                <infoLink name="Master" id="f834-5c0b-49ac-489b" hidden="false" type="profile" targetId="d908-6783-2545-3329"/>
+                <infoLink name="Master" id="f834-5c0b-49ac-489b" hidden="false" type="profile" targetId="d908-6783-2545-3329">
+                  <modifiers>
+                    <modifier type="set" value="Grand Master" field="name">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75"/>
@@ -495,15 +505,35 @@
                     <condition type="instanceOf" value="1" field="selections" scope="force" childId="52d8-9148-50b7-99df" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="Grand Master" field="name">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Captain" hidden="false" id="7233-b6b9-ff6f-0727">
               <infoLinks>
-                <infoLink name="Captain" id="30a7-be1c-0f89-bb01" hidden="false" targetId="d9d8-4682-c4d4-27b3" type="profile"/>
+                <infoLink name="Captain" id="30a7-be1c-0f89-bb01" hidden="false" targetId="d9d8-4682-c4d4-27b3" type="profile">
+                  <modifiers>
+                    <modifier type="set" value="Company Master" field="name">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="Company Master" field="name">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1009,7 +1039,7 @@
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3766,6 +3796,7 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <comment>Dark Angels</comment>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -5293,7 +5324,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f533-120a-8c2f-3741"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Veteran Sergeant Lysander" hidden="false" id="92fd-db13-b284-b15f" type="selectionEntry" targetId="bdd0-e9d7-b9ca-cd36"/>
+                <entryLink import="true" name="Veteran Sergeant Lysander of the Imperial Fists" hidden="false" id="92fd-db13-b284-b15f" type="selectionEntry" targetId="bdd0-e9d7-b9ca-cd36"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -8956,7 +8987,7 @@ Master crafted" field="492d-1f80-b777-26f2"/>
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry id="095c-81d6-2cb9-777e" name="Captain Cortez of the Crimson Fists" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="095c-81d6-2cb9-777e" name="Captain Cortez of the Crimson Fists (3E)" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
@@ -9075,7 +9106,7 @@ Master crafted" field="492d-1f80-b777-26f2"/>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="105"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0196-c398-93e6-94d7" name="Chaplain Xavier of the Salamanders" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="0196-c398-93e6-94d7" name="Chaplain Xavier of the Salamanders (3E)" hidden="false" collective="false" import="true" type="model">
       <comment>200 points updated in Chapter Approved 2004</comment>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -10033,6 +10064,9 @@ Master crafted" field="492d-1f80-b777-26f2"/>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="65"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="beea-a113-778f-c2ae" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="a9cd-beaa-0d6b-0086" name="Drop Pod" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -10368,11 +10402,25 @@ After the first turn of firing the Deathwind cannot fire again.</description>
         <rule id="feab-81b7-440f-4960" name="Brush Aside Blow" hidden="false">
           <description>Naaman may ignore the first hit he suffers in any round of close combat.</description>
         </rule>
+        <rule name="Silent Death" id="8288-cb93-df7e-cb51" hidden="false">
+          <description>Naaman &amp; his men used silenced pistols, which do not raise the alarm in missions using Sentry rules.
+
+
+A sentry killed by Naaman or his men in close combat will only raise the alarm on a D6 roll of 6 rather than 4+</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="c197-3429-6da8-aa3c" name="Naaman" hidden="false" targetId="3646-d081-8001-8bce" type="profile"/>
-        <infoLink id="df42-d76f-d6c4-8888" name="Bolt Pistol" hidden="false" targetId="e9ac-c779-51bb-3c9a" type="profile"/>
-        <infoLink id="1126-37ed-d828-d7ca" name="Close Combat Weapon (CCW)" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
+        <infoLink id="df42-d76f-d6c4-8888" name="Bolt Pistol" hidden="false" targetId="e9ac-c779-51bb-3c9a" type="profile">
+          <modifiers>
+            <modifier type="set" value="Master-Crafted Bolt Pistol" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1126-37ed-d828-d7ca" name="Close Combat Weapon (CCW)" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile">
+          <modifiers>
+            <modifier type="set" value="Master-Crafted CCW" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink id="3b41-bbc3-7394-fc05" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
         <infoLink id="392b-10c7-c40f-6cd2" name="Melta Bombs" hidden="false" targetId="87d0-8c40-7bcb-8cbb" type="profile"/>
         <infoLink id="fe89-6ea4-fd9c-766f" name="Master-crafted Weapons" hidden="false" targetId="0e54-6618-9b31-0f81" type="rule"/>
@@ -14057,55 +14105,6 @@ May make a Heavy Flamer attack against anyone inside a bunker/pillbox/building. 
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="15c0-9a62-3c18-9712" name="Terminator Honors" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e99-a0cf-9812-b860" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5338-cafe-fa14-f5d7" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="043b-1cc7-9a38-8133" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b216-ba2e-4d56-b986" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5709-6bb9-f3f9-07f2" type="notInstanceOf"/>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a502-0d0a-2966-a0f1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef19-c6dd-a73f-e723" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0ac-cb49-d41e-bba3" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="1" field="c979-aa6d-fc80-d1e4">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="1f99-c234-4b18-2900" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48d4-e107-3204-d71a" type="max"/>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c979-aa6d-fc80-d1e4"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ddd1-b50f-30f5-473c" name="Terminator Honors" hidden="false" targetId="bad9-31ae-7a9c-f38c" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="7b90-569f-53c3-f8db" name="Death Mask" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -14246,6 +14245,50 @@ Cannot be used if no save is allowed for the attack.</description>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
           </costs>
           <comment>Scions of Mars</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Terminator Honors" hidden="false" id="15c0-9a62-3c18-9712" collective="false">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="2e99-a0cf-9812-b860" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="02ee-bc24-ec98-8712" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="2148-f2df-d400-d35e" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="b216-ba2e-4d56-b986" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5709-6bb9-f3f9-07f2" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a502-0d0a-2966-a0f1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="3c96-248b-affd-e504" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ef19-c6dd-a73f-e723" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="c979-aa6d-fc80-d1e4">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="1f99-c234-4b18-2900" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48d4-e107-3204-d71a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c979-aa6d-fc80-d1e4"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Terminator Honors" id="ddd1-b50f-30f5-473c" hidden="false" targetId="bad9-31ae-7a9c-f38c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -15277,6 +15320,38 @@ Once an opponent gets inside their guard the bearer suffers -1 Initative when no
           </modifiers>
           <comment>Blood Angels</comment>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Weaken Resolve (3E)" hidden="false" id="f873-45b0-03fb-289b">
+          <comment>Dark Angels</comment>
+          <infoLinks>
+            <infoLink name="Weaken Resolve" id="8498-0370-6302-ebcb" hidden="false" type="profile" targetId="173f-80c6-27c5-8b2f"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1000-0774-82ac-a6e0"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Howl of the Cursed" hidden="false" id="2c12-4da0-a8ad-0e86">
+          <comment>Cursed Founding</comment>
+          <infoLinks>
+            <infoLink name="Howl of the Cursed" id="d68b-bcc7-68d1-fd08" hidden="false" type="profile" targetId="0a79-905e-e221-571d"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b44-2146-45e1-069c"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="225a-c9ce-a8c8-46c3" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Psychic Power" id="facd-d1aa-2474-5333" hidden="false" type="rule" targetId="28e0-9363-7fbb-0f70"/>
@@ -15958,7 +16033,7 @@ The Chapter&apos;s preferred enemy should be apparent by the trophies and embell
               <selectionEntryGroups>
                 <selectionEntryGroup name="Secessionists" id="a052-d0a8-145d-18fc" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Astral Claws (Badab War)" hidden="false" id="afe2-d768-ff6a-fc6d">
+                    <selectionEntry type="upgrade" import="true" name="Astral Claws (Late War)" hidden="false" id="afe2-d768-ff6a-fc6d">
                       <categoryLinks>
                         <categoryLink name="Be Swift as the Wind" hidden="false" id="6d4b-a4ca-5726-8d6e" targetId="9f42-14eb-e409-f419" primary="false"/>
                         <categoryLink name="Heed the Wisdom of the Ancients" hidden="false" id="b88c-962a-50ba-e014" targetId="775a-f704-5030-7f7b" primary="false"/>
@@ -15972,7 +16047,7 @@ The Chapter&apos;s preferred enemy should be apparent by the trophies and embell
                         <infoLink name="Have Pride in Your Colours" id="485e-7522-b263-3d50" hidden="false" type="rule" targetId="114b-7042-d00b-bd56"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Astral Claws (Pre-Badab)" hidden="false" id="5efc-dd59-bcdf-1252">
+                    <selectionEntry type="upgrade" import="true" name="Astral Claws (Early War)" hidden="false" id="5efc-dd59-bcdf-1252">
                       <categoryLinks>
                         <categoryLink name="Heed the Wisdom of the Ancients" hidden="false" id="9ce9-72c5-f805-b4b6" targetId="775a-f704-5030-7f7b" primary="false"/>
                         <categoryLink name="Flesh Over Steel" hidden="false" id="17c6-08a4-4b90-6bd2" targetId="bdc2-53e9-7d56-b0b1" primary="false"/>
@@ -16414,7 +16489,16 @@ All Space Marines within 2D6&quot;, gain +1 Attack for the duration of the turn.
       <description>Power weapon, but can also be used with a Strength of 6</description>
     </rule>
     <rule id="38a3-2029-a26a-69de" name="Book of Salvation" hidden="false">
-      <description>If the bearer is slain, place the model on it&apos;s side. Any Dark Angels within 6&quot; must move to retrieve the book. Until recovered, all Space Marines become Stubborn, if not already, all may ignore the &quot;Intractable&quot; special rule, and all add +1 to Weapon Skill. If the Book is not retrieved by the end of the battle, the Space Marines lose the game.</description>
+      <description>If the bearer is slain, place the model on it&apos;s side. 
+
+
+Any Dark Angels within 6&quot; must move to retrieve the book. 
+
+
+Until recovered, all Space Marines become Stubborn, if not already, all may ignore the &quot;Intractable&quot; special rule, and all add +1 to Weapon Skill. 
+
+
+If the Book is not retrieved by the end of the battle, the Space Marines lose the game.</description>
     </rule>
     <rule id="7177-bf98-d1f1-c06b" name="Blades of Reason" hidden="false">
       <description>If the bearer survives to the end of the mission, roll a D6 for each enemy model slain. On a 6, they are captured adding +D6 Victory Points. (Cannot be used against Necrons or Tyranids)</description>
@@ -16424,6 +16508,7 @@ All Space Marines within 2D6&quot;, gain +1 Attack for the duration of the turn.
     </rule>
     <rule id="2925-28e3-33e7-101b" name="Standard of Devastation" hidden="false">
       <description>Add +1 to the Space Marine combat resolution score of any assault that takes place within 6&quot; of the Sacred Banner.
+
 However, if the model bearing the standard is slain in close combat, then the enemy model that slew him captures the standard gains the +1 bonus to combat resolution from then on. It is possible for the model to change hands multiple times per game.
 
 
@@ -16431,6 +16516,8 @@ In addition, one unit with a model within 6&quot; can shoot during the opponent&
     </rule>
     <rule id="061d-26d8-4ad2-d2dc" name="Standard of Fortitude" hidden="false">
       <description>Add +1 to the Space Marine combat resolution score of any assault that takes place within 6&quot; of the Sacred Banner.
+
+
 However, if the model bearing the standard is slain in close combat, then the enemy model that slew him captures the standard gains the +1 bonus to combat resolution from then on. It is possible for the model to change hands multiple times per game.
 
 
@@ -16438,6 +16525,8 @@ In addition, one unit with a model within 6&quot; can use rapid fire weapons aft
     </rule>
     <rule id="f403-bb3d-e854-1b24" name="Standard of Retribution" hidden="false">
       <description>Add +1 to the Space Marine combat resolution score of any assault that takes place within 6&quot; of the Sacred Banner.
+
+
 However, if the model bearing the standard is slain in close combat, then the enemy model that slew him captures the standard gains the +1 bonus to combat resolution from then on. It is possible for the model to change hands multiple times per game.
 
 
@@ -17294,6 +17383,25 @@ If the Psyker rolls a 12 for the Psychic Test, check for Perils of the Warp on t
 
 
 If successful, one model in his unit (which may be the Librarian himself) gains +D3 attacks for that phase</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Weaken Resolve" typeId="7279-038a-b87a-ed0c" typeName="Abilities" hidden="false" id="173f-80c6-27c5-8b2f">
+      <characteristics>
+        <characteristic name="Description" typeId="a08a-36f8-2fd3-b843">Attempt to use this power when an enemy unit with a model within 12&quot; has to take a Morale check. 
+
+
+On a successful Psychic test then the enemy unit must take its Morale check on a 3D6 added together. This power may only be used once per player turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Howl of the Cursed" typeId="7279-038a-b87a-ed0c" typeName="Abilities" hidden="false" id="0a79-905e-e221-571d">
+      <characteristics>
+        <characteristic name="Description" typeId="a08a-36f8-2fd3-b843">Used instead of shooting in the shooting phase, and may not be used if engaged in close combat.
+
+
+If successful, every enemy unit with at least one model in 6&quot; must take a morale check or fall back. 
+
+
+Units that ignore morale checks are immune.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

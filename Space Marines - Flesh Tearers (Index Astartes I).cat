@@ -120,11 +120,6 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
     </entryLink>
     <entryLink import="true" name="Chaplain Lemartes" hidden="false" id="94e1-5bfd-e104-71fe" collective="false" targetId="f2f0-1f3c-acea-bd23" type="selectionEntry"/>
     <entryLink import="true" name="Chief Librarian Mephiston" hidden="false" id="9cd9-502d-d229-9b0c" collective="false" targetId="c722-8e89-b67e-9ee1" type="selectionEntry"/>
-    <entryLink import="true" name="Contemptor Dreadnought (Homebrew)" hidden="false" id="53d3-f95d-1654-93b2" collective="false" targetId="9042-1a04-ca8a-4f29" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Blood Angel" hidden="false" id="d181-a32d-a8a1-e5be" targetId="a527-734f-2081-58cd" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink import="true" name="Damocles Command Rhino (IA)" hidden="false" id="2450-5e5d-5cfc-c02b" collective="false" targetId="56bf-16e9-79ee-abd3" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Blood Angel" hidden="false" id="5e5f-f331-b0f2-612e" targetId="a527-734f-2081-58cd" primary="false"/>
@@ -179,11 +174,6 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
       <categoryLinks>
         <categoryLink name="Blood Angel" hidden="false" id="718a-45cf-6dec-224c" targetId="a527-734f-2081-58cd" primary="false"/>
         <categoryLink targetId="62b7-0b90-f078-f36c" id="34d6-0036-2db9-4b1e" primary="false" name="Flesh Tearers Dreadnought"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Hunter (Homebrew)" hidden="false" id="ef07-e175-c752-2844" collective="false" targetId="7baa-b96b-fff0-33ea" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Blood Angel" hidden="false" id="7e65-ed55-9437-ddb8" targetId="a527-734f-2081-58cd" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Hyperios Air Defence Battery (IA)" hidden="false" id="1206-b09c-a298-c187" collective="false" targetId="fde5-3ce5-0c7a-820c" type="selectionEntry">
@@ -339,26 +329,6 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
     <entryLink import="true" name="Siege Dreadnought (IA)" hidden="false" id="b046-d51c-e8d6-4bff" type="selectionEntry" targetId="2c7e-b32c-968d-1faa">
       <categoryLinks>
         <categoryLink name="Elites" hidden="false" id="9142-aad0-6f8d-0982" targetId="6d25-b346-c314-6911" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="c843-184d-ce7a-e489" collective="false" targetId="eebe-d468-31d3-6f58" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Blood Angel" hidden="false" id="b2ef-1fe7-4f78-ee41" targetId="a527-734f-2081-58cd" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="ebf3-0547-7aa8-9328" collective="false" targetId="a437-f9fe-eb04-57bd" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Blood Angel" hidden="false" id="cd41-ca6c-d0d2-4cbd" targetId="a527-734f-2081-58cd" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="d402-0451-238a-86f2" collective="false" targetId="fb33-3e36-b9a7-679d" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Blood Angel" hidden="false" id="9b7f-6bcc-51d1-4fc9" targetId="a527-734f-2081-58cd" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="1859-92ec-ab12-631c" collective="false" targetId="2bfb-ac8e-748b-2de0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Blood Angel" hidden="false" id="4757-0ca7-d013-5a19" targetId="a527-734f-2081-58cd" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Tactical Squad" hidden="false" id="b65d-9787-2d4a-6b1d" collective="false" targetId="2a63-ef79-7e7a-03aa" type="selectionEntry">
