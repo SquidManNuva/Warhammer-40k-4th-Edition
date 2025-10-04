@@ -364,6 +364,8 @@
     <entryLink import="true" name="Grav-Attack Tank (Chapter Approved)" hidden="false" id="be0c-b6a4-b78c-54ce" type="selectionEntry" targetId="b646-9e84-2bec-8c14"/>
     <entryLink import="true" name="Captain Cortez of the Crimson Fists (3E)" hidden="false" id="823c-9363-2e9d-0992" type="selectionEntry" targetId="095c-81d6-2cb9-777e"/>
     <entryLink import="true" name="Chaplain Xavier of the Salamanders (3E)" hidden="false" id="e8dd-c48b-419c-93c2" type="selectionEntry" targetId="0196-c398-93e6-94d7"/>
+    <entryLink import="true" name="Captain Invictus of the Ultramarines First Company (Chapter Approved)" hidden="false" id="9c5a-7710-1189-1372" type="selectionEntry" targetId="aa74-ea1d-a4c9-ec40"/>
+    <entryLink import="true" name="Ancient Helveticus, Bearer of the Battle Standard of Macragge (Chapter Approved)" hidden="false" id="6509-ff0e-c072-415e" type="selectionEntry" targetId="6b87-9e01-512b-8bad"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="043b-1cc7-9a38-8133" name="Commander" hidden="false" collective="false" import="true" type="model">
@@ -13471,6 +13473,168 @@ May make a Heavy Flamer attack against anyone inside a bunker/pillbox/building. 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Captain Invictus of the Ultramarines First Company (Chapter Approved)" hidden="false" id="aa74-ea1d-a4c9-ec40">
+      <categoryLinks>
+        <categoryLink targetId="a8a7-7a4b-5f7e-2138" id="5a45-147d-3b4a-1fea" primary="true" name="HQ"/>
+        <categoryLink targetId="3c96-248b-affd-e504" id="e78e-fadd-e967-c252" primary="false" name="Independent Character"/>
+        <categoryLink targetId="2148-f2df-d400-d35e" id="c61e-30cb-0ab1-7b6e" primary="false" name="Commander"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Invictus" typeId="1e16-2bd8-7cad-379b" typeName="Unit" hidden="false" id="87c7-60fb-16fa-d034">
+          <characteristics>
+            <characteristic name="WS" typeId="c704-6128-f143-935a">5</characteristic>
+            <characteristic name="BS" typeId="7928-3a9b-6080-ed95">5</characteristic>
+            <characteristic name="S" typeId="df03-6292-d3f5-f778">4</characteristic>
+            <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4</characteristic>
+            <characteristic name="W" typeId="4dc2-c603-0bc5-0561">2</characteristic>
+            <characteristic name="I" typeId="eeda-4fb4-901e-b70d">5</characteristic>
+            <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
+            <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
+            <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="142"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Space Marine Special Rules" id="474f-17d7-fd15-e531" hidden="false" type="infoGroup" targetId="ff61-d90f-7ded-05e0"/>
+        <infoLink name="Independent Character" id="5a4b-b491-abab-09f3" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+        <infoLink name="Power Fist/Claw" id="319a-6331-70fe-1386" hidden="false" type="profile" targetId="a161-ed4b-bcb7-0a01">
+          <modifiers>
+            <modifier type="set" value="Power Fist" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Rites of Battle" id="c3ad-0b3d-9354-4f63" hidden="false" type="rule" targetId="84bb-c247-d103-8893"/>
+        <infoLink name="Twin-Linked" id="078a-8900-9634-cd15" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+        <infoLink name="Plasma Blaster" id="8005-f6ad-92cf-5043" hidden="false" type="profile" targetId="f2be-9284-2f31-dc37"/>
+        <infoLink name="Rapid Fire" id="997c-c365-b747-f4ba" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+        <infoLink name="Gets Hot!" id="09e1-a3a4-8bbe-e386" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Retinue" id="bdd1-d4e0-b0fd-bc67" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Squads" id="9fe0-a739-ce79-1186" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Terminator Command Squad" hidden="false" id="799f-176e-2f66-a250" type="selectionEntry" targetId="434b-365f-43ff-1c14">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0171-3dd0-f7e9-edd4"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b72e-198f-08d4-8917"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="072f-5ad9-f112-152d" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="e6d5-bc03-5827-d5da" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="52d8-9148-50b7-99df" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f5bb-a378-1057-9502" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ancient Helveticus, Bearer of the Battle Standard of Macragge (Chapter Approved)" hidden="false" id="6b87-9e01-512b-8bad">
+      <categoryLinks>
+        <categoryLink targetId="a8a7-7a4b-5f7e-2138" id="95b5-5265-d9f4-b021" primary="true" name="HQ"/>
+        <categoryLink targetId="3c96-248b-affd-e504" id="e075-3aea-8e1c-b966" primary="false" name="Independent Character"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Helveticus" typeId="1e16-2bd8-7cad-379b" typeName="Unit" hidden="false" id="fde0-d578-50d3-ee2a">
+          <characteristics>
+            <characteristic name="WS" typeId="c704-6128-f143-935a">5</characteristic>
+            <characteristic name="BS" typeId="7928-3a9b-6080-ed95">5</characteristic>
+            <characteristic name="S" typeId="df03-6292-d3f5-f778">4</characteristic>
+            <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4</characteristic>
+            <characteristic name="W" typeId="4dc2-c603-0bc5-0561">2</characteristic>
+            <characteristic name="I" typeId="eeda-4fb4-901e-b70d">5</characteristic>
+            <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
+            <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
+            <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="190"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Space Marine Special Rules" id="b846-f44f-68fc-e3bb" hidden="false" type="infoGroup" targetId="ff61-d90f-7ded-05e0"/>
+        <infoLink name="Independent Character" id="3949-2267-1385-ed57" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+        <infoLink name="Power Fist/Claw" id="104b-8a93-3d97-8895" hidden="false" type="profile" targetId="a161-ed4b-bcb7-0a01">
+          <modifiers>
+            <modifier type="set" value="Power Fist" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Rites of Battle" id="797e-a5ff-e859-c804" hidden="false" type="rule" targetId="84bb-c247-d103-8893"/>
+        <infoLink name="Bolt Pistol" id="fc5a-730b-ae97-043f" hidden="false" type="profile" targetId="e9ac-c779-51bb-3c9a"/>
+        <infoLink name="Pistol" id="f887-18c5-c72b-5eb7" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+        <infoLink name="Frag Grenades" id="4a71-0621-f2c3-3803" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+        <infoLink name="Krak Grenades" id="97cc-7a2b-f30f-a7ed" hidden="false" type="profile" targetId="9c1b-bf93-059b-27f5"/>
+        <infoLink name="Chapter Banner" id="bb40-cd65-1450-0019" hidden="false" type="rule" targetId="5df3-0068-e083-9213">
+          <modifiers>
+            <modifier type="set" value="Banner of Macragge" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="072f-5ad9-f112-152d" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="e6d5-bc03-5827-d5da" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="52d8-9148-50b7-99df" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3601-b4f4-5be0-0b0d" includeChildSelections="true"/>
+      </constraints>
+      <rules>
+        <rule name="Special Character" id="2349-317a-8c7e-3e90" hidden="false">
+          <description>May only be taken in an Ultramarines army of 1500 points or more. 
+
+
+Counts as an HQ choice but the army must still be led by a Commander, Chaplain, or Librarian</description>
+        </rule>
+        <rule name="Foresworn" id="40c7-1430-f450-d7ca" hidden="false">
+          <description>Helveticus&apos; armor save is Invulnerable</description>
+        </rule>
+        <rule name="Protect the Flag!" id="4572-a2c8-46bf-505c" hidden="false">
+          <description>If Helveticus is defeated, leave the model in place.
+
+Regardless of the mission, the Ultramarines must now also fulfill the conditions of a Rescue mission with Helveticus as the objective
+
+
+If the Ultramarines do not retrieve the Banner at the end of the battle, they lose regardless of any other victory conditions.
+
+
+If they do, they must also fulfill the original victory conditions to win</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bfc9-22b8-1379-3112" name="Space Marine Armory" hidden="false" collective="false" import="true">
@@ -17402,6 +17566,15 @@ If successful, every enemy unit with at least one model in 6&quot; must take a m
 
 
 Units that ignore morale checks are immune.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plasma Blaster" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="f2be-9284-2f31-dc37">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">7</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire 1, Gets Hot!, Twin-Linked</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Always counts as stationary even if moved</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
