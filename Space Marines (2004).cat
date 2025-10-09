@@ -6398,6 +6398,10 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d023-9730-5898-0feb"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d4e-60a8-c4d7-4a91"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
