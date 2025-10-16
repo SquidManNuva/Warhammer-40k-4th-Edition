@@ -2041,7 +2041,6 @@ However, if the model bearing the standard is slain in close combat, then the en
         <infoLink id="8ae1-db52-895d-60d2" name="Wolf Priest" hidden="false" targetId="5087-749d-c753-78f8" type="profile"/>
         <infoLink id="cbdb-9a64-2c80-13ad" name="Iron Wolf Amulet" hidden="false" targetId="7666-138a-d603-3c2c" type="rule"/>
         <infoLink id="0cea-b7de-f76c-477d" name="Space Wolves Special Rules" hidden="false" targetId="20dd-1d42-8acc-dd7b" type="infoGroup"/>
-        <infoLink name="Pistol" id="e546-4ae5-812b-39f2" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f577-8b3e-39b8-ef63" name="Space Wolf" hidden="false" targetId="9bbd-df2b-520d-778d" primary="false"/>
