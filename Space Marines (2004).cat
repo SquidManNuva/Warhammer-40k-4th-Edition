@@ -1021,8 +1021,8 @@
                       <repeats>
                         <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="63f7-a02b-edf8-fde2" repeats="1" roundUp="false"/>
                         <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4d79-06bc-7daf-0aa0" repeats="1" roundUp="false"/>
-                        <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="340a-63dd-f55e-9d16" repeats="1" roundUp="false"/>
                         <repeat value="1" repeats="1" field="selections" scope="parent" childId="33a3-9883-1a4b-cbc9" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="aa72-2b72-a70f-7283" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                       </repeats>
                     </modifier>
                   </modifiers>
@@ -2930,8 +2930,6 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1340-ca69-5198-3df9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Storm Bolter" id="b093-b2a3-3db2-1f6d" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
-                <infoLink name="Power Weapon" id="dfa0-f04e-ae29-9b42" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
                 <infoLink name="Terminator" id="1301-86e8-a341-4d09" hidden="false" targetId="3371-0451-e7e5-82b0" type="profile">
                   <modifiers>
                     <modifier type="set" value="Terminator Sergeant" field="name"/>
@@ -2973,6 +2971,35 @@
                   </modifiers>
                 </selectionEntry>
               </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapons" id="c765-4a54-7202-3a1f" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8135-8dd6-672a-a1de"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aaf6-382e-f143-66f0"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Storm Bolter &amp; Power Weapon" hidden="false" id="647f-c7f1-b2a3-8529">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="8944-0623-8ba1-a280" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
+                        <infoLink name="Storm Bolter" id="6c2c-c989-326a-cb25" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
+                        <infoLink name="Assault" id="cda3-dfed-0ece-9234" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="0" field="8135-8dd6-672a-a1de">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9d75-6589-d30c-4ed9" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="0" field="aaf6-382e-f143-66f0">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9d75-6589-d30c-4ed9" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Terminator" hidden="false" id="dd65-922d-60cc-2bcc" collective="false">
               <modifiers>
@@ -3284,6 +3311,18 @@
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="0" field="bfb0-fd39-bfaf-c1f1">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9d75-6589-d30c-4ed9" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="0" field="1012-3dc9-e164-9cc7">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9d75-6589-d30c-4ed9" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <categoryLinks>
@@ -10315,8 +10354,6 @@ Special Force Field = 35</comment>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cf5-0f29-32f1-a749" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="799f-6561-9e65-319f" name="Storm Bolter" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
-                <infoLink id="3c94-083b-d4f0-7c2c" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
                 <infoLink name="Terminator" id="e9d3-7ba8-5f8d-4b94" hidden="false" targetId="3371-0451-e7e5-82b0" type="profile">
                   <modifiers>
                     <modifier type="set" value="Terminator Sergeant" field="name"/>
@@ -10358,6 +10395,35 @@ Special Force Field = 35</comment>
                   </modifiers>
                 </selectionEntry>
               </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapons" id="d662-5d47-a091-4ac6" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d25-c36d-3f70-a279"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d488-c7aa-7244-57b4"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Storm Bolter &amp; Power Weapon" hidden="false" id="5709-819a-022a-943b">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="3c94-083b-d4f0-7c2c" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
+                        <infoLink name="Storm Bolter" id="799f-6561-9e65-319f" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
+                        <infoLink name="Assault" id="a3b0-0192-8eef-15b4" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="0" field="4d25-c36d-3f70-a279">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9d75-6589-d30c-4ed9" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="0" field="d488-c7aa-7244-57b4">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9d75-6589-d30c-4ed9" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="be23-7a87-5942-cf1c" name="Terminator" hidden="false" collective="false" import="true" type="model">
               <modifiers>
