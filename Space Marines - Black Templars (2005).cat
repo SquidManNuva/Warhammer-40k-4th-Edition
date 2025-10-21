@@ -24,7 +24,7 @@
         <categoryLink id="fd58-1b01-4680-945d" name="Black Templar" hidden="false" targetId="0e24-d2c1-5ce8-e7cb" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fcd8-b229-dbba-fc19" name="Terminator Squad" hidden="false" collective="false" import="true" targetId="4140-4c9e-d206-305d" type="selectionEntry">
+    <entryLink id="fcd8-b229-dbba-fc19" name="Sword Brethren Terminator Squad" hidden="false" collective="false" import="true" targetId="4140-4c9e-d206-305d" type="selectionEntry">
       <infoLinks>
         <infoLink name="Black Templars Special Rules" id="69da-b455-1e6b-ba88" hidden="false" type="infoGroup" targetId="3e5c-1c60-750b-cef5"/>
       </infoLinks>
@@ -32,7 +32,7 @@
         <categoryLink id="823e-0c4b-8026-ed2b" name="Black Templar" hidden="false" targetId="0e24-d2c1-5ce8-e7cb" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="615a-4245-2d23-4ae5" name="Terminator Assault Squad" hidden="false" collective="false" import="true" targetId="a981-32fe-f48d-39ca" type="selectionEntry">
+    <entryLink id="615a-4245-2d23-4ae5" name="Sword Brethren Terminator Assault Squad" hidden="false" collective="false" import="true" targetId="a981-32fe-f48d-39ca" type="selectionEntry">
       <infoLinks>
         <infoLink name="Black Templars Special Rules" id="7eb3-6f25-a731-a93f" hidden="false" type="infoGroup" targetId="3e5c-1c60-750b-cef5"/>
       </infoLinks>
@@ -1383,9 +1383,9 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="High Marshal Helbrecht" hidden="false" id="791e-8462-98c0-3d03" collective="false">
       <modifiers>
-        <modifier type="set" value="false" field="hidden">
+        <modifier type="add" value="1500+ points required to include Helbrecht" field="error">
           <conditions>
-            <condition type="lessThan" value="1500" field="limit::4ed5-2f92-9abc-2870" scope="roster" childId="any" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="lessThan" value="2000" field="limit::4ed5-2f92-9abc-2870" scope="roster" childId="any" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1406,6 +1406,9 @@
       <rules>
         <rule name="Never Falls Back" id="0f33-1249-e13a-3f34" hidden="false">
           <description>Helbrecht and the unit he has joined never falls back. They automatically pass any Fall Back tests and is not effected by abilities that cause troops to automatically fall back.</description>
+        </rule>
+        <rule name="Special Character" id="0f08-a070-e805-41ab" hidden="false">
+          <description>May only be taken in an army of 1500 points or more</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1448,9 +1451,9 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="93df-1502-efc0-3bca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
       </constraints>
       <modifiers>
-        <modifier type="set" value="true" field="hidden">
+        <modifier type="add" value="1500+ points required to include Grimaldus" field="error">
           <conditions>
-            <condition type="lessThan" value="1500" field="limit::4ed5-2f92-9abc-2870" scope="roster" childId="any" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="lessThan" value="2000" field="limit::4ed5-2f92-9abc-2870" scope="roster" childId="any" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1526,6 +1529,9 @@
         </rule>
         <rule name="Cenobyte Retinue" id="e728-c67f-77c1-ecdc" hidden="false">
           <description>Grimaldus leads 3 Cenobyte Servitors. As long as one is alive, Grimaldus counts as having a Holy Relic.</description>
+        </rule>
+        <rule name="Special Character" id="6be7-3e1e-5cd8-9fdf" hidden="false">
+          <description>May only be taken in an army of 1500 points or more</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -2671,9 +2677,15 @@
                     <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </repeats>
                 </modifier>
+                <modifier type="set" value="1" field="b809-4f7c-c231-b489">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="791e-8462-98c0-3d03" shared="true"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc4e-5f67-21f0-78d6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b809-4f7c-c231-b489"/>
               </constraints>
               <infoLinks>
                 <infoLink name="Furious Charge/Assault" id="9885-fd35-3764-8d12" hidden="false" type="rule" targetId="6176-5719-d7a9-12ed"/>
