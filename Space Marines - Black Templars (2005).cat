@@ -1388,14 +1388,9 @@
             <condition type="lessThan" value="1500" field="limit::4ed5-2f92-9abc-2870" scope="roster" childId="any" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2f0c-dbd9-e84e-3ec5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2f0c-dbd9-e84e-3ec5" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
       </constraints>
       <profiles>
         <profile name="Sword of the High Marshals" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="e14a-5c72-4d1b-9e83">
@@ -1421,7 +1416,6 @@
         <infoLink name="Krak Grenades" id="b625-3c80-a9ba-b612" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
         <infoLink name="Terminator Honors" id="1dec-c789-8d0c-f228" hidden="false" targetId="bad9-31ae-7a9c-f38c" type="rule"/>
         <infoLink name="And They Shall Know No Fear" id="bf09-9a40-7947-d22f" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule"/>
-        <infoLink name="Righteous Zeal" id="36cc-9f8c-0aec-32eb" hidden="false" targetId="f2a4-0ea5-b993-73c6" type="rule"/>
         <infoLink name="Purity Seals" id="7faf-2ed3-b4e3-53ca" hidden="false" targetId="8fca-253c-bbf8-9510" type="rule"/>
         <infoLink name="Boltgun" id="a652-08ce-a02d-c067" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
         <infoLink name="Meltagun" id="03de-9d8b-1610-81e1" hidden="false" targetId="737d-c7ef-4cb5-e6fa" type="profile"/>
@@ -1429,27 +1423,32 @@
         <infoLink name="Bionics" id="6f2b-7a5a-e6b3-d2a7" hidden="false" targetId="93ed-72da-0689-8a2d" type="rule"/>
         <infoLink name="Iron Halo" id="9c5a-38e7-73e4-1d14" hidden="false" targetId="c214-19e6-edea-0f81" type="rule"/>
         <infoLink name="Master-crafted Weapons" id="b8fc-e372-0fc3-bf9f" hidden="false" targetId="0e54-6618-9b31-0f81" type="rule"/>
+        <infoLink name="Rapid Fire" id="a3f1-f8f9-46b9-3ea3" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+        <infoLink name="Assault" id="7fcd-4dea-c3c8-82f4" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+        <infoLink name="Melta" id="7774-09a9-05a5-0e2b" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+        <infoLink name="Rites of Battle" id="73fa-0c5a-a340-d633" hidden="false" type="rule" targetId="84bb-c247-d103-8893"/>
+        <infoLink name="Crusader Seals" id="6d11-57b3-6973-95a4" hidden="false" type="rule" targetId="326e-84f7-b259-bcf4"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink name="HQ" hidden="false" id="616c-8bda-5a14-c952" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
         <categoryLink name="Independent Character" hidden="false" id="145a-08ec-47e6-cbaa" targetId="3c96-248b-affd-e504" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Command Squad" hidden="false" id="4873-fe65-8f1c-89c2" collective="false" targetId="bc53-c50d-f840-ebaa" type="selectionEntry"/>
+        <entryLink import="true" name="Black Templars Command Squad" hidden="false" id="4873-fe65-8f1c-89c2" collective="false" targetId="1bd5-c84c-196a-14b5" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="175"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Reclusiarch Grimaldus" hidden="false" id="81f2-021e-6ae0-b573">
+    <selectionEntry type="unit" import="true" name="Chaplain Grimaldus, Hero of Helsreach" hidden="false" id="81f2-021e-6ae0-b573">
       <entryLinks>
-        <entryLink import="true" name="Command Squad" hidden="false" id="6922-c815-3565-2341" collective="false" targetId="bc53-c50d-f840-ebaa" type="selectionEntry"/>
+        <entryLink import="true" name="Black Templars Command Squad" hidden="false" id="6922-c815-3565-2341" collective="false" targetId="1bd5-c84c-196a-14b5" type="selectionEntry"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="93df-1502-efc0-3bca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
       </constraints>
       <modifiers>
-        <modifier type="set" value="false" field="hidden">
+        <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="1500" field="limit::4ed5-2f92-9abc-2870" scope="roster" childId="any" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
@@ -1460,6 +1459,8 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="a8a7-7a4b-5f7e-2138" id="7af3-4a5e-e634-d5f2" primary="true" name="HQ"/>
+        <categoryLink targetId="b216-ba2e-4d56-b986" id="5f51-c259-e619-34ae" primary="false" name="Chaplain"/>
+        <categoryLink targetId="3c96-248b-affd-e504" id="e5fd-dd55-33e5-8bbf" primary="false" name="Independent Character"/>
       </categoryLinks>
       <profiles>
         <profile name="Grimaldus" typeId="1e16-2bd8-7cad-379b" typeName="Unit" hidden="false" id="9963-a6db-4224-1ab0">
@@ -1487,6 +1488,9 @@
             <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
             <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="x3 Cenobyte Servitors" field="name"/>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -1496,7 +1500,11 @@
         <infoLink name="Purity Seals" id="9f60-5543-e3eb-4a71" hidden="false" targetId="8fca-253c-bbf8-9510" type="rule"/>
         <infoLink name="Rosarius" id="69bb-5425-ab29-9dfc" hidden="false" targetId="479f-929d-b531-a315" type="rule"/>
         <infoLink name="Master-crafted Weapons" id="f33b-1de7-9f89-2cc6" hidden="false" targetId="0e54-6618-9b31-0f81" type="rule"/>
-        <infoLink name="Plasma Pistol" id="1652-9dfd-b0e9-d0db" hidden="false" targetId="7b91-b670-d042-7c88" type="profile"/>
+        <infoLink name="Plasma Pistol" id="1652-9dfd-b0e9-d0db" hidden="false" targetId="7b91-b670-d042-7c88" type="profile">
+          <modifiers>
+            <modifier type="set" value="Master-crafted Plasma Pistol" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Holy Relic" id="ac93-3e1a-8e63-5fb8" hidden="false" targetId="a3b0-6af2-1358-7196" type="rule"/>
         <infoLink name="And They Shall Know No Fear" id="e7bd-a3fd-0512-5d74" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule">
           <modifiers>
@@ -1507,6 +1515,10 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink name="Crusader Seals" id="58f8-797e-2d22-3780" hidden="false" type="rule" targetId="326e-84f7-b259-bcf4"/>
+        <infoLink name="Unmatched Zeal" id="f1e9-04bb-9d39-0fb8" hidden="false" type="rule" targetId="4059-972f-f07a-9a2a"/>
+        <infoLink name="Gets Hot!" id="0e8f-598c-4cb1-dd0c" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+        <infoLink name="Pistol" id="463d-b0a7-b4df-6ffa" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
       </infoLinks>
       <rules>
         <rule name="Only In Death Does Duty End" id="48ce-0d41-b70c-5b4c" hidden="false">
@@ -1828,7 +1840,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Space Marines" id="ea56-7941-e100-f96f" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="12dd-15b3-54ee-ef70" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="12dd-15b3-54ee-ef70" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="0b38-c92a-8c5a-f34d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <selectionEntries>
@@ -1988,6 +2000,48 @@
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Neophyte" hidden="false" id="e5d9-6d93-126f-a383" collective="false">
+              <constraints>
+                <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="795f-8cfd-c59b-1450" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Neophyte" id="44b9-e4a0-a348-72b9" hidden="false" targetId="c268-5b2e-90c2-7db6" type="profile"/>
+                <infoLink name="Bolt Pistol" id="44ee-9d85-6b61-bfdc" hidden="false" targetId="e9ac-c779-51bb-3c9a" type="profile"/>
+                <infoLink name="Close Combat Weapon (CCW)" id="9028-f0f1-5c45-8f04" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
+                <infoLink name="Pistol" id="72f6-f026-ee5e-7748" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="791e-8462-98c0-3d03" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Banner Bearer" hidden="false" id="0d80-8c72-b842-a9ed">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Company Standard" id="a4ab-4fca-39d9-a266" hidden="false" type="rule" targetId="b30f-e2cf-422a-5160">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="parent" childId="e7cd-e51d-5262-10d9" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7108-f0d6-26cd-77c5" includeChildSelections="true"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -2253,6 +2307,13 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Fighting Company Standard Bearer" hidden="false" id="b617-a499-5c85-c4dd" collective="false">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="1bd5-c84c-196a-14b5" childId="0d80-8c72-b842-a9ed" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef37-f34a-0662-0286" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
@@ -2560,6 +2621,11 @@
                     <condition type="equalTo" value="0" field="selections" scope="parent" childId="9bcf-3044-1cdb-ec3e" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </conditions>
                 </modifier>
+                <modifier type="increment" value="-10" field="4ed5-2f92-9abc-2870">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="e5d9-6d93-126f-a383" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86c7-0a64-bcde-4585" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -2576,6 +2642,11 @@
                 <modifier type="increment" value="2" field="4ed5-2f92-9abc-2870">
                   <repeats>
                     <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" value="-2" field="4ed5-2f92-9abc-2870">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="e5d9-6d93-126f-a383" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
