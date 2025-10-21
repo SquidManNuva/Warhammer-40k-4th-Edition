@@ -3090,6 +3090,7 @@
                                 <infoLink name="Blast" id="ba9c-4945-6316-ce18" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
                                 <infoLink name="Assault" id="03fd-4c6c-60f8-c141" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
                                 <infoLink name="Cyclone Missile Launcher" id="5cd4-a85e-91dc-81d7" hidden="false" type="rule" targetId="5560-3f11-f0d9-ca54"/>
+                                <infoLink name="Storm Bolter" id="b06f-dd63-36a7-7e5a" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
                               </infoLinks>
                               <costs>
                                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
@@ -10474,6 +10475,7 @@ Special Force Field = 35</comment>
                                 <infoLink name="Blast" id="08fb-1aa9-081e-fad0" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
                                 <infoLink name="Assault" id="c63d-3cca-eefe-49c4" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
                                 <infoLink name="Cyclone Missile Launcher" id="a755-6c3d-2980-bbc5" hidden="false" type="rule" targetId="5560-3f11-f0d9-ca54"/>
+                                <infoLink name="Storm Bolter" id="d587-9f31-1cce-c88f" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
                               </infoLinks>
                               <costs>
                                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
