@@ -614,7 +614,7 @@
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapons" id="0048-af81-2133-6131" hidden="false">
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Pistol Hand" id="c044-98a9-8ffd-59c9" hidden="false">
+                    <selectionEntryGroup name="Hand B" id="c044-98a9-8ffd-59c9" hidden="false">
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="ea2c-54bd-a545-575d">
                           <infoLinks>
@@ -665,7 +665,7 @@
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1f8-1be2-68dd-08fa"/>
                       </constraints>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="CCW Hand" id="2f73-c5cc-bf27-5651" hidden="false">
+                    <selectionEntryGroup name="Hand A" id="2f73-c5cc-bf27-5651" hidden="false">
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="4cbb-4cd5-80db-b1b1">
                           <infoLinks>
