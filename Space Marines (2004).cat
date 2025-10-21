@@ -1047,7 +1047,6 @@
                     </modifier>
                   </modifiers>
                 </infoLink>
-                <infoLink id="1700-0af8-9d87-4a0a" name="Boltgun" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
