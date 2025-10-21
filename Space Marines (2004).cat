@@ -1263,7 +1263,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="18"/>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
                   </costs>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Weapons" id="aeaf-9c09-a8e0-89e5" hidden="false">
