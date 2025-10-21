@@ -979,7 +979,6 @@
           <selectionEntries>
             <selectionEntry id="8b40-4c4b-126e-ec94" name="Bodyguard" hidden="false" collective="false" import="true" type="model">
               <modifiers>
-                <modifier type="set" field="2c9d-77a7-7d91-8a37" value="4"/>
                 <modifier type="increment" field="4ed5-2f92-9abc-2870" value="10">
                   <conditions>
                     <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="15c3-ec03-9025-925c" type="atLeast"/>
