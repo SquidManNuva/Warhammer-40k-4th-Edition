@@ -26,7 +26,6 @@
     </entryLink>
     <entryLink id="fcd8-b229-dbba-fc19" name="Terminator Squad" hidden="false" collective="false" import="true" targetId="4140-4c9e-d206-305d" type="selectionEntry">
       <infoLinks>
-        <infoLink id="5cd3-94d9-cb00-e912" name="Righteous Zeal" hidden="false" targetId="f2a4-0ea5-b993-73c6" type="rule"/>
         <infoLink name="Black Templars Special Rules" id="69da-b455-1e6b-ba88" hidden="false" type="infoGroup" targetId="3e5c-1c60-750b-cef5"/>
       </infoLinks>
       <categoryLinks>
@@ -35,7 +34,6 @@
     </entryLink>
     <entryLink id="615a-4245-2d23-4ae5" name="Terminator Assault Squad" hidden="false" collective="false" import="true" targetId="a981-32fe-f48d-39ca" type="selectionEntry">
       <infoLinks>
-        <infoLink id="e62b-9cbe-a19f-db41" name="Righteous Zeal" hidden="false" targetId="f2a4-0ea5-b993-73c6" type="rule"/>
         <infoLink name="Black Templars Special Rules" id="7eb3-6f25-a731-a93f" hidden="false" type="infoGroup" targetId="3e5c-1c60-750b-cef5"/>
       </infoLinks>
       <categoryLinks>
@@ -53,7 +51,6 @@
     </entryLink>
     <entryLink id="ccfd-1ff9-5467-742f" name="Attack Bike Squadron" hidden="false" collective="false" import="true" targetId="26b2-8587-e170-87ee" type="selectionEntry">
       <infoLinks>
-        <infoLink id="efd5-0ea4-93b8-cb6e" name="Righteous Zeal" hidden="false" targetId="f2a4-0ea5-b993-73c6" type="rule"/>
         <infoLink name="Black Templars Special Rules" id="a784-7f5e-c3a1-53ca" hidden="false" type="infoGroup" targetId="3e5c-1c60-750b-cef5"/>
       </infoLinks>
       <categoryLinks>
@@ -265,9 +262,6 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c4e9-2699-7af9-14f8" name="Crusader Squad" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="67f0-7177-8a80-c47a" name="Righteous Zeal" hidden="false" targetId="f2a4-0ea5-b993-73c6" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="0c71-af7e-df67-6a8e" name="Troops" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
         <categoryLink id="1401-210f-90c5-946a" name="Black Templar" hidden="false" targetId="0e24-d2c1-5ce8-e7cb" primary="false"/>
@@ -601,7 +595,6 @@
       <infoLinks>
         <infoLink id="862d-bfd4-d217-b742" name="Deep Strike" hidden="false" targetId="5715-6219-5059-9bcf" type="rule"/>
         <infoLink id="415b-598b-085e-1bba" name="Jump Packs" hidden="false" targetId="2563-092a-a5bc-992f" type="rule"/>
-        <infoLink id="a260-7536-648f-1617" name="Righteous Zeal" hidden="false" targetId="f2a4-0ea5-b993-73c6" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="117d-0e8f-6bd9-35f0" name="Fast Attack" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
@@ -790,9 +783,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="26aa-5112-2592-3eac" name="Black Templars Bike Squadron" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="0fe9-a8f0-bc01-fcf0" name="Righteous Zeal" hidden="false" targetId="f2a4-0ea5-b993-73c6" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="1ac1-45e9-c473-7234" name="Fast Attack" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
         <categoryLink id="c511-f82c-3dbb-2ff7" name="Black Templar" hidden="false" targetId="0e24-d2c1-5ce8-e7cb" primary="false"/>
@@ -965,7 +955,6 @@
     <selectionEntry type="unit" import="true" name="Sword Brethren" hidden="false" id="f421-e20f-6d7b-f5cc">
       <infoLinks>
         <infoLink name="And They Shall Know No Fear" id="7b77-0981-0d9c-97c2" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule"/>
-        <infoLink name="Righteous Zeal" id="7326-9a61-2019-8a62" hidden="false" targetId="f2a4-0ea5-b993-73c6" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Transport Vehicle" id="36de-fcdc-3aba-78b1" hidden="false" collective="false" import="true">
