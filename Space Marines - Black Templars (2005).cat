@@ -259,6 +259,7 @@
         <categoryLink targetId="aacb-8a81-62c0-3db8" id="8d6b-b960-f80e-fad0" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Black Templars Commander" hidden="false" id="36b7-283f-2222-22db" type="selectionEntry" targetId="4091-0202-24ef-bdb4"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c4e9-2699-7af9-14f8" name="Crusader Squad" hidden="false" collective="false" import="true" type="unit">
