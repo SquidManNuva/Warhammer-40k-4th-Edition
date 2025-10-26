@@ -3278,7 +3278,7 @@
                 <entryLink id="c413-3f6d-2e59-8a94" name="Space Marine Armory" hidden="false" collective="false" import="true" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="42"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
               </costs>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapons" id="fbfa-d5b7-a260-7ec6" hidden="false">
@@ -3389,7 +3389,7 @@
                 <infoLink id="9ecd-fa21-a72b-be0a" name="Terminator" hidden="false" targetId="3371-0451-e7e5-82b0" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="42"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
               </costs>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapons" id="4f0a-d0d8-e647-83cf" hidden="false">
@@ -14098,15 +14098,30 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e79-9668-3232-335f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Minor Psychic Power (Chapter Approved)" hidden="false" id="b5d7-f6d4-a389-7caa" collective="false">
+              <infoLinks>
+                <infoLink name="Minor Psychic Power" id="afdd-db36-4dac-c2a8" hidden="false" targetId="69af-f095-551d-130c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+              </costs>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="02ee-bc24-ec98-8712" shared="true"/>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="e6d5-bc03-5827-d5da" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
           </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="02ee-bc24-ec98-8712" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
