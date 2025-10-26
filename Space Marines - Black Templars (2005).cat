@@ -908,6 +908,9 @@
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Bikes" id="c5bf-a06b-bbd1-2c27" hidden="false" type="rule" targetId="6bd6-e738-e144-6db9"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="f995-47f0-4378-bdfb" name="Land Raider Crusader" hidden="false" collective="false" import="true" type="unit">
       <rules>
