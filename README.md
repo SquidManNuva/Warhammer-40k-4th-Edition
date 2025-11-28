@@ -20,7 +20,7 @@ __I found a bug!__ / __I have a submission!__
 [Open issue directly][] (green `New Issue*` in upper-right, GitHub account required) - you can track the progress, report bugs get notifications, or submit army lists official or homebrewed**
 
       *Please tag New Issues as either bug reports or list submissions
-      **If you can, please try to follow the formatting of the lists I've completed
+      **If you can, please try to follow the formatting of the lists I've completed when translating armies
 
 ## Links ##
 [Links]: #links
