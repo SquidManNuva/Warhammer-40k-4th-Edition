@@ -11,7 +11,7 @@ Warhammer 40k 4th Edition
 
 __What's this?__
 
-A translation of WH40k army lists from the 3rd to early 4th Edition era (1998-2006~) for NewRecruit
+A translation of WH40k army lists from the 3rd to early 4th Edition era (Up to the 2006 Eldar Codex for reference, but feel free to adapt it and the others if you have the know-how!) for NewRecruit
 
 If you want to contribute, check out [Getting Started wiki][]
 
