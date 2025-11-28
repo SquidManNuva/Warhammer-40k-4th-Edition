@@ -11,28 +11,22 @@ Warhammer 40k 4th Edition
 
 __What's this?__
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [Getting Started wiki][]
+A translation of WH40k army lists from the 3rd to early 4th Edition era (1998-2006~) for NewRecruit
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+If you want to contribute, check out [Getting Started wiki][]
 
-Documentation is in progress on obtaining the file.
+__I found a bug!__ / __I have a submission!__
 
-__I found a bug!__ / *I have another request*
+[Open issue directly][] (green `New Issue*` in upper-right, GitHub account required) - you can track the progress, report bugs get notifications, or submit army lists official or homebrewed**
 
-
-1. Check the [Work in Progress Queue][] to see if your new request is already in process.
-2. [Open issue directly][] (green `New Issue` in upper-right, GitHub account required) - you can track the progress, get notifications, help us by answering possibly follow-up questions and help us better!
+      *Please tag New Issues as either bug reports or list submissions
+      **If you can, please try to follow the formatting of the lists I've completed
 
 ## Links ##
 [Links]: #links
 
-* [BattleScribe homepage][]
-* [BattleScribe Data on Appspot][]
+[NewRecruit homepage]: https://www.newrecruit.eu/
 
-[Data File]: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition/releases/latest/Warhammer-40k-3rd-Edition.latest.bsi
-[Open Issue directly]: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition/issues
-[BattleScribe homepage]: http://www.battlescribe.net/
-[BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
-[Work in Progress Queue]: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition/milestone/1
+[NewRecruit Builder/Editor downloads]: https://www.newrecruit.eu/download/
+
+[Editor guide]: https://github.com/DerTanteKethe/custom40k-homebrew-system/wiki/NewRecruit-Data-Author-Tutorial
