@@ -25,8 +25,8 @@ __I found a bug!__ / __I have a submission!__
 ## Links ##
 [Links]: #links
 
-[NewRecruit homepage]: https://www.newrecruit.eu/
+NewRecruit homepage: https://www.newrecruit.eu/
 
-[NewRecruit Builder/Editor downloads]: https://www.newrecruit.eu/download/
+NewRecruit Builder/Editor downloads: https://www.newrecruit.eu/download/
 
-[Editor guide]: https://github.com/DerTanteKethe/custom40k-homebrew-system/wiki/NewRecruit-Data-Author-Tutorial
+Editor guide: https://github.com/DerTanteKethe/custom40k-homebrew-system/wiki/NewRecruit-Data-Author-Tutorial
