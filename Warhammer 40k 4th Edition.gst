@@ -2081,6 +2081,9 @@ Terrain in the Assault Phase.</description>
         <infoLink name="Heavy" id="87e4-7125-351d-554f" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
         <infoLink name="Blast" id="07e9-72d8-513e-c32d" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="165"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -2763,7 +2766,7 @@ phase, but cannot if it fired twice.</description>
       <description>Hits from this weapon always wound on (X+), regardless of attacker Strength (S) or target Toughness (T).</description>
     </rule>
     <rule name="Rapid Fire" id="d104-bdaf-f9ed-c744" hidden="false">
-      <description>This weapon can shoot twice at targets up to 12” away, or else once up to maximum range if the model equipped with this weapon has not moved during the current Turn. 
+      <description>This weapon can shoot twice at targets up to half its range away, or else once up to maximum range if the model equipped with this weapon has not moved during the current Turn. 
 
 
 
@@ -2905,6 +2908,18 @@ On a roll of 2, the power still works.</description>
 
 
 Against Vehicles, roll an additional D6 if a result of 6 is obtained when testing Armor Penetration, summing the result of both rolls for the purposes of the test.</description>
+    </rule>
+    <rule name="Volkite" id="a69e-c6c1-4196-3d14" hidden="false">
+      <description>After normal attacks by this weapon have been resolved, count the number of unsaved Wounds caused on the target unit. 
+
+
+Immediately resolve a number of additional automatic Hits on the same unit using the weapon’s profile equal to the number of unsaved Wounds which can then be saved normally. 
+
+
+Models in the targeted unit must still be in range in order for these additional Hits to take effect. 
+
+
+These additional Hits do not themselves inflict more Hits and do not benefit from any other special rules possessed by the attacking model.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3421,13 +3436,9 @@ Counts as a [ower fist but strikes at the Dreadnought’s normal Initiative. &am
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Doubles Strength up to 10 &amp; ignores armor saves, but attacks last</characteristic>
       </characteristics>
     </profile>
-    <profile id="9c1b-bf93-059b-27f5" name="Krak Grenades" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="9c1b-bf93-059b-27f5" name="Krak Grenades" hidden="false" typeId="7279-038a-b87a-ed0c" typeName="Abilities">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376"/>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844"/>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855"/>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13"/>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Gives Strength 6 in Assault vs. vehicles, making their AP scores 6+D6. Cannot make bonus attacks for charging. Can also be used as a Death or Glory attack</characteristic>
+        <characteristic name="Description" typeId="a08a-36f8-2fd3-b843">Treats any Assault hits vs. vehicles as S6 + D6 AP.</characteristic>
       </characteristics>
     </profile>
     <profile id="1687-221e-1a62-e1f6" name="Zzap Gun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
@@ -3516,7 +3527,7 @@ Counts as a [ower fist but strikes at the Dreadnought’s normal Initiative. &am
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol 1</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
@@ -3848,7 +3859,10 @@ Haywire grenades may only be used against Dreadnoughts if the Dreadnought is imm
     </profile>
     <profile id="a1a0-7026-df47-1b84" name="Plasma Grenades" hidden="false" typeId="7279-038a-b87a-ed0c" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="a08a-36f8-2fd3-b843">These grenades negate the effect of cover in close combat, so that models strike in Initiative order.</characteristic>
+        <characteristic name="Description" typeId="a08a-36f8-2fd3-b843">These grenades negate the effect of cover in close combat, so that models strike in Initiative order.
+
+
+Treats any Assault hits vs. vehicles as S5 + D6 AP.</characteristic>
       </characteristics>
     </profile>
     <profile id="21df-8acc-050f-0e90" name="Terrofex" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
@@ -3977,7 +3991,10 @@ When specified, grants a bonus to S or Wounds on a fixed value regardless of ta
         <characteristic name="S" typeId="24d8-2110-08fa-d844"/>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855"/>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13"/>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Treats any Assault hits vs. vehicles as Penetration S8 + 2D6. Cannot make bonus attacks for charging. Can also be used as a Death or Glory attack</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Treats any Assault hits vs. vehicles as  S8 + 2D6 AP.
+
+
+Cannot make bonus attacks for charging. Can also be used as a Death or Glory attack</characteristic>
       </characteristics>
     </profile>
     <profile id="b726-76b7-0d78-59d9" name="Pulse Laser" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
@@ -4058,7 +4075,10 @@ Roll 2D6 for armor penetration.</characteristic>
     </profile>
     <profile id="9dd4-e950-2419-5934" name="Frag Grenades" hidden="false" typeId="7279-038a-b87a-ed0c" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="a08a-36f8-2fd3-b843">Fights simultaneously vs enemies in cover. Both sides roll to hit and wound before making saves and removing casualties</characteristic>
+        <characteristic name="Description" typeId="a08a-36f8-2fd3-b843">Fights simultaneously vs enemies in cover. Both sides roll to hit and wound before making saves and removing casualties
+
+
+Treats any Assault hits vs. vehicles as S4 + D6 AP.</characteristic>
       </characteristics>
     </profile>
     <profile id="86d5-c5a0-fc04-7f5a" name="Hunter-killer Missile" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
@@ -4375,6 +4395,78 @@ Against Vehicles only, additionally multiplies Strength (S) by 3, up to a maxim
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1 Blast</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Always wounds on a 2+ regardless of toughness</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Astartes Grenade Launcher (Frag)" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="3864-58cc-4e90-5a85">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire 1 Blast</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile name="Astartes Grenade Launcher (Krak)" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="e120-e489-8dee-7958">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire 1</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile name="Hand Flamer" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="5f72-b2e6-fe90-ad38">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol 1</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile name="Volkite Serpenta" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="5498-6604-9681-30ff">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">10&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol 2 Volkite</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile name="Volkite Charger" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="2786-6de5-1e4f-9181">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">15&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2 Volkite</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile name="Volkite Caliver" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="6410-6073-4fe3-a860">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 3 Volkite</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile name="Volkite Culverin" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="044b-6925-b6e8-db16">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">45&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 5 Volkite</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile name="Eviscerator" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="dd51-f7d5-0eea-3557">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">User x2</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore Armour saves. 2D6 penetration vs vehicles.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
