@@ -1162,6 +1162,38 @@
                             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
                           </costs>
                         </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grav Gun (Homebrew)" hidden="false" id="580f-602c-6fbe-35de" collective="false">
+                          <infoLinks>
+                            <infoLink name="Grav-gun" id="76a2-8ff8-9a79-1bdc" hidden="false" targetId="4bce-8ee0-3396-80f5" type="profile"/>
+                            <infoLink name="Rapid Fire" id="68b7-4da3-3df4-a22c" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                          </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grav-cannon (Homebrew)" hidden="false" id="a7d8-d181-092f-91d9" collective="false">
+                          <infoLinks>
+                            <infoLink name="Grav-cannon" id="5266-bf17-2bdb-0bcb" hidden="false" targetId="9b84-1706-10fb-affc" type="profile"/>
+                            <infoLink name="Rapid Fire" id="16d0-f9a7-3844-822d" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
+                          </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -3944,6 +3976,22 @@
                             <infoLink name="Power Weapon" id="2003-43d1-238f-3169" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
                           </infoLinks>
                         </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grav Gun (Homebrew)" hidden="false" id="2616-e78d-cd98-1f04" collective="false">
+                          <infoLinks>
+                            <infoLink name="Grav-gun" id="a68e-d2c0-9b19-e757" hidden="false" targetId="4bce-8ee0-3396-80f5" type="profile"/>
+                            <infoLink name="Rapid Fire" id="2f66-17e5-e96d-914e" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                          </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
                       </selectionEntries>
                       <modifiers>
                         <modifier type="set" value="true" field="hidden">
@@ -4033,6 +4081,22 @@
                               </modifiers>
                             </infoLink>
                           </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grav-cannon (Homebrew)" hidden="false" id="3d65-6108-c307-6c29" collective="false">
+                          <infoLinks>
+                            <infoLink name="Grav-cannon" id="7d6f-5901-ff60-0f51" hidden="false" targetId="9b84-1706-10fb-affc" type="profile"/>
+                            <infoLink name="Rapid Fire" id="424a-841a-35f8-0769" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
+                          </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                       </selectionEntries>
                       <modifiers>
@@ -4718,6 +4782,22 @@
                             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
                           </costs>
                         </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grav-cannon (Homebrew)" hidden="false" id="578c-e1f1-6e72-2ec9" collective="false">
+                          <infoLinks>
+                            <infoLink name="Grav-cannon" id="fdf9-52ac-609b-3fa3" hidden="false" targetId="9b84-1706-10fb-affc" type="profile"/>
+                            <infoLink name="Rapid Fire" id="3461-4bb2-458b-609b" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
+                          </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
                       </selectionEntries>
                       <modifiers>
                         <modifier type="set" value="true" field="hidden">
@@ -4804,6 +4884,22 @@
                           <costs>
                             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
                           </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grav Gun (Homebrew)" hidden="false" id="e142-64bc-f99f-a679" collective="false">
+                          <infoLinks>
+                            <infoLink name="Grav-gun" id="b0c8-3ab2-9157-bbc2" hidden="false" targetId="4bce-8ee0-3396-80f5" type="profile"/>
+                            <infoLink name="Rapid Fire" id="d9a5-36c1-9e9f-e93d" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                          </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                       </selectionEntries>
                       <modifiers>
@@ -5799,6 +5895,29 @@
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Camo-Cloak (Homebrew)" hidden="false" id="1aa5-e2e0-1b15-32d0" collective="false">
+              <modifiers>
+                <modifier type="increment" value="2" field="4ed5-2f92-9abc-2870">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="d2a3-16b3-3f73-5cd3" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16a9-06a8-b0f3-8a7c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Camo-Cloak" id="784c-76c7-00e5-ca07" hidden="false" type="rule" targetId="5146-a032-a0dc-383e"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Special Skills" id="7966-8599-61c5-3006" hidden="false">
@@ -5989,6 +6108,21 @@
                           <costs>
                             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6"/>
                           </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Eviscerator (Homebrew)" hidden="false" id="08fc-a449-e9c3-ae06">
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Eviscerator" id="b49d-2bda-e79e-6621" hidden="false" type="profile" targetId="dd51-f7d5-0eea-3557"/>
+                          </infoLinks>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
@@ -6585,6 +6719,22 @@
                           <costs>
                             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
                           </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grav Gun (Homebrew)" hidden="false" id="bf33-739b-5c6d-c4a3" collective="false">
+                          <infoLinks>
+                            <infoLink name="Grav-gun" id="4cd8-1f2d-1c11-5813" hidden="false" targetId="4bce-8ee0-3396-80f5" type="profile"/>
+                            <infoLink name="Rapid Fire" id="511a-0e44-b748-0db8" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                          </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
@@ -7291,6 +7441,23 @@
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
                       </costs>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Flamer (Homebrew)" hidden="false" id="d70b-dd14-f02b-478c" collective="false">
+                      <infoLinks>
+                        <infoLink name="Heavy Flamer" id="626a-deee-f3b2-4b63" hidden="false" targetId="6d36-2c09-dfc3-f257" type="profile"/>
+                        <infoLink name="Assault" id="3006-15cc-72d5-7793" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                        <infoLink name="Template" id="77bb-f7d1-7b8b-6e81" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -7380,6 +7547,23 @@
                       <costs>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
                       </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Flamer (Homebrew)" hidden="false" id="c137-0cdb-4063-cac3" collective="false">
+                      <infoLinks>
+                        <infoLink name="Heavy Flamer" id="10fd-5b7e-14dd-d0b9" hidden="false" targetId="6d36-2c09-dfc3-f257" type="profile"/>
+                        <infoLink name="Assault" id="3356-4f2e-2c62-7c0a" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                        <infoLink name="Template" id="ad39-9b4a-3620-d266" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -7645,6 +7829,22 @@
                           <costs>
                             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
                           </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grav-cannon (Homebrew)" hidden="false" id="7d7f-3c8e-81bc-e39f" collective="false">
+                          <infoLinks>
+                            <infoLink name="Grav-cannon" id="c5c4-f307-4802-3498" hidden="false" targetId="9b84-1706-10fb-affc" type="profile"/>
+                            <infoLink name="Rapid Fire" id="06fc-1353-f3bc-3c21" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
+                          </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
@@ -12790,6 +12990,508 @@ If they do, they must also fulfill the original victory conditions to win</descr
         </rule>
       </rules>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="c54e-73f7-32ca-6894" collective="false">
+      <comment>Based on vehicle design rules and 7th edition stats
+
+Skimmer-Normal
+Points for Armour:
+Front 11 = 5
+Side 11 = 30
+Rear 10 = 10
+Armour &lt; 46 = 10
+
+Normal Speed = 10
+Skimmer = 20
+
+Twin-linked Assault Cannon</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Stormtalon Gunship" id="0ea2-39c2-ab1f-5862" hidden="false" targetId="c6e8-9f21-c3e9-e194" type="profile"/>
+        <infoLink name="Skimmer" id="7406-7bc7-04ef-d2cc" hidden="false" targetId="e111-c9c6-72de-1626" type="rule"/>
+        <infoLink name="Assault Cannon" id="b833-47bb-327b-d38d" hidden="false" targetId="3f9c-e7c1-c442-3b7c" type="profile">
+          <modifiers>
+            <modifier type="set" value="Twin-linked Assault Cannon" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Twin-Linked" id="a3e6-6e2e-b30b-3709" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Heavy Support" hidden="false" id="e4fe-6335-fd91-06a0" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Nose Weapon" id="35e8-bd18-da69-e53b" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a17-335b-669e-eea0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="512e-8f17-bcf1-bc03" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="21b6-8637-07d8-9ec7" collective="false">
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="e1ee-9a43-5dd7-f724" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile"/>
+                <infoLink name="Twin-Linked" id="cf43-62e0-5815-3572" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannon" hidden="false" id="d974-4daf-7c07-bd84" collective="false">
+              <infoLinks>
+                <infoLink name="Lascannon" id="3e66-7d13-cc88-1828" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile"/>
+                <infoLink name="Twin-Linked" id="e52f-daee-0217-299b" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="52"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Typhoon Missle Launcher" hidden="false" id="3464-4d26-742e-366c" collective="false">
+              <infoLinks>
+                <infoLink name="Typhoon Missile" id="a22a-c8d6-4ae9-f036" hidden="false" targetId="760f-e4d8-3c2b-5e9a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skyhammer Missile Launcher" hidden="false" id="d633-2e95-af44-d819" collective="false">
+              <infoLinks>
+                <infoLink name="Hunter-killer Missile" id="c50e-1c3c-63c5-41b6" hidden="false" targetId="86d5-c5a0-fc04-7f5a" type="profile">
+                  <modifiers>
+                    <modifier type="set" value="6x Hunter-killer Missiles" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="90"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Space Marine Vehicle Upgrades" hidden="false" id="48d5-ca00-8e43-8ce4" collective="false" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="137"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="3683-4a03-4746-7eda" collective="false">
+      <comment>Based on vehicle design rules and 7th edition stats
+
+Skimmer-Normal
+Points for Armour:
+Front 12 = 10
+Side 11 = 30
+Rear 10 = 10
+Armour &lt; 46 = 10
+Normal Speed = 10
+Skimmer = 20
+
+Transport = 12</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Transport Capacity" id="ee4b-fc3a-2f9a-cfeb" hidden="false">
+          <description>A stormraven gunship can carry up to 12 models (count terminators as 2 models each), or a single dreadnaught.</description>
+        </rule>
+        <rule name="Stormraven Gunship (Homebrew)" id="d792-ac85-f4f5-6e37" hidden="false">
+          <description>Based on the vehicle design rules in Chapter Approved 2004. The vehicle is a Fast Skimmer with a transport capacity of 12 models or 1 dreadnought.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Stormraven Gunship" id="f19a-03cc-1fd0-8c37" hidden="false" targetId="2a32-eb54-06dd-1a3b" type="profile"/>
+        <infoLink name="Skimmer" id="8e87-209d-0cd6-8c46" hidden="false" targetId="e111-c9c6-72de-1626" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Heavy Support" hidden="false" id="ccd2-87e3-7b01-2715" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Add Side Hurricane Bolters" hidden="false" id="ef07-cc00-75e1-6c53" collective="false">
+          <comment>12+50% * 2 = 36</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4ff-c483-1e2b-6872" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boltgun" id="ec5c-b86f-3c05-b31f" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+              <modifiers>
+                <modifier type="set" value="2x Hurricane Pattern Bolters" field="name"/>
+                <modifier type="set" value="Rapid Fire 3" field="d3f6-19e8-ac9e-ae13"/>
+                <modifier type="set" value="Twin-Linked. Counts as 3 Bolters." field="492d-1f80-b777-26f2"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Twin-Linked" id="7ea7-f22b-66ce-3ec3" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="36"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Dorsal Turret Weapon" id="4c1c-fe71-a3ce-1c32" hidden="false" collective="false" import="true" defaultSelectionEntryId="42e4-7954-2873-0622">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acd5-6484-716c-e700" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="86e5-dc98-8f15-d43c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Assault Cannon" hidden="false" id="efaa-aa39-9df5-5976" collective="false">
+              <infoLinks>
+                <infoLink name="Assault Cannon" id="73cb-198f-9df2-6da6" hidden="false" targetId="3f9c-e7c1-c442-3b7c" type="profile"/>
+                <infoLink name="Twin-Linked" id="e8e2-a5b7-1b18-ab87" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="52"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Plasma Cannon" hidden="false" id="e718-673f-40af-f93d" collective="false">
+              <infoLinks>
+                <infoLink name="Plasma Cannon" id="2c73-6924-90bf-499e" hidden="false" targetId="9a19-ea1c-3d75-94aa" type="profile"/>
+                <infoLink name="Twin-Linked" id="3234-bb52-32dc-767b" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannon" hidden="false" id="6827-5632-f669-4891" collective="false">
+              <infoLinks>
+                <infoLink name="Lascannon" id="f13a-1352-a53c-3ac2" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile"/>
+                <infoLink name="Twin-Linked" id="4768-0b75-d44f-a7cb" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="52"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Nose Weapon" id="ac61-83c8-e302-0414" hidden="false" collective="false" import="true" defaultSelectionEntryId="2098-19b4-c3bf-053c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a9f-b019-954a-42bf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="74be-ed85-7d9f-b778" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="4078-33bc-7b00-b492" collective="false">
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="3d37-2939-9cf2-12c2" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile"/>
+                <infoLink name="Twin-Linked" id="29d8-5053-8632-964d" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Multi-melta" hidden="false" id="b54b-3b48-5953-48a2" collective="false">
+              <infoLinks>
+                <infoLink name="Multi-melta" id="90a1-1612-1c51-4d04" hidden="false" targetId="7077-4e34-5c92-5320" type="profile"/>
+                <infoLink name="Twin-Linked" id="bf30-e18f-1b21-20fd" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Typhoon Missle Launcher" hidden="false" id="901f-99a4-0054-3ac2" collective="false">
+              <infoLinks>
+                <infoLink name="Typhoon Missile" id="c344-719f-6796-2f83" hidden="false" targetId="760f-e4d8-3c2b-5e9a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Space Marine Vehicle Upgrades" hidden="false" id="8af4-f0e9-0f1a-fad4" collective="false" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="102"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="4865-cd59-43c2-d504" collective="false">
+      <comment>Based on vehicle design rules and 7th edition stats
+
+Flyer-Normal
+Points for Armour:
+Front 12 = 10
+Side 11 = 30
+Rear 10 = 10
+
+Flyer = 40
+
+Twin-linked Assault Cannon:52</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Stormhawk Interceptor" id="6966-cbf0-1ad1-8527" hidden="false" targetId="4e6f-2b05-f034-771b" type="profile"/>
+        <infoLink name="Flyers" id="0c6c-617a-f055-38bc" hidden="false" targetId="3f21-57bb-fb07-54c5" type="rule"/>
+        <infoLink name="Assault Cannon" id="8ce1-3e2b-e0e6-4c6b" hidden="false" targetId="3f9c-e7c1-c442-3b7c" type="profile">
+          <modifiers>
+            <modifier type="set" value="Twin-linked Assault Cannon" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Twin-Linked" id="689e-16b5-54d7-7d10" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Heavy Support" hidden="false" id="7fca-d0e7-b83c-a345" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Nose Weapon" id="3f19-fc3f-b461-49de" hidden="false" collective="false" import="true" defaultSelectionEntryId="d279-f50f-b9fc-389f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c52-c4f3-b0d5-4c79" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f170-aa57-2795-051b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Icarus Autocannon" hidden="false" id="9d7e-9de1-5d6c-114f" collective="false">
+              <comment>Anti-Air Autocannon</comment>
+              <infoLinks>
+                <infoLink name="Anti-Air" id="bf90-3cf2-f3f6-859b" hidden="false" targetId="2dca-27d7-d779-65f4" type="rule"/>
+                <infoLink name="Autocannon" id="d8e2-5a2e-1b16-93d5" hidden="false" targetId="6128-e2af-037e-4d1a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="52"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Las-talon" hidden="false" id="5205-aa6d-85f3-78cb" collective="false">
+              <comment>Short Range Lascannon</comment>
+              <profiles>
+                <profile name="Las-talon" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="2230-bfbf-489f-1409">
+                  <characteristics>
+                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                    <characteristic name="S" typeId="24d8-2110-08fa-d844">9</characteristic>
+                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
+                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 2</characteristic>
+                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="54"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Underwing Weapons" id="07ec-77b3-509d-1207" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="776c-873e-1615-1bee" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c4ea-f2c9-d9cf-bed6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Typhoon Missile Launcher" hidden="false" id="e408-db74-2a56-29a8" collective="false">
+              <infoLinks>
+                <infoLink name="Typhoon Missile" id="734d-fd3e-e488-29ba" hidden="false" targetId="760f-e4d8-3c2b-5e9a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="1805-1e73-9e6b-fdad" collective="false">
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="f242-7706-ca76-a30d" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile">
+                  <modifiers>
+                    <modifier type="set" value="Twin-linked Heavy Bolter" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skyhammer Missile Launcher" hidden="false" id="429c-d39d-ff13-bb3f" collective="false">
+              <infoLinks>
+                <infoLink name="Hunter-killer Missile" id="2e81-7586-c312-846e" hidden="false" targetId="86d5-c5a0-fc04-7f5a" type="profile">
+                  <modifiers>
+                    <modifier type="set" value="6x Hunter-killer Missiles" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="90"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Navy Vehicle Upgrades" hidden="false" id="a248-84e2-9fa3-2e6a" collective="false" targetId="a74d-decd-82c8-0407" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="142"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Land Speeder Storm (Homebrew)" hidden="false" id="3207-59fb-1756-57c7" collective="false">
+      <comment>Based on vehicle design rules and 7th edition stats
+
+Skimmer-Light Vehicle
+Points for Armour:
+Front 10 = 0
+Side 10 = 20
+Rear 10 = 10
+
+Fast = 10
+Skimmer = 20
+Typhoon Missile=25
+Transport = 5
+Deepstrike=25</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Fast" id="4904-086e-6f78-898d" hidden="false" targetId="b35d-993f-e267-1ec0" type="rule"/>
+        <infoLink name="Skimmer" id="ca01-fe94-5079-6fa7" hidden="false" targetId="e111-c9c6-72de-1626" type="rule"/>
+        <infoLink name="Heavy Bolter" id="a9a9-ef61-8325-b928" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="3207-59fb-1756-57c7" childId="be55-0e95-7040-bd82" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Land Speeder" id="5f22-111a-8504-9078" hidden="false" targetId="ff8b-807e-4c96-b60d" type="profile"/>
+        <infoLink name="Open-Topped" id="3068-08fc-7b1a-800c" hidden="false" targetId="4795-fd7c-2846-78ba" type="rule"/>
+        <infoLink name="Deep Strike" id="22c1-8e1e-c8ce-0c07" hidden="false" targetId="5715-6219-5059-9bcf" type="rule"/>
+        <infoLink name="Typhoon Missile" id="d520-3a6e-c8f3-93f2" hidden="false" targetId="760f-e4d8-3c2b-5e9a" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Dedicated Transport" hidden="false" id="b853-d97b-d3c3-328d" targetId="a090-a855-c7de-f5c3" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Replace Heavy Bolter" id="be55-0e95-7040-bd82" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d95a-2bf2-f5f5-fec1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="aa3c-5666-977c-38b0" collective="false">
+              <infoLinks>
+                <infoLink name="Multi-melta" id="eb9d-b549-a470-fdf5" hidden="false" targetId="7077-4e34-5c92-5320" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="1dbc-771d-a03f-d996" collective="false">
+              <infoLinks>
+                <infoLink name="Multi-melta" id="457c-d2cb-ace1-16fb" hidden="false" targetId="7077-4e34-5c92-5320" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Assault Cannon" hidden="false" id="5984-7354-5fc2-153e" collective="false">
+              <infoLinks>
+                <infoLink name="Multi-melta" id="143c-4669-1653-30ea" hidden="false" targetId="7077-4e34-5c92-5320" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="115"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stalker (Homebrew)" hidden="false" id="ee2f-a2b1-174e-fad5" collective="false">
+      <comment>Based on vehicle design rules and 7th edition stats
+
+Normal
+Points for Armour:
+Front 11 = 5
+Side 11 = 30
+Rear 10 = 10
+Upcharge for &lt;46 armour = 10
+
+Normal = 10
+
+Autocannons=35+50%+50%=70*2=140</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Stalker" id="1b02-481a-9363-fe19" hidden="false" targetId="e2e2-dbc3-d174-f732" type="profile"/>
+        <infoLink name="Twin-Linked" id="38b6-ae9b-d251-177a" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+        <infoLink name="Anti-Air" id="0c5f-6fd0-dded-d050" hidden="false" targetId="2dca-27d7-d779-65f4" type="rule"/>
+        <infoLink name="Autocannon" id="93b9-0248-07b3-a41e" hidden="false" targetId="6128-e2af-037e-4d1a" type="profile">
+          <modifiers>
+            <modifier type="set" value="2x Twin-linked Anti-Air Autocannons" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Heavy Support" hidden="false" id="a2fd-ef93-31dd-3648" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Space Marine Vehicle Upgrades" hidden="false" id="7a3b-c520-d97b-8613" collective="false" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="205"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="37ce-ecbd-2347-a23d" collective="false">
+      <comment>Based on vehicle design rules and 7th edition stats
+
+Normal
+Points for Armour:
+Front 11 = 5
+Side 11 = 30
+Rear 10 = 10
+Upcharge for Full Armoured &lt; 46 = 10
+
+Normal = 10
+
+Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Skyspear Missile Launcher" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="57f2-a992-be9a-1392">
+          <characteristics>
+            <characteristic name="Range" typeId="deb8-131d-bdcf-1376">72&quot;</characteristic>
+            <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
+            <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
+            <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1</characteristic>
+            <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Re-roll missed hits against flyers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Hunter" id="56bf-95aa-91e1-c573" hidden="false" targetId="d841-691c-12f9-5912" type="profile"/>
+        <infoLink name="Anti-Air" id="93ea-8a42-657a-fdfe" hidden="false" targetId="2dca-27d7-d779-65f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Heavy Support" hidden="false" id="350a-13b3-d282-fdfb" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Space Marine Vehicle Upgrades" hidden="false" id="efae-7a6c-b0ca-f02e" collective="false" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="125"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bfc9-22b8-1379-3112" name="Space Marine Armory" hidden="false" collective="false" import="true">
@@ -12977,50 +13679,6 @@ If they do, they must also fulfill the original victory conditions to win</descr
             <infoLink name="Over-charged Engine" id="3c52-7bae-49a8-7035" hidden="false" type="rule" targetId="cf39-fe5b-7f74-8313"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry id="6ba4-06ff-28b7-669f" name="Reinforced Ceramite" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="06ff-8a9f-6e11-7432" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd3d-a63d-ee67-d276" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c398-1788-6d0b-3d3f" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7c0e-8c2e-0bfb-7646" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="4ed5-2f92-9abc-2870" value="25">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1be4-df32-2640-9413" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d7d7-d12e-387b-1b3b" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fa6-311f-c6bd-6a9d" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0432-2db6-5eda-20d8" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c77-1326-2bf2-1b97" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1811-da48-403d-99cc" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="083b-92fe-d7e3-a457" name="Reinforced Ceramite" hidden="false">
-              <description>Melta weapons, including melta bombs, never roll an extra dice for armor penetration due to being at half range.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Power of the Machine Spirit" hidden="false" id="6c2a-6497-1fc1-6a17">
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
@@ -13066,6 +13724,9 @@ If they do, they must also fulfill the original victory conditions to win</descr
               <description>Weapons with the Lance special rule do not count towards a Land Raider Crusader&apos;s hull</description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fa0-6f6c-27df-a63b"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -14139,6 +14800,13 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
                 </condition>
               </conditions>
             </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ef19-c6dd-a73f-e723" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>Termi can&apos;t equip</comment>
+                </condition>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bb9-efae-21f9-afa3" type="max"/>
@@ -14179,6 +14847,13 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
                 </condition>
               </conditions>
             </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ef19-c6dd-a73f-e723" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>Termi can&apos;t equip</comment>
+                </condition>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d911-de3f-aaff-ea23" type="max"/>
@@ -14213,6 +14888,13 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
             <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition type="equalTo" value="1" field="selections" scope="parent" childId="ff92-8ddc-3424-5923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>Termi can&apos;t equip</comment>
+                </condition>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ef19-c6dd-a73f-e723" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
                   <comment>Termi can&apos;t equip</comment>
                 </condition>
               </conditions>
@@ -14301,6 +14983,38 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grav-pistol (Homebrew)" hidden="false" id="d0fc-fd4b-45b5-193b">
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Pistol" id="3fbd-eef0-1b3b-fb73" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="ff92-8ddc-3424-5923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                      <comment>Termi can&apos;t equip</comment>
+                    </condition>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ef19-c6dd-a73f-e723" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>Termi can&apos;t equip</comment>
+                </condition>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3277-a08a-45f8-8a16"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="9ead-093e-2a2f-737b" name="Two-Handed Weapons" hidden="false" collective="false" import="true">
@@ -14376,11 +15090,11 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry id="a400-3486-835d-6882" name="Bolter" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a400-3486-835d-6882" name="Relic Blade (Homebrew)" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="ff92-8ddc-3424-5923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
                   <comment>Termi can&apos;t equip</comment>
                 </condition>
               </conditions>
@@ -14390,8 +15104,58 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7d7-f8aa-27d3-f8b1" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="81e7-c5e8-2e9e-6441" name="Boltgun" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
-            <infoLink name="Rapid Fire" id="03d7-db22-d407-39c3" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+            <infoLink id="81e7-c5e8-2e9e-6441" name="Relic Blade" hidden="false" targetId="eb8d-5db3-8789-054b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Combi-grav (Homebrew)" hidden="false" id="522c-6347-15e4-cb25" collective="false">
+          <infoLinks>
+            <infoLink name="Combi Weapons" id="59bf-4e07-78f1-103a" hidden="false" targetId="e65f-0536-e057-e2d2" type="rule"/>
+            <infoLink name="Grav-gun" id="eb23-1e79-ffe2-bc2e" hidden="false" targetId="4bce-8ee0-3396-80f5" type="profile"/>
+            <infoLink name="Rapid Fire" id="a77b-7274-7e82-0a89" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+            <infoLink name="Boltgun" id="74b4-53b0-ba4f-1089" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="5" field="4ed5-2f92-9abc-2870">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="dd36-bad3-d4cd-f9c1" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="6a56-42d1-a9fb-72ca" collective="false">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="ff92-8ddc-3424-5923" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>Termi can&apos;t equip</comment>
+                </condition>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ef19-c6dd-a73f-e723" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>Termi can&apos;t equip</comment>
+                </condition>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80a9-d4d8-6c7c-c85f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boltgun" id="7a75-a4b5-c0c1-e26d" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
+            <infoLink name="Rapid Fire" id="d1f3-6710-bfe0-559d" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="1"/>
@@ -16683,6 +17447,54 @@ Units that ignore morale checks are immune.</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire 1, Gets Hot!, Twin-Linked</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Always counts as stationary even if moved</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grav-pistol" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="8fc0-fb10-24e2-8489">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">As target&apos;s Armour Save</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol 1</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">A model that suffers one or more unsaved Wounds is reduced to Initiative 1 until the end of the following Assault phase
+
+
+When shooting at a vehicle, roll a D6 for each hit instead of rolling for penetration as normal. On a 6, the target is immobilized</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grav-gun" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="4bce-8ee0-3396-80f5">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">As target&apos;s Armour Save</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire 2/3</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">A model that suffers one or more unsaved Wounds is reduced to Initiative 1 until the end of the following Assault phase
+
+
+When shooting at a vehicle, roll a D6 for each hit instead of rolling for penetration as normal. On a 6, the target is immobilized</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grav-cannon" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="9b84-1706-10fb-affc">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">As target&apos;s Armour Save</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire 3/5</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">A model that suffers one or more unsaved Wounds is reduced to Initiative 1 until the end of the following Assault phase
+
+
+When shooting at a vehicle, roll a D6 for each hit instead of rolling for penetration as normal. On a 6, the target is immobilized</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Relic Blade" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="eb8d-5db3-8789-054b">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">+2</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee, Two-handed</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignores the target Armor Save (Sv) (but not Invulnerable Save). 
+
+
+When specified, grants a bonus to S or Wounds on a fixed value regardless of target Toughness (T).</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
