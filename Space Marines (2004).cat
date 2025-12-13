@@ -647,14 +647,6 @@
         <categoryLink targetId="dd36-bad3-d4cd-f9c1" id="f2a7-a92a-4bcd-969f" primary="false" name="2 Wounds"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="53cc-4b02-3c5d-a611" name="Minor Psychic Power" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="24e9-328a-e2a8-4c5c" name="Minor Psychic Power" hidden="false" targetId="69af-f095-551d-130c" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="08cb-6e38-b78d-320e">
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
@@ -13572,15 +13564,8 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="18"/>
               </costs>
-              <entryLinks>
-                <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="8361-1b10-dc1b-6607" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" value="Special-Issue Ammo" field="name"/>
-                  </modifiers>
-                </entryLink>
-              </entryLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapons" id="dc92-8e5d-a11c-7df9" hidden="false">
                   <constraints>
@@ -13695,6 +13680,72 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
                           </conditions>
                         </modifier>
                       </modifiers>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Special Bolter Ammo" id="7e75-7ab4-d1fb-fcd4" hidden="false">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bolter w/ Inferno Bolts" hidden="false" id="2479-d202-db04-add5" collective="false">
+                              <profiles>
+                                <profile name="Inferno Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="9686-49f2-b8eb-f10b">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Reroll Failed Wounds</characteristic>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Rapid Fire" id="1376-53d0-4d5e-66a1" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                              </infoLinks>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Bolter w/ Kraken Bolts" hidden="false" id="8125-10e9-efcb-07c2" collective="false">
+                              <profiles>
+                                <profile name="Kraken Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="1229-83b1-992d-4a6c">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Rapid Fire" id="6b20-0a83-f77a-f7f8" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                              </infoLinks>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Bolter w/ Metal Storm Bolts" hidden="false" id="7320-8afe-4db9-4105" collective="false">
+                              <profiles>
+                                <profile name="Metal Storm Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="0aec-50dd-80b8-e0a6">
+                                  <characteristics>
+                                    <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+                                    <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
+                                    <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
+                                    <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+                                    <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Assault" id="66ae-9878-cf41-33d1" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                              </infoLinks>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ddd-a6b6-3849-1016"/>
+                          </constraints>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups>
@@ -13872,10 +13923,9 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
                   </infoLinks>
                   <entryLinks>
                     <entryLink import="true" name="Space Marine Armory" hidden="false" id="d9fc-ff2c-fcbd-5669" collective="false" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
-                    <entryLink import="true" name="Deathwatch Special Ammo" hidden="false" id="dc7e-f455-45c7-09e4" collective="false" targetId="175a-d904-f65a-6dd4" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
                   </costs>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Weapons" id="e612-d55a-128e-66fd" hidden="false">
@@ -13905,6 +13955,72 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
                               </conditions>
                             </modifier>
                           </modifiers>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Special Bolter Ammo" id="938d-79a1-efbb-3a80" hidden="false">
+                              <selectionEntries>
+                                <selectionEntry type="upgrade" import="true" name="Bolter w/ Inferno Bolts" hidden="false" id="e158-5a85-f9f4-e415" collective="false">
+                                  <profiles>
+                                    <profile name="Inferno Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="dc71-5fe7-86ce-ee49">
+                                      <characteristics>
+                                        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                                        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+                                        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Reroll Failed Wounds</characteristic>
+                                      </characteristics>
+                                    </profile>
+                                  </profiles>
+                                  <costs>
+                                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Rapid Fire" id="4f87-4b25-e4b9-1ca5" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                                  </infoLinks>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Bolter w/ Kraken Bolts" hidden="false" id="35c9-89d1-0291-ddb0" collective="false">
+                                  <profiles>
+                                    <profile name="Kraken Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="62fb-50f9-37ac-b3c0">
+                                      <characteristics>
+                                        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
+                                        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+                                        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                      </characteristics>
+                                    </profile>
+                                  </profiles>
+                                  <costs>
+                                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Rapid Fire" id="f64f-52a7-7f01-3977" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                                  </infoLinks>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Bolter w/ Metal Storm Bolts" hidden="false" id="6452-072d-8a7d-8b4e" collective="false">
+                                  <profiles>
+                                    <profile name="Metal Storm Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="8dc3-f7c6-dfdb-c5ec">
+                                      <characteristics>
+                                        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+                                        <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
+                                        <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
+                                        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+                                        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                      </characteristics>
+                                    </profile>
+                                  </profiles>
+                                  <costs>
+                                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Assault" id="53c4-2075-0c59-7215" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                                  </infoLinks>
+                                </selectionEntry>
+                              </selectionEntries>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46e0-07e4-fe25-45b7"/>
+                              </constraints>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Bolt Pistol &amp; CCW" hidden="false" id="0145-8d37-b7a4-be05">
                           <infoLinks>
@@ -13932,6 +14048,72 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
                           <costs>
                             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                           </costs>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Special Bolter Ammo" id="9c9a-79d7-46fc-28ef" hidden="false">
+                              <selectionEntries>
+                                <selectionEntry type="upgrade" import="true" name="Bolter w/ Inferno Bolts" hidden="false" id="7c6c-e99e-c893-8458" collective="false">
+                                  <profiles>
+                                    <profile name="Inferno Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="9c4b-c1f5-ea8b-7733">
+                                      <characteristics>
+                                        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                                        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+                                        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Reroll Failed Wounds</characteristic>
+                                      </characteristics>
+                                    </profile>
+                                  </profiles>
+                                  <costs>
+                                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Rapid Fire" id="4331-6672-49d0-576b" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                                  </infoLinks>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Bolter w/ Kraken Bolts" hidden="false" id="f49b-0219-c09a-58de" collective="false">
+                                  <profiles>
+                                    <profile name="Kraken Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="5a93-3a73-24ec-b23c">
+                                      <characteristics>
+                                        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
+                                        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+                                        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                      </characteristics>
+                                    </profile>
+                                  </profiles>
+                                  <costs>
+                                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Rapid Fire" id="0556-a2b9-35d2-e95a" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                                  </infoLinks>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Bolter w/ Metal Storm Bolts" hidden="false" id="13d0-b4b9-c2f0-9d72" collective="false">
+                                  <profiles>
+                                    <profile name="Metal Storm Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="df6b-0f84-30f2-57da">
+                                      <characteristics>
+                                        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+                                        <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
+                                        <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
+                                        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+                                        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                      </characteristics>
+                                    </profile>
+                                  </profiles>
+                                  <costs>
+                                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Assault" id="5e48-9b45-43e1-a78d" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                                  </infoLinks>
+                                </selectionEntry>
+                              </selectionEntries>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4152-d9fb-8192-17d5"/>
+                              </constraints>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Combi-grav" hidden="false" id="13b8-02fa-0648-752a" collective="false">
                           <infoLinks>
@@ -13943,6 +14125,72 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
                           <costs>
                             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
                           </costs>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Special Bolter Ammo" id="8275-6dd7-17f3-fdab" hidden="false">
+                              <selectionEntries>
+                                <selectionEntry type="upgrade" import="true" name="Bolter w/ Inferno Bolts" hidden="false" id="340e-726c-eb10-f080" collective="false">
+                                  <profiles>
+                                    <profile name="Inferno Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="8bf6-b299-74de-1b24">
+                                      <characteristics>
+                                        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                                        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+                                        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Reroll Failed Wounds</characteristic>
+                                      </characteristics>
+                                    </profile>
+                                  </profiles>
+                                  <costs>
+                                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Rapid Fire" id="4d7d-9cf5-46c6-f5a9" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                                  </infoLinks>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Bolter w/ Kraken Bolts" hidden="false" id="613d-2dd9-dc42-48cc" collective="false">
+                                  <profiles>
+                                    <profile name="Kraken Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="6570-032e-ea54-d07e">
+                                      <characteristics>
+                                        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
+                                        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                                        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+                                        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+                                        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                      </characteristics>
+                                    </profile>
+                                  </profiles>
+                                  <costs>
+                                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Rapid Fire" id="0ec7-9d53-4a6b-34eb" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                                  </infoLinks>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Bolter w/ Metal Storm Bolts" hidden="false" id="45f1-9007-f14c-6bda" collective="false">
+                                  <profiles>
+                                    <profile name="Metal Storm Bolts" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="f3d6-2e19-ee45-5145">
+                                      <characteristics>
+                                        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+                                        <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
+                                        <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
+                                        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+                                        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+                                      </characteristics>
+                                    </profile>
+                                  </profiles>
+                                  <costs>
+                                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Assault" id="c198-a2b7-354c-37ad" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                                  </infoLinks>
+                                </selectionEntry>
+                              </selectionEntries>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fae7-e7eb-e388-0dbc"/>
+                              </constraints>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Combi-meltagun" hidden="false" id="c23c-f382-2a65-0b6b" collective="false">
                           <infoLinks>
@@ -14578,6 +14826,15 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink name="Deep Strike" id="b937-2381-848b-45d8" hidden="false" type="rule" targetId="5715-6219-5059-9bcf">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="779a-065c-56bb-a54f" childId="ab24-b936-60f3-854d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="52c2-00a7-fc7f-f80a" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
@@ -15010,7 +15267,7 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
               <modifiers>
                 <modifier type="increment" value="2" field="4ed5-2f92-9abc-2870">
                   <repeats>
-                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="4cce-aed4-e1f8-0aee" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="8b71-42e4-af80-5e2d" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
