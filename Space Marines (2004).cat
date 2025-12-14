@@ -374,6 +374,13 @@
     <entryLink import="true" name="Ancient Helveticus, Bearer of the Battle Standard of Macragge (Chapter Approved)" hidden="false" id="6509-ff0e-c072-415e" type="selectionEntry" targetId="6b87-9e01-512b-8bad"/>
     <entryLink import="true" name="Gabriel Angelos of the Blood Ravens (Homebrew)" hidden="false" id="9c89-6c97-6b77-c2ea" type="selectionEntry" targetId="c65f-3068-99b2-52e0"/>
     <entryLink import="true" name="Chapter Master Pedro Kantor of the Crimson Fists (Homebrew)" hidden="false" id="80c0-ea49-719a-1231" type="selectionEntry" targetId="2bfc-59d4-df8f-67c9"/>
+    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="17db-ec16-8bc8-068f" type="selectionEntry" targetId="37ce-ecbd-2347-a23d"/>
+    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="b6ed-e1c8-daff-8dd1" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5"/>
+    <entryLink import="true" name="Sternguard Veteran Squad (Homebrew)" hidden="false" id="2e21-407f-26fb-6721" type="selectionEntry" targetId="6106-188e-b016-9b12"/>
+    <entryLink import="true" name="Vanguard Veteran Squad (Homebrew)" hidden="false" id="ada3-6814-8f41-195c" type="selectionEntry" targetId="779a-065c-56bb-a54f"/>
+    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="f950-af2b-7f8d-6904" type="selectionEntry" targetId="c54e-73f7-32ca-6894"/>
+    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="2099-9533-b8ae-f637" type="selectionEntry" targetId="4865-cd59-43c2-d504"/>
+    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="1687-c0c1-f591-8372" type="selectionEntry" targetId="3683-4a03-4746-7eda"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="043b-1cc7-9a38-8133" name="Commander" hidden="false" collective="false" import="true" type="model">
@@ -11166,6 +11173,13 @@ Special Force Field = 35</comment>
                 <infoLink name="Rapid Fire" id="3b4f-6e43-8718-779b" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
                 <infoLink name="Signum" id="2e29-5ba5-7f39-3671" hidden="false" type="rule" targetId="9ba6-c94b-3548-d9e8"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="increment" value="15" field="4ed5-2f92-9abc-2870">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-category" childId="a8a7-7a4b-5f7e-2138" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -11867,16 +11881,43 @@ Tyrannic War Veterans may use krak grenades in close combat, hitting on a 6+ aga
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
               </costs>
               <infoLinks>
-                <infoLink name="Boltgun" id="93c7-288c-d053-e690" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
                 <infoLink name="Rapid Fire" id="efa1-bf58-5f64-f351" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
-                <infoLink name="Power Weapon" id="86ce-8373-05e6-e279" hidden="false" type="profile" targetId="5774-7187-2616-dd8a">
-                  <modifiers>
-                    <modifier type="set" value="Axe of Ultramar" field="name"/>
-                  </modifiers>
-                </infoLink>
                 <infoLink name="Frag Grenades" id="c3d3-8c9f-80f8-d278" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
                 <infoLink name="Krak Grenades" id="69fa-3efa-0ad5-5c9f" hidden="false" type="profile" targetId="9c1b-bf93-059b-27f5"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapons" id="b141-009e-5ee7-f39a" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Boltgun &amp; Axe of Ultramar" hidden="false" id="0003-0fde-a071-b60a">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="7186-9f73-0ad4-4173" hidden="false" type="profile" targetId="5774-7187-2616-dd8a">
+                          <modifiers>
+                            <modifier type="set" value="Axe of Ultramar" field="name"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink name="Boltgun" id="e3ed-fd0b-b905-06ce" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon &amp; Storm Shield (Homebrew)" hidden="false" id="dcf7-c647-a14e-6693">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <infoLinks>
+                        <infoLink name="Storm Shield" id="6b8a-1b7c-e76b-c6d5" hidden="false" type="profile" targetId="760f-5fa1-30ed-2c09"/>
+                        <infoLink name="Power Weapon" id="4493-3023-ca29-8ee7" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bb9-3dcb-9958-faeb"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e435-77bb-a6b0-c9e1"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ancient" hidden="false" id="3edc-438e-3e31-bb2f">
               <costs>
@@ -12051,13 +12092,7 @@ Is a master-crafted power weapon that provides a 4+ invulnerable save (in profil
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
       </costs>
       <infoLinks>
-        <infoLink name="Boltgun" id="97ed-9e9d-c9c6-ccd5" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
         <infoLink name="Rapid Fire" id="98af-000b-155b-0c85" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
-        <infoLink name="Power Weapon" id="b02d-e1e5-3d97-848d" hidden="false" type="profile" targetId="5774-7187-2616-dd8a">
-          <modifiers>
-            <modifier type="set" value="Axe of Ultramar" field="name"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Frag Grenades" id="d8c6-8da0-3797-5f37" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
         <infoLink name="Krak Grenades" id="de87-1da9-818a-e879" hidden="false" type="profile" targetId="9c1b-bf93-059b-27f5"/>
       </infoLinks>
@@ -12068,6 +12103,39 @@ Is a master-crafted power weapon that provides a 4+ invulnerable save (in profil
           </conditions>
         </modifier>
       </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="5f35-cee5-2250-7bab" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Boltgun &amp; Axe of Ultramar" hidden="false" id="1b12-4ebc-e883-136c">
+              <infoLinks>
+                <infoLink name="Power Weapon" id="b02d-e1e5-3d97-848d" hidden="false" type="profile" targetId="5774-7187-2616-dd8a">
+                  <modifiers>
+                    <modifier type="set" value="Axe of Ultramar" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Boltgun" id="97ed-9e9d-c9c6-ccd5" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Weapon &amp; Storm Shield (Homebrew)" hidden="false" id="e05f-6af8-f9af-06df">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink name="Storm Shield" id="6240-8920-a90d-8460" hidden="false" type="profile" targetId="760f-5fa1-30ed-2c09"/>
+                <infoLink name="Power Weapon" id="d703-d11f-7fde-fa1e" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="246d-5809-95be-9430"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c08-d4c6-35d5-fc65"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Chaplain Dreadnought (IA)" hidden="false" id="3442-ad4d-bedd-a895">
       <modifiers>
@@ -16252,7 +16320,7 @@ Cannot be used if no save is allowed for the attack.</description>
                 <conditionGroup type="and">
                   <conditions>
                     <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="1f99-c234-4b18-2900" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -16314,11 +16382,6 @@ Cannot be used if no save is allowed for the attack.</description>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
                     <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="b216-ba2e-4d56-b986" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </conditions>
                 </modifier>
@@ -16336,6 +16399,11 @@ Cannot be used if no save is allowed for the attack.</description>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ccc-bf99-92a0-51bc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -16352,12 +16420,12 @@ Cannot be used if no save is allowed for the attack.</description>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="02ee-bc24-ec98-8712" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="02ee-bc24-ec98-8712" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -16374,11 +16442,6 @@ Cannot be used if no save is allowed for the attack.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Cup of Retribution" hidden="false" id="73f4-c2ef-0011-ee98" collective="false">
               <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
                     <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="3c96-248b-affd-e504" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -16398,6 +16461,11 @@ Cannot be used if no save is allowed for the attack.</description>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef01-2299-5ed6-5edf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -16412,11 +16480,6 @@ Cannot be used if no save is allowed for the attack.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Lion Helm" hidden="false" id="7284-1311-bd4f-799c" collective="false">
               <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
                     <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="3dc0-9597-ab93-899d" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -16435,6 +16498,11 @@ Cannot be used if no save is allowed for the attack.</description>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" includeChildSelections="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
               <constraints>
@@ -16455,12 +16523,12 @@ Cannot be used if no save is allowed for the attack.</description>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="3dc0-9597-ab93-899d" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="3dc0-9597-ab93-899d" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -17406,7 +17474,7 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" includeChildSelections="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -17424,7 +17492,7 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="0e77-e514-f572-9f22" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -17440,7 +17508,7 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="0e77-e514-f572-9f22" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -17458,7 +17526,7 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="0e77-e514-f572-9f22" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -17472,7 +17540,7 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" includeChildSelections="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -17490,7 +17558,7 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" includeChildSelections="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -17507,7 +17575,7 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" includeChildSelections="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>

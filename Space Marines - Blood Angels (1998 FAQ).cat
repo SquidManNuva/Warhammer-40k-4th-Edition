@@ -350,6 +350,7 @@
     <entryLink import="true" name="Techmarine" hidden="false" id="d0cc-c3c2-6702-6476" type="selectionEntry" targetId="5b12-8a99-a93d-dedc">
       <categoryLinks>
         <categoryLink targetId="6d25-b346-c314-6911" id="9d72-f814-d78f-042f" primary="true" name="Elites"/>
+        <categoryLink targetId="a527-734f-2081-58cd" id="a599-c69d-41d0-eafe" primary="false" name="Blood Angel"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Chaplain Dreadnought (IA)" hidden="false" id="8703-2a14-941b-2870" type="selectionEntry" targetId="3442-ad4d-bedd-a895">

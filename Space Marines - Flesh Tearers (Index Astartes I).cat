@@ -359,6 +359,7 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
     <entryLink import="true" name="Techmarine" hidden="false" id="3716-7ea5-1885-6152" type="selectionEntry" targetId="5b12-8a99-a93d-dedc">
       <categoryLinks>
         <categoryLink name="Elites" hidden="false" id="0bfe-dd16-b536-89c7" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink targetId="a527-734f-2081-58cd" id="bb08-764d-436d-9f63" primary="false" name="Blood Angel"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Terminator Assault Squad" hidden="false" id="4f09-4881-f4df-82f5" collective="false" targetId="4e6a-bed3-e270-b411" type="selectionEntry">

@@ -670,6 +670,7 @@
       <categoryLinks>
         <categoryLink targetId="6d25-b346-c314-6911" id="5c5f-2859-dcb5-f941" primary="true" name="Elites"/>
         <categoryLink targetId="2e99-a0cf-9812-b860" id="cba2-de1a-4ba4-ed0f" primary="false" name="Techmarine"/>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="83aa-826c-c13a-16ae" primary="false" name="Dark Angel"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -945,7 +946,7 @@
               </modifiers>
             </infoLink>
             <infoLink id="4f65-94bf-0ea4-58f5" name="Attack Bike" hidden="false" targetId="94d0-1b6d-2894-6089" type="profile"/>
-            <infoLink id="00c1-f186-175b-efe0" name="Jink" hidden="false" targetId="d569-9632-c94f-3fa3" type="rule"/>
+            <infoLink id="00c1-f186-175b-efe0" name="Ravenwing" hidden="false" targetId="d569-9632-c94f-3fa3" type="rule"/>
             <infoLink id="f0f6-3daa-dfe9-ab9a" name="Bikes" hidden="false" targetId="6bd6-e738-e144-6db9" type="rule"/>
             <infoLink name="Twin-Linked" id="ae61-51d3-1c0b-b0d8" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
             <infoLink name="Rapid Fire" id="1800-44fc-3849-0c41" hidden="false" targetId="d104-bdaf-f9ed-c744" type="rule"/>
@@ -1311,7 +1312,7 @@
                   </modifiers>
                 </infoLink>
                 <infoLink id="4ddd-45f8-dfa7-c7dc" name="Attack Bike" hidden="false" targetId="94d0-1b6d-2894-6089" type="profile"/>
-                <infoLink id="3906-d4e6-5e13-430e" name="Jink" hidden="false" targetId="d569-9632-c94f-3fa3" type="rule"/>
+                <infoLink id="3906-d4e6-5e13-430e" name="Ravenwing" hidden="false" targetId="d569-9632-c94f-3fa3" type="rule"/>
                 <infoLink id="47e2-f135-a8b9-9bc7" name="Bikes" hidden="false" targetId="6bd6-e738-e144-6db9" type="rule"/>
                 <infoLink name="Twin-Linked" id="690d-27fd-231e-6c1d" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
                 <infoLink name="Rapid Fire" id="fc3e-7513-8463-e5d1" hidden="false" targetId="d104-bdaf-f9ed-c744" type="rule"/>
