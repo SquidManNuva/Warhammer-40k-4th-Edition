@@ -216,15 +216,7 @@
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe21-1c7a-a253-ec31" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="1c2c-cce6-05d8-40ff" name="Land Raider Crusader" hidden="false" collective="false" import="true" targetId="d7d7-d12e-387b-1b3b" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3261-6601-5bfe-f5d0" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
+    <entryLink id="1c2c-cce6-05d8-40ff" name="Land Raider Crusader" hidden="false" collective="false" import="true" targetId="d7d7-d12e-387b-1b3b" type="selectionEntry"/>
     <entryLink id="b2a2-3dc3-3c6e-d514" name="Land Raider Helios (IA)" hidden="false" collective="false" import="true" targetId="1be4-df32-2640-9413" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -317,6 +309,13 @@
         <categoryLink targetId="aacb-8a81-62c0-3db8" id="02a4-a89a-84ae-ebce" primary="true" name="Heavy Support"/>
       </categoryLinks>
       <comment>Heavy Support</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="0" field="selections" scope="force" childId="775a-f704-5030-7f7b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="6ebb-93b6-6ab7-33be" name="Devastator Squad" hidden="false" collective="false" import="true" targetId="cd84-93d1-4f4c-77b7" type="selectionEntry">
       <comment>Elites</comment>
@@ -381,6 +380,28 @@
     <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="f950-af2b-7f8d-6904" type="selectionEntry" targetId="c54e-73f7-32ca-6894"/>
     <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="2099-9533-b8ae-f637" type="selectionEntry" targetId="4865-cd59-43c2-d504"/>
     <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="1687-c0c1-f591-8372" type="selectionEntry" targetId="3683-4a03-4746-7eda"/>
+    <entryLink import="true" name="Centurion Assault Squad (Homebrew)" hidden="false" id="7331-3d85-85ab-82ab" type="selectionEntry" targetId="99ab-f700-7ed6-ab3e"/>
+    <entryLink import="true" name="Centurion Devastator Squad (Homebrew)" hidden="false" id="3a98-8f21-612c-0d1d" type="selectionEntry" targetId="1bf8-5534-e346-3742"/>
+    <entryLink id="3792-d50f-c682-eab4" name="Ironclad Dreadnought (Homebrew)" hidden="false" collective="false" import="true" targetId="66f1-e821-78a4-ca3f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="77af-6371-ca98-946c" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+      <comment>Elites</comment>
+    </entryLink>
+    <entryLink id="d6a4-7d3a-8ebd-2e00" name="Ironclad Dreadnought (Homebrew)" hidden="false" collective="false" import="true" targetId="66f1-e821-78a4-ca3f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="aacb-8a81-62c0-3db8" id="be02-3a40-d6f8-fd12" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+      <comment>Heavy Support</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="0" field="selections" scope="force" childId="775a-f704-5030-7f7b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Redeemer (Homebrew)" hidden="false" id="dcdb-6b48-2a52-1cef" type="selectionEntry" targetId="e0d1-5ce6-a63b-4ccd"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="043b-1cc7-9a38-8133" name="Commander" hidden="false" collective="false" import="true" type="model">
@@ -2064,6 +2085,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ea1-18fd-9e5d-d6d0" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Land Raider Redeemer (Homebrew)" hidden="false" id="f06f-2226-1168-4a95" type="selectionEntry" targetId="e0d1-5ce6-a63b-4ccd"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Equipment" id="18ba-8149-9845-9bd5" hidden="false">
@@ -3242,7 +3264,22 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92c5-6d85-4925-9f12" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Land Raider Redeemer (Homebrew)" hidden="false" id="6295-d32f-cb05-32e7" type="selectionEntry" targetId="e0d1-5ce6-a63b-4ccd">
+              <modifiers>
+                <modifier type="set" value="0" field="79a1-d42a-b123-1fbf">
+                  <conditions>
+                    <condition type="greaterThan" value="8" field="selections" scope="parent" childId="738f-6240-fca7-7e03" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79a1-d42a-b123-1fbf"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c4c-f354-4f20-48be"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -3532,7 +3569,22 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="788d-5be2-a032-081f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Land Raider Redeemer (Homebrew)" hidden="false" id="5636-fc59-0f7a-1d70" type="selectionEntry" targetId="e0d1-5ce6-a63b-4ccd">
+              <modifiers>
+                <modifier type="set" value="0" field="07b4-c192-7feb-e438">
+                  <conditions>
+                    <condition type="greaterThan" value="8" field="selections" scope="parent" childId="3094-1297-cfba-e0d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07b4-c192-7feb-e438"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b03a-1cd7-8635-f8f2"/>
+          </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Special Skills" id="e50c-b8d0-638e-a3fc" hidden="false">
           <entryLinks>
@@ -10897,7 +10949,22 @@ Special Force Field = 35</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b262-651b-8f23-d000" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Land Raider Redeemer (Homebrew)" hidden="false" id="e742-3e62-811b-337d" type="selectionEntry" targetId="e0d1-5ce6-a63b-4ccd">
+              <modifiers>
+                <modifier type="set" value="0" field="0d73-0315-7e61-388c">
+                  <conditions>
+                    <condition type="greaterThan" value="8" field="selections" scope="parent" childId="b320-71e3-bedd-d3c3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d73-0315-7e61-388c"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c72-4f0b-9c3f-3802"/>
+          </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Special Skills" id="9ad7-b303-a645-a011" hidden="false">
           <entryLinks>
@@ -12366,13 +12433,13 @@ Sentry Mode: The gun will fire at the nearest enemy target within 12&quot; that 
 Ignores armor saves
 
 
-Counts as a [ower fist but strikes at the Dreadnought’s normal Initiative. &amp; If armed with two close combat weapons, the Dreadnought gains +1 Attack
+Counts as a Power fist but strikes at the user’s normal Initiative. &amp; If armed with two close combat weapons, the user gains +1 Attack
 
 
 Roll 2D6 for penetration against bunkers or buildings &amp; add the dice together
 
 
-May make a Heavy Flamer attack against anyone inside a bunker/pillbox/building. Models inside are hit automatically" field="492d-1f80-b777-26f2"/>
+May make a Flamer attack against anyone inside a bunker/pillbox/building. Models inside are hit automatically" field="492d-1f80-b777-26f2"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -15573,6 +15640,1018 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Centurion Assault Squad (Homebrew)" hidden="false" id="99ab-f700-7ed6-ab3e">
+      <categoryLinks>
+        <categoryLink targetId="34e2-d53c-28ab-44cf" id="714d-92de-ec44-8360" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Transport" id="8443-0251-bd76-ec9e" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Land Raider" hidden="false" id="9e2c-98fa-c8bd-16ae" collective="false" targetId="0432-2db6-5eda-20d8" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="0" field="8b9e-f264-9784-54c2">
+                  <conditions>
+                    <condition type="greaterThan" value="5" field="selections" scope="parent" childId="3094-1297-cfba-e0d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="4663-cb6b-fa64-6b84" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="add" value="34e2-d53c-28ab-44cf" field="category">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="bdc2-53e9-7d56-b0b1" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b9e-f264-9784-54c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Land Raider Redeemer (Homebrew)" hidden="false" id="561a-974d-ad0e-e156" type="selectionEntry" targetId="e0d1-5ce6-a63b-4ccd"/>
+            <entryLink import="true" name="Land Raider" hidden="false" id="74a2-2be4-f53f-010d" collective="false" targetId="0432-2db6-5eda-20d8" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="0" field="8bf6-7222-9cb2-520e">
+                  <conditions>
+                    <condition type="greaterThan" value="5" field="selections" scope="parent" childId="3094-1297-cfba-e0d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="4663-cb6b-fa64-6b84" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="add" value="34e2-d53c-28ab-44cf" field="category">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="bdc2-53e9-7d56-b0b1" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bf6-7222-9cb2-520e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9aa-eac5-e135-7d67"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Centurions" id="f8a8-a9a7-433b-fb91" hidden="false">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="fa2e-27b5-66a0-156a"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b8ae-ab63-80d1-850d"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Centurion" hidden="false" id="54a5-3994-e968-d3e6">
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b692-1be2-e4d8-5ddf"/>
+                <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="ae5a-4651-10b9-20e0"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Centurion" id="0906-ae6a-e5a1-4976" hidden="false" type="profile" targetId="59b9-093f-a1a3-6f2c"/>
+                <infoLink name="Dreadnought Close Combat Weapons" id="50de-5b95-e4ca-073a" hidden="false" type="profile" targetId="c7f7-e5ab-17a7-1cf9">
+                  <modifiers>
+                    <modifier type="set" value="Assault Drill" field="name"/>
+                    <modifier type="set" value="Doubles Strength up to 10
+
+
+Ignores armor saves
+
+
+Counts as a Power fist but strikes at the user’s normal Initiative. &amp; If armed with two close combat weapons, the user gains +1 Attack
+
+
+Roll 2D6 for penetration against bunkers or buildings &amp; add the dice together
+
+
+May make a Flamer attack against anyone inside a bunker/pillbox/building. Models inside are hit automatically" field="492d-1f80-b777-26f2"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Under-arm Weapon" id="726c-9a24-fd89-e812" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0bde-15a5-8e2f-5c2f"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f20-fa20-3d29-557c"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Flamer" hidden="false" id="08ed-f28e-51b3-549e">
+                      <infoLinks>
+                        <infoLink name="Flamer" id="c681-38ac-d1f4-c09f" hidden="false" type="profile" targetId="9177-ce8a-92e3-157e">
+                          <modifiers>
+                            <modifier type="set" value="Twin-linked Flamer" field="name"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink name="Twin-Linked" id="e06f-aaa2-9259-045f" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                        <infoLink name="Template" id="7419-05d6-f7ef-3f05" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+                        <infoLink name="Assault" id="1fd3-5ab8-2cac-3465" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Meltagun" hidden="false" id="7fc4-f5b7-5fc2-51cc">
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="8b9c-63fe-80ee-7aa1" hidden="false" type="profile" targetId="737d-c7ef-4cb5-e6fa">
+                          <modifiers>
+                            <modifier type="set" value="Twin-linked Meltagun" field="name"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink name="Twin-Linked" id="b5cf-e0b5-b756-3dba" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                        <infoLink name="Melta" id="d144-9aae-73e9-ff5d" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+                        <infoLink name="Assault" id="4359-3ac8-4170-c887" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Chest Weapon" id="1229-1591-76fc-c717" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f48-354e-e93d-9510"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89d4-190e-b626-4655"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="13a5-fae5-e933-1771">
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="226f-5237-6578-cbdf" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+                          <modifiers>
+                            <modifier type="set" value="Hurricane Pattern Bolter" field="name"/>
+                            <modifier type="set" value="Twin-Linked. Counts as 3 Bolters." field="492d-1f80-b777-26f2"/>
+                            <modifier type="set" value="Rapid Fire 3" field="d3f6-19e8-ac9e-ae13"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink name="Rapid Fire" id="8bb2-5da1-4655-c011" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                        <infoLink name="Twin-Linked" id="dd39-651f-81cf-aa0d" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Grenade Harness" hidden="false" id="c979-ed7f-1735-c6d9">
+                      <infoLinks>
+                        <infoLink name="Grenade Harness" id="b81a-efe8-7d4a-966c" hidden="false" type="profile" targetId="0ec6-3694-521d-565f"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Squad Leader" id="bbb5-27df-da97-3b20" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66b2-3fbf-49d5-a810"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0aa0-d1d1-5dd2-fc02"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Centurion Sergeant" hidden="false" id="9430-b1d2-71ae-a450">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Centurion" id="4101-0915-5e2f-e784" hidden="false" type="profile" targetId="59b9-093f-a1a3-6f2c">
+                      <modifiers>
+                        <modifier type="set" value="Centurion Sergeant" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Dreadnought Close Combat Weapons" id="445b-9709-ae6e-b9bc" hidden="false" type="profile" targetId="c7f7-e5ab-17a7-1cf9">
+                      <modifiers>
+                        <modifier type="set" value="Assault Drill" field="name"/>
+                        <modifier type="set" value="Doubles Strength up to 10
+
+
+Ignores armor saves
+
+
+Counts as a Power fist but strikes at the user’s normal Initiative. &amp; If armed with two close combat weapons, the user gains +1 Attack
+
+
+Roll 2D6 for penetration against bunkers or buildings &amp; add the dice together
+
+
+May make a Flamer attack against anyone inside a bunker/pillbox/building. Models inside are hit automatically" field="492d-1f80-b777-26f2"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Under-arm Weapon" id="80b7-2797-fe7d-e3c2" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bef1-e365-51d8-6ed5"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb11-ed8f-a836-6e9b"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked Flamer" hidden="false" id="ef81-eb7d-3b5d-5322">
+                          <infoLinks>
+                            <infoLink name="Flamer" id="a184-5bcb-d734-f676" hidden="false" type="profile" targetId="9177-ce8a-92e3-157e">
+                              <modifiers>
+                                <modifier type="set" value="Twin-linked Flamer" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Twin-Linked" id="2d08-d046-e42f-7dc6" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                            <infoLink name="Template" id="590f-87eb-4704-bb1f" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+                            <infoLink name="Assault" id="f83e-ea91-2d26-52b4" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked Meltagun" hidden="false" id="0493-7700-aa9f-e238">
+                          <infoLinks>
+                            <infoLink name="Meltagun" id="365b-1620-aafe-b669" hidden="false" type="profile" targetId="737d-c7ef-4cb5-e6fa">
+                              <modifiers>
+                                <modifier type="set" value="Twin-linked Meltagun" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Twin-Linked" id="cbca-c215-1275-e9e1" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                            <infoLink name="Melta" id="b90a-b486-b379-9674" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+                            <infoLink name="Assault" id="b0c0-15ce-92a7-ddd6" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Chest Weapon" id="d27a-2ba2-a1ba-1b91" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ad30-a59e-091b-07c0"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="083b-0596-34a1-a4b9"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="1060-a70f-43fa-cd3e">
+                          <infoLinks>
+                            <infoLink name="Boltgun" id="26f6-f75a-40a8-24bf" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+                              <modifiers>
+                                <modifier type="set" value="Hurricane Pattern Bolter" field="name"/>
+                                <modifier type="set" value="Twin-Linked. Counts as 3 Bolters." field="492d-1f80-b777-26f2"/>
+                                <modifier type="set" value="Rapid Fire 3" field="d3f6-19e8-ac9e-ae13"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Rapid Fire" id="dfae-10ee-7b02-333c" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                            <infoLink name="Twin-Linked" id="e094-39b3-5d32-9378" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grenade Harness" hidden="false" id="e86e-9ff0-9920-44e1">
+                          <infoLinks>
+                            <infoLink name="Grenade Harness" id="bac6-dac8-4439-b3e6" hidden="false" type="profile" targetId="0ec6-3694-521d-565f"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Omniscope" hidden="false" id="cef4-e2d6-3565-d142">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86b9-ffbe-ec97-aa8b"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Night Vision/Acute Senses" id="b2b9-0e3a-4f0a-1a77" hidden="false" type="rule" targetId="2746-9a9e-051e-5143"/>
+                        <infoLink name="Omniscope" id="1b78-3729-e9d0-93db" hidden="false" type="rule" targetId="a34a-b6f7-9b26-395d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Centurion Veteran Sergeant" hidden="false" id="a3e4-fa80-a03e-62da">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="70"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Centurion Veteran Sergeant" id="c261-6a33-d6e3-aafc" hidden="false" type="profile" targetId="ccfd-d58a-ddf7-07ae"/>
+                    <infoLink name="Dreadnought Close Combat Weapons" id="065c-a694-5a07-4656" hidden="false" type="profile" targetId="c7f7-e5ab-17a7-1cf9">
+                      <modifiers>
+                        <modifier type="set" value="Assault Drill" field="name"/>
+                        <modifier type="set" value="Doubles Strength up to 10
+
+
+Ignores armor saves
+
+
+Counts as a Power fist but strikes at the user’s normal Initiative. &amp; If armed with two close combat weapons, the user gains +1 Attack
+
+
+Roll 2D6 for penetration against bunkers or buildings &amp; add the dice together
+
+
+May make a Flamer attack against anyone inside a bunker/pillbox/building. Models inside are hit automatically" field="492d-1f80-b777-26f2"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Terminator Honors" id="e76d-b827-5693-04dd" hidden="false" type="rule" targetId="bad9-31ae-7a9c-f38c"/>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Under-arm Weapon" id="422d-2b19-68be-bf06" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5643-2ab6-ae04-a054"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6ad-e6e2-cf57-fa8e"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked Flamer" hidden="false" id="58e7-c7c8-cf6b-d2e4">
+                          <infoLinks>
+                            <infoLink name="Flamer" id="c891-b6cb-f9fb-3db9" hidden="false" type="profile" targetId="9177-ce8a-92e3-157e">
+                              <modifiers>
+                                <modifier type="set" value="Twin-linked Flamer" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Twin-Linked" id="5c03-fdc4-c391-c702" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                            <infoLink name="Template" id="8e8c-c38d-10bc-68f9" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+                            <infoLink name="Assault" id="e5e5-963a-f277-8593" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked Meltagun" hidden="false" id="2fe1-2e82-c3e7-d8fd">
+                          <infoLinks>
+                            <infoLink name="Meltagun" id="2121-28b3-53e1-7adb" hidden="false" type="profile" targetId="737d-c7ef-4cb5-e6fa">
+                              <modifiers>
+                                <modifier type="set" value="Twin-linked Meltagun" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Twin-Linked" id="3afd-7540-0937-4885" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                            <infoLink name="Melta" id="931b-f9f0-67a7-f6b2" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+                            <infoLink name="Assault" id="fa9b-eae3-88a7-acd3" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Chest Weapon" id="2c6c-dcc6-5102-abfe" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f92c-68d4-8179-a4ea"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a1a-a80b-9a7b-dffa"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="e3cb-762d-364c-4101">
+                          <infoLinks>
+                            <infoLink name="Boltgun" id="959a-0732-a179-f357" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+                              <modifiers>
+                                <modifier type="set" value="Hurricane Pattern Bolter" field="name"/>
+                                <modifier type="set" value="Twin-Linked. Counts as 3 Bolters." field="492d-1f80-b777-26f2"/>
+                                <modifier type="set" value="Rapid Fire 3" field="d3f6-19e8-ac9e-ae13"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Rapid Fire" id="5953-be20-097a-827f" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                            <infoLink name="Twin-Linked" id="dc56-8e0c-6331-6b3f" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grenade Harness" hidden="false" id="2080-dc92-3908-acf0">
+                          <infoLinks>
+                            <infoLink name="Grenade Harness" id="5f2a-dd4a-eae8-2a23" hidden="false" type="profile" targetId="0ec6-3694-521d-565f"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Omniscope" hidden="false" id="2fc1-2acd-129d-db06">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac06-35fb-aeb6-4e78"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Night Vision/Acute Senses" id="7b5c-a865-0c53-5de3" hidden="false" type="rule" targetId="2746-9a9e-051e-5143"/>
+                        <infoLink name="Omniscope" id="eb0c-9958-23ec-d43e" hidden="false" type="rule" targetId="a34a-b6f7-9b26-395d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="52d8-9148-50b7-99df" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Centurion Devastator Squad (Homebrew)" hidden="false" id="1bf8-5534-e346-3742">
+      <categoryLinks>
+        <categoryLink targetId="aacb-8a81-62c0-3db8" id="d72e-ed96-2b9c-d8d4" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Transport" id="f41f-9e53-1eb9-8c40" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Land Raider" hidden="false" id="3e75-37b5-ce9a-0b99" collective="false" targetId="0432-2db6-5eda-20d8" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="0" field="99f8-98b1-2fa2-67b6">
+                  <conditions>
+                    <condition type="greaterThan" value="5" field="selections" scope="parent" childId="3094-1297-cfba-e0d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="4663-cb6b-fa64-6b84" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="add" value="34e2-d53c-28ab-44cf" field="category">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="bdc2-53e9-7d56-b0b1" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99f8-98b1-2fa2-67b6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Land Raider Crusader" hidden="false" id="3a84-0173-bed1-c1a9" type="selectionEntry" targetId="d7d7-d12e-387b-1b3b"/>
+            <entryLink import="true" name="Land Raider Redeemer (Homebrew)" hidden="false" id="3d79-aa4d-eb08-dbc3" type="selectionEntry" targetId="e0d1-5ce6-a63b-4ccd"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9722-2c77-45e8-3c5a"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Centurions" id="05ee-b82a-7cec-1337" hidden="false">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="8074-097e-0428-47b2"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="106c-23b4-3fb3-657a"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Centurion" hidden="false" id="e0de-21c9-da16-e18b">
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="f1b1-bc1a-3d33-d75d"/>
+                <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="7031-e972-b7da-be8e"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Centurion" id="295c-3df4-220d-bf57" hidden="false" type="profile" targetId="59b9-093f-a1a3-6f2c"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Under-arm Weapon" id="8e9b-2d13-134e-7d0d" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="79de-3e74-8d59-d74a"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2357-194c-ec9f-ae0c"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="cfd6-024c-f396-a40a">
+                      <infoLinks>
+                        <infoLink name="Heavy Bolter" id="dee8-99b1-cd43-f2f8" hidden="false" type="profile" targetId="b9aa-366b-bd62-4692">
+                          <modifiers>
+                            <modifier type="set" value="Twin-linked Heavy Bolter" field="name"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink name="Twin-Linked" id="22ff-5625-b310-35cc" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                        <infoLink name="Heavy" id="aae7-b83d-6a25-a076" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannon" hidden="false" id="ed71-9432-f9e7-13f5">
+                      <infoLinks>
+                        <infoLink name="Lascannon" id="45e6-26f8-da8a-0249" hidden="false" type="profile" targetId="a160-d79e-e7a9-2e9c">
+                          <modifiers>
+                            <modifier type="set" value="Twin-linked Lascannon" field="name"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink name="Twin-Linked" id="d90f-cd37-7d7d-9228" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                        <infoLink name="Heavy" id="0235-2337-5e03-ea18" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Grav-cannon &amp; Grav-amp" hidden="false" id="d28c-756c-85e5-dce9">
+                      <infoLinks>
+                        <infoLink name="Grav-cannon" id="7ddc-2b72-3e7f-01c5" hidden="false" type="profile" targetId="9b84-1706-10fb-affc"/>
+                        <infoLink name="Heavy" id="fd1e-94e0-8fa4-bcb0" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                        <infoLink name="Grav-Amp" id="3aaf-f283-5679-56bb" hidden="false" type="rule" targetId="12e7-c3c5-4f8d-0ee3"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Chest Weapon" id="1b4d-3a3b-b5ae-1032" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1183-f3d9-200b-20a2"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8112-b046-319b-4778"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="fd91-e91f-d550-cb8b">
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="876b-233b-3139-9586" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+                          <modifiers>
+                            <modifier type="set" value="Hurricane Pattern Bolter" field="name"/>
+                            <modifier type="set" value="Twin-Linked. Counts as 3 Bolters." field="492d-1f80-b777-26f2"/>
+                            <modifier type="set" value="Rapid Fire 3" field="d3f6-19e8-ac9e-ae13"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink name="Rapid Fire" id="6df4-8fbb-1709-53f4" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                        <infoLink name="Twin-Linked" id="14fc-04ac-8e32-bbbb" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="05de-6620-dcb2-65a7">
+                      <infoLinks>
+                        <infoLink name="Missile Launcher (frag)" id="2f1d-d26a-60f2-be22" hidden="false" type="profile" targetId="aa04-2d5e-da7e-2d25"/>
+                        <infoLink name="Missile Launcher (frag)" id="bdad-ffb5-45a6-2b47" hidden="false" type="profile" targetId="aa04-2d5e-da7e-2d25"/>
+                        <infoLink name="Blast" id="7874-1686-6972-a5f3" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
+                        <infoLink name="Heavy" id="03d6-e160-5196-1a4f" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Squad Leader" id="11f1-d1b6-fca8-5106" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9860-35a4-b542-130f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94c9-a25a-4617-7383"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Centurion Sergeant" hidden="false" id="96dc-4c5a-7071-5085">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Centurion" id="c2e5-315a-863d-834e" hidden="false" type="profile" targetId="59b9-093f-a1a3-6f2c">
+                      <modifiers>
+                        <modifier type="set" value="Centurion Sergeant" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Chest Weapon" id="bec1-0100-0696-1b6d" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b86f-eab3-969e-801e"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf16-dd37-9dfe-051b"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="14b2-1604-5c75-951e">
+                          <infoLinks>
+                            <infoLink name="Boltgun" id="07c1-1a07-4e14-77e2" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+                              <modifiers>
+                                <modifier type="set" value="Hurricane Pattern Bolter" field="name"/>
+                                <modifier type="set" value="Twin-Linked. Counts as 3 Bolters." field="492d-1f80-b777-26f2"/>
+                                <modifier type="set" value="Rapid Fire 3" field="d3f6-19e8-ac9e-ae13"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Rapid Fire" id="8ac1-a5d3-7415-0389" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                            <infoLink name="Twin-Linked" id="e6d1-006c-ca55-c460" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="4467-610e-aef6-d696">
+                          <infoLinks>
+                            <infoLink name="Missile Launcher (frag)" id="6cb6-ea64-d1b2-32ba" hidden="false" type="profile" targetId="aa04-2d5e-da7e-2d25"/>
+                            <infoLink name="Missile Launcher (frag)" id="a7c7-e418-f20c-151e" hidden="false" type="profile" targetId="aa04-2d5e-da7e-2d25"/>
+                            <infoLink name="Blast" id="ce2d-136e-7a56-75b2" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
+                            <infoLink name="Heavy" id="29f3-3b3f-fe4c-994c" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Under-arm Weapon" id="5a82-8fd1-35c5-5e4f" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0027-4834-0904-f8b5"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6072-b7d8-c504-a096"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="5551-dd35-5a8c-eed6">
+                          <infoLinks>
+                            <infoLink name="Heavy Bolter" id="b5c0-2540-abbe-6051" hidden="false" type="profile" targetId="b9aa-366b-bd62-4692">
+                              <modifiers>
+                                <modifier type="set" value="Twin-linked Heavy Bolter" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Twin-Linked" id="22f0-054b-e5ee-a709" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                            <infoLink name="Heavy" id="e0ca-0e82-0f41-ee78" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannon" hidden="false" id="6364-bbc6-4ca0-222d">
+                          <infoLinks>
+                            <infoLink name="Lascannon" id="1469-a4c6-0dcd-bccf" hidden="false" type="profile" targetId="a160-d79e-e7a9-2e9c">
+                              <modifiers>
+                                <modifier type="set" value="Twin-linked Lascannon" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Twin-Linked" id="bec2-ced0-d752-05cd" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                            <infoLink name="Heavy" id="aab2-c909-6c90-819e" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grav-cannon &amp; Grav-amp" hidden="false" id="22ed-70c5-669c-db6a">
+                          <infoLinks>
+                            <infoLink name="Grav-cannon" id="e5dc-08ca-74a3-3c83" hidden="false" type="profile" targetId="9b84-1706-10fb-affc"/>
+                            <infoLink name="Heavy" id="8891-5a90-358f-db7e" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                            <infoLink name="Grav-Amp" id="5e56-9327-d2e1-0f5f" hidden="false" type="rule" targetId="12e7-c3c5-4f8d-0ee3"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Omniscope" hidden="false" id="7fe3-5519-5a3f-a6d9">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b76-0a58-c2fe-0b60"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Night Vision/Acute Senses" id="b8ed-9ff4-51c6-b158" hidden="false" type="rule" targetId="2746-9a9e-051e-5143"/>
+                        <infoLink name="Omniscope" id="adef-135a-c5e3-3323" hidden="false" type="rule" targetId="a34a-b6f7-9b26-395d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Centurion Veteran Sergeant" hidden="false" id="2ad0-bd6b-2cc1-86b8">
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="70"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Centurion Veteran Sergeant" id="5a3f-9753-cff5-6e48" hidden="false" type="profile" targetId="ccfd-d58a-ddf7-07ae"/>
+                    <infoLink name="Terminator Honors" id="479a-8902-616b-deff" hidden="false" type="rule" targetId="bad9-31ae-7a9c-f38c"/>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Chest Weapon" id="d157-cfeb-d97e-e7b8" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa41-7778-155c-7c8c"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="822a-a62c-ba21-ffe6"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="524c-f3c9-93ec-d6a2">
+                          <infoLinks>
+                            <infoLink name="Boltgun" id="34f7-b7ed-ad59-7fb5" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+                              <modifiers>
+                                <modifier type="set" value="Hurricane Pattern Bolter" field="name"/>
+                                <modifier type="set" value="Twin-Linked. Counts as 3 Bolters." field="492d-1f80-b777-26f2"/>
+                                <modifier type="set" value="Rapid Fire 3" field="d3f6-19e8-ac9e-ae13"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Rapid Fire" id="e030-2dc8-4782-6868" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                            <infoLink name="Twin-Linked" id="1243-c6c4-aa7f-733b" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="4071-5ffd-45e8-4bb7">
+                          <infoLinks>
+                            <infoLink name="Missile Launcher (frag)" id="9be2-5763-d3d7-73a7" hidden="false" type="profile" targetId="aa04-2d5e-da7e-2d25"/>
+                            <infoLink name="Missile Launcher (frag)" id="167e-85c8-464c-99eb" hidden="false" type="profile" targetId="aa04-2d5e-da7e-2d25"/>
+                            <infoLink name="Blast" id="187f-9bd1-e92a-0d81" hidden="false" type="rule" targetId="1c88-362b-a4b1-03ca"/>
+                            <infoLink name="Heavy" id="841f-fc17-d921-89de" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Under-arm Weapon" id="a1b3-49e4-4a17-d1ee" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="71f1-9905-0cca-6db9"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="755b-9350-2345-a927"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="1460-5ca8-6a2b-f2ea">
+                          <infoLinks>
+                            <infoLink name="Heavy Bolter" id="d1bc-577e-0e1c-1534" hidden="false" type="profile" targetId="b9aa-366b-bd62-4692">
+                              <modifiers>
+                                <modifier type="set" value="Twin-linked Heavy Bolter" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Twin-Linked" id="671d-e868-89a2-7833" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                            <infoLink name="Heavy" id="1947-30e8-5a76-fe12" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannon" hidden="false" id="7e30-c049-f1c7-f272">
+                          <infoLinks>
+                            <infoLink name="Lascannon" id="4300-12e5-3eb8-01be" hidden="false" type="profile" targetId="a160-d79e-e7a9-2e9c">
+                              <modifiers>
+                                <modifier type="set" value="Twin-linked Lascannon" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Twin-Linked" id="cbdb-318c-89fe-5a63" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+                            <infoLink name="Heavy" id="e981-be7d-eb8d-079c" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grav-cannon &amp; Grav-amp" hidden="false" id="afad-e7b9-432e-4630">
+                          <infoLinks>
+                            <infoLink name="Grav-cannon" id="3303-24b1-664e-d814" hidden="false" type="profile" targetId="9b84-1706-10fb-affc"/>
+                            <infoLink name="Heavy" id="fc66-f7be-8be9-9be8" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+                            <infoLink name="Grav-Amp" id="3f67-b5fd-865b-1e9f" hidden="false" type="rule" targetId="12e7-c3c5-4f8d-0ee3"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Omniscope" hidden="false" id="9cba-35c2-62dc-33a5">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e18-f63b-2e5e-68e1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Night Vision/Acute Senses" id="4e04-52e7-e1f7-edec" hidden="false" type="rule" targetId="2746-9a9e-051e-5143"/>
+                        <infoLink name="Omniscope" id="c5bb-7750-fe0a-0a6e" hidden="false" type="rule" targetId="a34a-b6f7-9b26-395d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="52d8-9148-50b7-99df" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry id="66f1-e821-78a4-ca3f" name="Ironclad Dreadnought (Homebrew)" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="4ed5-2f92-9abc-2870" value="20">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="15c3-ec03-9025-925c" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="4ed5-2f92-9abc-2870" value="10">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ddc-8876-f834-c73d" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="4ed5-2f92-9abc-2870" value="8">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ede0-0b37-8811-4023" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="a000-511d-408c-1387" field="category">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="3b03-f3cf-2bd3-456f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="52d8-9148-50b7-99df" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Dreadnought" id="9d64-3822-1b2e-90ef" hidden="false" targetId="528d-0883-0dd5-a47d" type="profile">
+          <modifiers>
+            <modifier type="set" value="13" field="cb1a-f3fe-1dc0-5708"/>
+            <modifier type="set" value="13" field="25a2-b98c-a034-c6f6"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Dreadnought Close Combat Weapons" id="d267-3724-b56e-cf59" hidden="false" type="profile" targetId="c7f7-e5ab-17a7-1cf9">
+          <modifiers>
+            <modifier type="set" value="Assault Drill" field="name"/>
+            <modifier type="set" value="Doubles Strength up to 10
+
+
+Ignores armor saves
+
+
+Counts as a Power fist but strikes at the user’s normal Initiative. &amp; If armed with two close combat weapons, the user gains +1 Attack
+
+
+Roll 2D6 for penetration against bunkers or buildings &amp; add the dice together
+
+
+May make a Flamer attack against anyone inside a bunker/pillbox/building. Models inside are hit automatically" field="492d-1f80-b777-26f2"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Extra Armour" id="6f47-1bec-7cc9-6f37" hidden="false" type="rule" targetId="8921-da68-8172-a6a5"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="88e5-792a-ac39-3e30" name="Dreadnought" hidden="false" targetId="8dd2-2313-fb9d-0368" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="15ff-0b04-a50b-b0e6" name="Right Arm" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c1-46d9-5d1b-af81" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1542-b101-8226-e004" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="0df8-4d98-a068-c1b5">
+              <infoLinks>
+                <infoLink name="Boltgun" id="d89d-e1fa-ebbc-ffae" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+                  <modifiers>
+                    <modifier type="set" value="Hurricane Pattern Bolter" field="name"/>
+                    <modifier type="set" value="Twin-Linked. Counts as 3 Bolters." field="492d-1f80-b777-26f2"/>
+                    <modifier type="set" value="Rapid Fire 3" field="d3f6-19e8-ac9e-ae13"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Rapid Fire" id="a256-1958-1da1-cd61" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                <infoLink name="Twin-Linked" id="f5ce-29b7-bb5d-caf4" hidden="false" type="rule" targetId="ebe5-6318-0fba-b84c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dreadnought Close Combat Weapon w/ Storm Bolter" hidden="false" id="e4bb-3900-7377-0c41" collective="false">
+              <infoLinks>
+                <infoLink name="Dreadnought Close Combat Weapons" id="32b8-dcf1-6a86-06f3" hidden="false" targetId="c7f7-e5ab-17a7-1cf9" type="profile"/>
+                <infoLink name="Storm Bolter" id="6364-4ea6-a805-3d5d" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
+                <infoLink name="Assault" id="63f0-84dc-b4a5-59bd" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Left Arm" id="7874-f38a-2cad-c066" hidden="false" collective="false" import="true" defaultSelectionEntryId="7568-dfa4-3f5f-dfcc">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Melee Weapon" id="5ba4-2049-d232-361e" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea91-82ed-bc2e-e5a1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="41d4-c4d0-3312-874f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Assault Drill" hidden="false" id="fc82-699a-7029-0f7d" collective="false">
+                  <infoLinks>
+                    <infoLink name="Dreadnought Close Combat Weapons" id="8fa5-574d-d943-bdad" hidden="false" type="profile" targetId="c7f7-e5ab-17a7-1cf9">
+                      <modifiers>
+                        <modifier type="set" value="Assault Drill" field="name"/>
+                        <modifier type="set" value="Doubles Strength up to 10
+
+
+Ignores armor saves
+
+
+Counts as a Power fist but strikes at the user’s normal Initiative. &amp; If armed with two close combat weapons, the user gains +1 Attack
+
+
+Roll 2D6 for penetration against bunkers or buildings &amp; add the dice together
+
+
+May make a Flamer attack against anyone inside a bunker/pillbox/building. Models inside are hit automatically" field="492d-1f80-b777-26f2"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Chainfist" hidden="false" id="5f7f-dc99-1efc-c065" collective="false">
+                  <infoLinks>
+                    <infoLink name="Chainfist" id="cd85-d532-30da-ba01" hidden="false" type="profile" targetId="b063-0e0a-050c-3114"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Ranged Weapon" id="e3a1-ce52-f55b-a1a0" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff47-552c-5ffb-c170" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="15e5-1be1-cbe3-ff68" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="6a27-aabd-e381-85c2" collective="false">
+                  <infoLinks>
+                    <infoLink name="Heavy Flamer" id="7aba-bd28-71ec-52c6" hidden="false" targetId="6d36-2c09-dfc3-f257" type="profile"/>
+                    <infoLink name="Assault" id="eee3-363e-b5cc-c050" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                    <infoLink name="Template" id="e046-b44b-d94c-c236" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="1a2c-ae3e-6d6b-6da6" collective="false">
+                  <infoLinks>
+                    <infoLink name="Meltagun" id="6cae-d4cb-eb5e-45b1" hidden="false" targetId="737d-c7ef-4cb5-e6fa" type="profile"/>
+                    <infoLink name="Assault" id="d0bd-a1c1-11ed-e0d4" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                    <infoLink name="Melta" id="03c5-17fd-d1f8-85b6" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="16ae-0e28-5a02-d6f5" name="Space Marine Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
+        <entryLink id="e79d-6cce-1c3b-d443" name="Drop Pod" hidden="false" collective="false" import="true" targetId="a9cd-beaa-0d6b-0086" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4663-cb6b-fa64-6b84" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2de3-5ccc-967b-e580" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="34e2-d53c-28ab-44cf" field="category">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="bdc2-53e9-7d56-b0b1" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d862-1b11-9080-570b" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="2ded-5fce-f987-8006" name="Dreadnought" hidden="false" targetId="8dd2-2313-fb9d-0368" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="135"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e0d1-5ce6-a63b-4ccd" name="Land Raider Redeemer (Homebrew)" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="bdc2-53e9-7d56-b0b1" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="52d8-9148-50b7-99df" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3cb-92fb-bf25-718c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="57de-6d45-ea9a-1467" name="Deus Ex Machina (IA)" hidden="false">
+          <description>If the crew are stunned then the Machine Spirit will take over temporarily. The Land Raider may be moved directly forward up to its maximum move.</description>
+        </rule>
+        <rule id="c71d-2134-cbbc-28c1" name="Fire Control (IA)" hidden="false">
+          <description>The Land Raider may always fire one additional weapon system to those it would normally be able to fire. This shot may be against a different target to that engaged by the crew. Automatic targetting is less accurate and therefore conducted with BS2. If the crew are stunned or shaken, the Machine Spirit may still fire a weapon using this rule.</description>
+        </rule>
+        <rule id="b5bf-c28b-02b1-9235" name="Frag Assault Launchers" hidden="false">
+          <description>Any unit that assaults on the same turn it disembarks from the Crusader counts as having frag grenades</description>
+        </rule>
+        <rule name="Access Points" id="b501-6aab-18a1-531f" hidden="false">
+          <description>Front ramp and side hatches</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b0c1-b857-175e-eea1" name="Land Raider" hidden="false" targetId="ad60-6998-8da3-8149" type="profile">
+          <modifiers>
+            <modifier type="set" field="ec07-2d55-2ba5-6080" value="15 Marines. 8 Terminators."/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="22ec-a565-e7f1-fb53" name="Multi-melta" hidden="false" targetId="7077-4e34-5c92-5320" type="profile"/>
+        <infoLink id="d0b4-b8f7-c464-cee2" name="Assault Cannon" hidden="false" targetId="3f9c-e7c1-c442-3b7c" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Twin-Linked Assault Cannon"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3ed0-7f7d-11ad-03f3" name="Heavy Flamer" hidden="false" targetId="6d36-2c09-dfc3-f257" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="2x Heavy Flamers"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b2e2-96ac-6200-120c" name="Extra Armour" hidden="false" targetId="0d41-84e8-e76b-8cfb" type="rule"/>
+        <infoLink name="Heavy" id="ba02-3a56-3f79-df33" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+        <infoLink name="Rending" id="915c-50cb-2b6d-877c" hidden="false" type="rule" targetId="2364-f229-68aa-198d"/>
+        <infoLink name="Rapid Fire" id="0365-d556-a83c-1479" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+        <infoLink name="Melta" id="3481-0a08-9240-f5e1" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+        <infoLink name="Power of the Machine Spirit" id="d1b2-acdf-494b-7527" hidden="false" type="rule" targetId="9883-43a2-66d7-5e28"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a8d9-ee21-fbc1-20ba" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink targetId="06e9-45c0-5e4c-7ce3" id="ba78-58ad-0823-bd17" primary="false" name="Land Raider"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b933-2e2a-0e4b-c454" name="Space Marine Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="265"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bfc9-22b8-1379-3112" name="Space Marine Armory" hidden="false" collective="false" import="true">
@@ -15664,6 +16743,11 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d7d7-d12e-387b-1b3b" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="66f1-e821-78a4-ca3f" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -15808,6 +16892,39 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fa0-6f6c-27df-a63b"/>
           </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ironclad Hunter-killer Missiles (Homebrew)" hidden="false" id="c152-0001-821c-69b4" collective="false">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="66f1-e821-78a4-ca3f" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8b97-ab4b-e60d-7a05" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Hunter-killer Missile" id="c81e-19e2-34c2-950b" hidden="false" targetId="86d5-c5a0-fc04-7f5a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ironclad Grenade Harness (Homebrew)" hidden="false" id="7035-4ff8-2418-4500">
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Grenade Harness" id="1950-a2c5-415f-3915" hidden="false" type="profile" targetId="0ec6-3694-521d-565f"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="66f1-e821-78a4-ca3f" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -18991,6 +20108,9 @@ Cannot be combined with the Never Despair advantage</description>
     <rule name="Grav-Amp" id="12e7-c3c5-4f8d-0ee3" hidden="false">
       <description>When rolling To Wound with a grav-weapon, or to determine its effects on a vehicle, the bearer can re-roll the result once.</description>
     </rule>
+    <rule name="Omniscope" id="a34a-b6f7-9b26-395d" hidden="false">
+      <description>Confers Night Vision</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="f33a-4335-a0ee-05bb" name="Leader" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -19798,6 +20918,14 @@ Targets attacked with this power must pass a Leadership test. If failed, affecte
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 1</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">May be used instead of firing a weapon in the shooting phase</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grenade Harness" typeId="7279-038a-b87a-ed0c" typeName="Abilities" hidden="false" id="0ec6-3694-521d-565f">
+      <characteristics>
+        <characteristic name="Description" typeId="a08a-36f8-2fd3-b843">Does not suffer movement penalties when charging through Difficult Terrain
+
+
+Enemies charging a model with a Grenade Harness do not gain bonus attacks from charging unless the bearer was already locked in combat in the previous turn</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
