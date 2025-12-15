@@ -432,6 +432,14 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Death Company Dreadnought" hidden="false" id="a868-e0f4-849f-151f" type="selectionEntry" targetId="44b5-2dd1-578c-318f"/>
+    <entryLink import="true" name="Contemptor Dreadnought (Homebrew)" hidden="false" id="e902-cc2a-2aa2-1ffa" collective="false" targetId="9042-1a04-ca8a-4f29" type="selectionEntry"/>
+    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="f2c1-ed7b-9e6d-6ec0" type="selectionEntry" targetId="37ce-ecbd-2347-a23d"/>
+    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="56da-2211-a317-6c32" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5"/>
+    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="4e31-8e87-835b-d68b" type="selectionEntry" targetId="4865-cd59-43c2-d504"/>
+    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="9371-e2fe-3012-531a" type="selectionEntry" targetId="3683-4a03-4746-7eda"/>
+    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="18ab-d7d5-90e7-f306" type="selectionEntry" targetId="c54e-73f7-32ca-6894"/>
+    <entryLink import="true" name="Vanguard Veteran Squad (Homebrew)" hidden="false" id="8b8c-691b-aaf1-1bbb" type="selectionEntry" targetId="779a-065c-56bb-a54f"/>
+    <entryLink import="true" name="Sternguard Veteran Squad (Homebrew)" hidden="false" id="39ba-b6e7-10aa-a8a9" type="selectionEntry" targetId="6106-188e-b016-9b12"/>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Flesh Tearers Tank" id="27c3-48e4-fad7-03d3" hidden="false">

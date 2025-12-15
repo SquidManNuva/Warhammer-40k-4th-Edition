@@ -117,7 +117,7 @@ If the pack moves due to the Animal Rage rule, the Wolf Priest will move with th
         <infoLink name="Space Wolves Special Rules" id="5a50-ae4a-6c3e-557b" hidden="false" targetId="20dd-1d42-8acc-dd7b" type="infoGroup"/>
       </infoLinks>
     </entryLink>
-    <entryLink id="a9da-9f6b-a8a3-49ca" name="Long Fangs Pack" hidden="false" collective="false" import="true" targetId="cc63-a34e-893f-3fb9" type="selectionEntry">
+    <entryLink id="a9da-9f6b-a8a3-49ca" name="13th Co. Long Fangs Pack" hidden="false" collective="false" import="true" targetId="cc63-a34e-893f-3fb9" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8319-d530-36b6-f5bf" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
         <categoryLink id="b34d-3dcb-ef95-4e09" name="13th Company" hidden="false" targetId="2682-a24d-27d0-d11d" primary="false"/>
