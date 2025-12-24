@@ -322,6 +322,13 @@
       <categoryLinks>
         <categoryLink targetId="6d25-b346-c314-6911" id="798d-c7fa-8181-57f2" primary="true" name="Elites"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="54d7-3a71-cab1-68cc" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Techmarine" hidden="false" id="8c88-4b39-658b-e0e7" type="selectionEntry" targetId="5b12-8a99-a93d-dedc">
       <categoryLinks>
@@ -524,15 +531,7 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Master" hidden="false" id="3dc0-9597-ab93-899d">
               <infoLinks>
-                <infoLink name="Master" id="f834-5c0b-49ac-489b" hidden="false" type="profile" targetId="d908-6783-2545-3329">
-                  <modifiers>
-                    <modifier type="set" value="Grand Master" field="name">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </infoLink>
+                <infoLink name="Master" id="f834-5c0b-49ac-489b" hidden="false" type="profile" targetId="d908-6783-2545-3329"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75"/>
@@ -543,35 +542,15 @@
                     <condition type="instanceOf" value="1" field="selections" scope="force" childId="52d8-9148-50b7-99df" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" value="Grand Master" field="name">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
-                  </conditions>
-                </modifier>
               </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Captain" hidden="false" id="7233-b6b9-ff6f-0727">
               <infoLinks>
-                <infoLink name="Captain" id="30a7-be1c-0f89-bb01" hidden="false" targetId="d9d8-4682-c4d4-27b3" type="profile">
-                  <modifiers>
-                    <modifier type="set" value="Company Master" field="name">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </infoLink>
+                <infoLink name="Captain" id="30a7-be1c-0f89-bb01" hidden="false" targetId="d9d8-4682-c4d4-27b3" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60"/>
               </costs>
-              <modifiers>
-                <modifier type="set" value="Company Master" field="name">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -15071,6 +15050,11 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
                                 <condition type="equalTo" value="1" field="selections" scope="parent" childId="0588-1155-11f1-a236" shared="true"/>
                               </conditions>
                             </modifier>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="779a-065c-56bb-a54f" childId="3901-77d9-fdea-737b" shared="true"/>
+                              </conditions>
+                            </modifier>
                           </modifiers>
                         </selectionEntry>
                       </selectionEntries>
@@ -15126,6 +15110,11 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
                             <modifier type="set" value="true" field="hidden">
                               <conditions>
                                 <condition type="equalTo" value="1" field="selections" scope="parent" childId="a57d-a723-e17e-244d" shared="true"/>
+                              </conditions>
+                            </modifier>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="779a-065c-56bb-a54f" childId="3901-77d9-fdea-737b" shared="true"/>
                               </conditions>
                             </modifier>
                           </modifiers>
