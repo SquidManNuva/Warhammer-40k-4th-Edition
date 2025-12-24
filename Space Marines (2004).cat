@@ -7485,10 +7485,6 @@
           </constraints>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Land Speeder" hidden="false" id="06ff-8a9f-6e11-7432" collective="false">
-              <constraints>
-                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="44d6-ac78-db7c-2645" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f97-3a5d-5b48-2acc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
               <infoLinks>
                 <infoLink name="Fast" id="d2bd-9289-5d17-5d1d" hidden="false" targetId="b35d-993f-e267-1ec0" type="rule"/>
                 <infoLink name="Skimmer" id="d287-8c67-596f-6a22" hidden="false" targetId="e111-c9c6-72de-1626" type="rule"/>
@@ -16003,6 +15999,13 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -16363,6 +16366,13 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
