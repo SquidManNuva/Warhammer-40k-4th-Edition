@@ -269,6 +269,18 @@
     <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="c837-009d-14c5-df4a" type="selectionEntry" targetId="4865-cd59-43c2-d504"/>
     <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="3f09-b5d6-4575-2ee5" type="selectionEntry" targetId="3683-4a03-4746-7eda"/>
     <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="139c-e0d5-efac-8fdc" type="selectionEntry" targetId="c54e-73f7-32ca-6894"/>
+    <entryLink import="true" name="Centurion Assault Squad (Homebrew)" hidden="false" id="891d-333d-079c-7ec5" type="selectionEntry" targetId="99ab-f700-7ed6-ab3e">
+      <categoryLinks>
+        <categoryLink targetId="0e24-d2c1-5ce8-e7cb" id="bbe3-8e99-a0ee-9b32" primary="false" name="Black Templar"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Centurion Devastator Squad (Homebrew)" hidden="false" id="f5fa-42fa-25f1-cdbd" type="selectionEntry" targetId="1bf8-5534-e346-3742">
+      <categoryLinks>
+        <categoryLink targetId="0e24-d2c1-5ce8-e7cb" id="95a4-0853-a3ce-3c33" primary="false" name="Black Templar"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Caestus Assault Ram (Homebrew)" hidden="false" id="1666-10aa-227a-1071" type="selectionEntry" targetId="9f00-abf1-5193-758c"/>
+    <entryLink import="true" name="Land Raider Achilles (Homebrew)" hidden="false" id="42a6-2cfd-d266-ecde" type="selectionEntry" targetId="3597-a3e1-2913-efb1"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c4e9-2699-7af9-14f8" name="Crusader Squad" hidden="false" collective="false" import="true" type="unit">
