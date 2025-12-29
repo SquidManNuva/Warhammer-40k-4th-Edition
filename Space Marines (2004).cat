@@ -612,12 +612,12 @@
           <modifiers>
             <modifier type="set" value="1" field="f3fd-78a3-2da9-9e9f">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -693,12 +693,12 @@
           <modifiers>
             <modifier type="set" value="1" field="a8eb-2d7e-1b1d-f7c4">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -986,12 +986,12 @@
           <modifiers>
             <modifier type="set" value="1" field="3764-0af8-5eb9-005b">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1306,6 +1306,11 @@
                         <condition type="atLeast" value="1" field="selections" scope="force" childId="911a-793b-d817-c409" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fff2-070a-8246-668d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -1514,12 +1519,12 @@
                       <modifiers>
                         <modifier type="set" value="1" field="9d8a-b9d0-ffbb-d779">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1643,12 +1648,12 @@
                       <modifiers>
                         <modifier type="set" value="1" field="ca95-6b9f-1257-2fce">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1810,12 +1815,12 @@
                       <modifiers>
                         <modifier type="set" value="1" field="bd9e-4ec2-8907-b695">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1970,12 +1975,12 @@
                       <modifiers>
                         <modifier type="set" value="1" field="4a11-1689-b7b6-373b">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -2494,12 +2499,12 @@
               <modifiers>
                 <modifier type="set" value="1" field="76ca-1078-5c53-9637">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2571,14 +2576,6 @@
             <categoryLink name="2 Wounds" hidden="false" id="b93a-d75e-51c4-3d0e" targetId="dd36-bad3-d4cd-f9c1" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Minor Psychic Power" hidden="false" id="a13b-f9cb-be04-5abf" collective="false">
-              <infoLinks>
-                <infoLink name="Minor Psychic Power" id="01d6-c573-f535-ea57" hidden="false" targetId="69af-f095-551d-130c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="1118-8618-36b5-cb32">
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
@@ -2593,12 +2590,12 @@
               <modifiers>
                 <modifier type="set" value="1" field="2532-fab2-f57f-a089">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2955,7 +2952,7 @@
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="0e77-e514-f572-9f22" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3011,26 +3008,26 @@
                 <categoryLink name="Terminator Sergeant" hidden="false" id="e39a-c425-0cce-27c2" targetId="ef19-c6dd-a73f-e723" primary="false"/>
               </categoryLinks>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="620e-54a2-8796-90c1">
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="65b1-960a-a31f-f792">
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Stubborn" id="9225-a6c2-5e90-acac" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                    <infoLink name="Stubborn" id="a620-ed2e-51e2-05b4" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
                   </infoLinks>
                   <constraints>
-                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3a39-1252-c041-b53f"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46b8-89a0-242a-d2b2"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a5f6-9a62-4102-ed46"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f90-3b88-72b2-cd04"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="1" field="3a39-1252-c041-b53f">
+                    <modifier type="set" value="1" field="a5f6-9a62-4102-ed46">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -3196,26 +3193,26 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="ee2b-bcb3-521a-ef89">
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="2e29-cf84-4d9d-7c6f">
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Stubborn" id="59b8-a1e7-5bfa-c16e" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                    <infoLink name="Stubborn" id="8cca-d3ee-826b-c724" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
                   </infoLinks>
                   <constraints>
-                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7598-d750-49f9-b56e"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f44f-571c-91f4-6da9"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e320-691a-d3fc-d4f2"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7881-f67b-ff95-076b"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="1" field="7598-d750-49f9-b56e">
+                    <modifier type="set" value="1" field="e320-691a-d3fc-d4f2">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -3409,26 +3406,26 @@
                 <categoryLink targetId="ef19-c6dd-a73f-e723" id="d2c3-d7f9-0c72-0ca5" primary="false" name="Terminator Sergeant"/>
               </categoryLinks>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="3718-7adc-c8f0-cafc">
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="30ab-5dc4-3a99-ebbc">
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Stubborn" id="4a51-c753-5173-95a1" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                    <infoLink name="Stubborn" id="e233-4826-a30e-7b9d" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
                   </infoLinks>
                   <constraints>
-                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7cb0-c287-4589-06e2"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="227d-36eb-26e8-64f9"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5400-d2fa-e222-c241"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cad-f969-60bc-3bc5"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="1" field="7cb0-c287-4589-06e2">
+                    <modifier type="set" value="1" field="5400-d2fa-e222-c241">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -3519,12 +3516,12 @@
                   <modifiers>
                     <modifier type="set" value="1" field="b963-46a8-281a-0b29">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -3655,7 +3652,7 @@
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="0e77-e514-f572-9f22" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3802,7 +3799,7 @@
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4586,7 +4583,7 @@
               <modifiers>
                 <modifier type="set" value="0" field="80df-73fa-b8d0-d472">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="0e77-e514-f572-9f22" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4698,7 +4695,7 @@
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="0e77-e514-f572-9f22" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5120,12 +5117,12 @@
                       <modifiers>
                         <modifier type="set" value="1" field="a90b-3368-b35b-e83a">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -5283,6 +5280,11 @@
                     <modifier type="increment" value="5" field="4ed5-2f92-9abc-2870">
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="force" childId="911a-793b-d817-c409" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -5837,6 +5839,13 @@
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Veteran Scout Sergeant" hidden="false" id="7345-3cc8-9bfd-852f" collective="false">
                   <infoLinks>
@@ -5858,12 +5867,12 @@
                       <modifiers>
                         <modifier type="set" value="1" field="7970-bc79-0b3d-2f6f">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -5935,7 +5944,7 @@
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
-                        <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -6294,6 +6303,11 @@
                         <condition type="atLeast" value="1" field="selections" scope="force" childId="911a-793b-d817-c409" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                   <infoLinks>
                     <infoLink name="Space Marine" id="6afa-1c19-859f-adb4" hidden="false" targetId="9514-67fd-b082-445f" type="profile">
@@ -6373,12 +6387,12 @@
                       <modifiers>
                         <modifier type="set" value="1" field="b5e8-7dd7-57e2-bb5f">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -6881,6 +6895,11 @@
                         <condition type="atLeast" value="1" field="selections" scope="force" childId="911a-793b-d817-c409" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                   <infoLinks>
                     <infoLink name="Space Marine Biker" id="03cc-6a77-75a2-29d9" hidden="false" targetId="b03d-e20c-1e5e-86b8" type="profile">
@@ -6956,12 +6975,12 @@
                       <modifiers>
                         <modifier type="set" value="1" field="84d8-908c-05ad-973a">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -7358,6 +7377,13 @@
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
                   </costs>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Veteran Scout Sergeant" hidden="false" id="d5f0-f7bc-9981-8e23" collective="false">
                   <infoLinks>
@@ -7387,12 +7413,12 @@
                       <modifiers>
                         <modifier type="set" value="1" field="8de0-98ca-98a2-6ac9">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -7989,6 +8015,11 @@
                         <condition type="atLeast" value="1" field="selections" scope="force" childId="911a-793b-d817-c409" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c30-5e47-66d6-b111" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -8099,12 +8130,12 @@
                       <modifiers>
                         <modifier type="set" value="1" field="c0e0-f85c-aaae-b16b">
                           <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="true" field="hidden">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -9433,9 +9464,9 @@ Master crafted" field="492d-1f80-b777-26f2"/>
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0e77-e514-f572-9f22" type="instanceOf"/>
-                <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="0885-d75b-33a6-169b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="9bbd-df2b-520d-778d" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -10675,26 +10706,26 @@ Special Force Field = 35</comment>
                 <categoryLink targetId="ef19-c6dd-a73f-e723" id="4bab-2555-9774-c465" primary="false" name="Terminator Sergeant"/>
               </categoryLinks>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="d217-db22-25d6-6290">
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="c55a-e935-3c0f-690a">
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Stubborn" id="7309-190e-d724-5aad" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                    <infoLink name="Stubborn" id="7530-0578-1e16-eed9" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
                   </infoLinks>
                   <constraints>
-                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="76d6-a19a-c1c9-149d"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d3d-8858-9ad1-f455"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="07ba-d2f1-b15d-4c23"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c19-9403-056c-7e4a"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="1" field="76d6-a19a-c1c9-149d">
+                    <modifier type="set" value="1" field="07ba-d2f1-b15d-4c23">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -10860,26 +10891,26 @@ Special Force Field = 35</comment>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="9fcd-b697-c4bb-e45c">
+                <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="06d4-e291-e93b-cacf">
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Stubborn" id="e652-adc6-ef80-5460" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
+                    <infoLink name="Stubborn" id="e73a-e5a7-94a7-dcb2" hidden="false" type="rule" targetId="1eb7-6961-7e16-d0b6"/>
                   </infoLinks>
                   <constraints>
-                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f732-2102-26f7-9a6f"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="704e-bb35-7887-088b"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4921-3567-c3c0-4766"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74d9-6eeb-fcb1-010a"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="1" field="f732-2102-26f7-9a6f">
+                    <modifier type="set" value="1" field="4921-3567-c3c0-4766">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -11036,7 +11067,7 @@ Special Force Field = 35</comment>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="0e77-e514-f572-9f22" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -11191,12 +11222,12 @@ Special Force Field = 35</comment>
                   <modifiers>
                     <modifier type="set" value="1" field="fa8f-5045-a910-a559">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="188b-39f3-ae3a-00da" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a0a1-0673-b637-2cc4" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -14707,7 +14738,7 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="0e77-e514-f572-9f22" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -15638,7 +15669,7 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="0e77-e514-f572-9f22" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a527-734f-2081-58cd" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>

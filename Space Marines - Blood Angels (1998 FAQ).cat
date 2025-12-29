@@ -11,7 +11,7 @@
     </entryLink>
     <entryLink id="5cbf-9380-6a87-1b14" name="Land Raider" hidden="false" collective="false" import="true" targetId="0432-2db6-5eda-20d8" type="selectionEntry">
       <infoLinks>
-        <infoLink id="cbeb-9c6b-0000-10b0" name="Blood Angels Special Rules" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+        <infoLink name="Blood Angels Special Rules" id="40c6-c92a-8f4c-1af3" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a10d-6c90-5cd1-ae18" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
@@ -229,6 +229,9 @@
       <categoryLinks>
         <categoryLink id="b796-a9af-8adf-5f5e" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="1f6c-9a47-d0cc-b419" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
     </entryLink>
     <entryLink id="0344-0444-23fb-2914" name="Brother Corbulo, Sanguinary High Priest" hidden="false" collective="false" import="true" targetId="44dc-151a-e345-606b" type="selectionEntry"/>
     <entryLink id="3d99-cb02-ffe1-e20d" name="Brother Captain Tycho" hidden="false" collective="false" import="true" targetId="5b52-fa19-64e5-2a60" type="selectionEntry"/>
@@ -238,6 +241,9 @@
       <categoryLinks>
         <categoryLink id="3fab-fb3d-58f7-07de" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="a143-6b78-3ee5-08a5" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
     </entryLink>
     <entryLink id="1ab6-0088-e1db-1ad2" name="Whirlwind Hyperios (IA)" hidden="false" collective="false" import="true" targetId="1466-696f-2a85-14b5" type="selectionEntry">
       <categoryLinks>
@@ -286,6 +292,9 @@
       <categoryLinks>
         <categoryLink id="9ee7-8f9e-dae9-38f8" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="90e7-8d68-9dae-b631" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
     </entryLink>
     <entryLink id="3e21-7f5a-c04a-1a2c" name="Land Raider Helios (IA)" hidden="false" collective="false" import="true" targetId="1be4-df32-2640-9413" type="selectionEntry">
       <constraints>
@@ -294,12 +303,18 @@
       <categoryLinks>
         <categoryLink id="c88f-4099-bd4b-21fe" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="7fd7-7687-01fe-4757" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
     </entryLink>
     <entryLink id="b22e-4977-8d33-336c" name="Land Raider Prometheus (IA)" hidden="false" collective="false" import="true" targetId="2fa6-311f-c6bd-6a9d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2fd1-bfb1-d1f6-a50e" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
         <categoryLink id="7a45-4f50-a2d6-3e73" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="c42a-dc63-c951-6b2a" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
     </entryLink>
     <entryLink id="fc0f-ba4a-b6b0-570f" name="Land Speeder Tempest (IA)" hidden="false" collective="false" import="true" targetId="7c0e-8c2e-0bfb-7646" type="selectionEntry">
       <categoryLinks>
@@ -352,25 +367,89 @@
         <categoryLink targetId="6d25-b346-c314-6911" id="9d72-f814-d78f-042f" primary="true" name="Elites"/>
         <categoryLink targetId="a527-734f-2081-58cd" id="a599-c69d-41d0-eafe" primary="false" name="Blood Angel"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="888a-85a4-664d-f48a" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Chaplain Dreadnought (IA)" hidden="false" id="8703-2a14-941b-2870" type="selectionEntry" targetId="3442-ad4d-bedd-a895">
       <categoryLinks>
         <categoryLink targetId="6d25-b346-c314-6911" id="27ab-2b7d-0ecc-7302" primary="true" name="Elites"/>
+        <categoryLink targetId="a527-734f-2081-58cd" id="a5b3-9620-f7aa-f938" primary="false" name="Blood Angel"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Siege Dreadnought (IA)" hidden="false" id="d623-ded0-2995-9061" type="selectionEntry" targetId="2c7e-b32c-968d-1faa">
       <categoryLinks>
         <categoryLink targetId="6d25-b346-c314-6911" id="856c-a64f-249a-b17b" primary="true" name="Elites"/>
+        <categoryLink targetId="a527-734f-2081-58cd" id="b3e3-d510-d766-ae8f" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="e7ae-b9ec-9fbc-99c1" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink import="true" name="Contemptor Dreadnought (Homebrew)" hidden="false" id="acee-cd10-422a-2ef8" collective="false" targetId="9042-1a04-ca8a-4f29" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="e95b-597f-c9ab-6231" primary="false" name="Blood Angel"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Contemptor Dreadnought (Homebrew)" hidden="false" id="acee-cd10-422a-2ef8" collective="false" targetId="9042-1a04-ca8a-4f29" type="selectionEntry"/>
-    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="afd8-bd09-7e4e-f728" type="selectionEntry" targetId="37ce-ecbd-2347-a23d"/>
-    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="06a2-c27c-e5df-16de" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5"/>
-    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="1e79-bea6-e62a-7487" type="selectionEntry" targetId="4865-cd59-43c2-d504"/>
-    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="9229-bc9d-7a53-6027" type="selectionEntry" targetId="3683-4a03-4746-7eda"/>
-    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="cbc5-138f-14f2-681d" type="selectionEntry" targetId="c54e-73f7-32ca-6894"/>
-    <entryLink import="true" name="Vanguard Veteran Squad (Homebrew)" hidden="false" id="1130-90c4-6b57-8ef5" type="selectionEntry" targetId="779a-065c-56bb-a54f"/>
-    <entryLink import="true" name="Sternguard Veteran Squad (Homebrew)" hidden="false" id="6d93-f943-2226-84a8" type="selectionEntry" targetId="6106-188e-b016-9b12"/>
+    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="afd8-bd09-7e4e-f728" type="selectionEntry" targetId="37ce-ecbd-2347-a23d">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="fa73-d5dd-2020-f14f" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="06a2-c27c-e5df-16de" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="49f5-b7b3-08d5-a0b2" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="07f4-0781-4ef1-dca0" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="1e79-bea6-e62a-7487" type="selectionEntry" targetId="4865-cd59-43c2-d504">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="ea05-2aab-4248-78a2" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="9229-bc9d-7a53-6027" type="selectionEntry" targetId="3683-4a03-4746-7eda">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="9b66-aa48-5cb8-9a75" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="cbc5-138f-14f2-681d" type="selectionEntry" targetId="c54e-73f7-32ca-6894">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="a434-9213-5a00-ea0b" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vanguard Veteran Squad (Homebrew)" hidden="false" id="1130-90c4-6b57-8ef5" type="selectionEntry" targetId="779a-065c-56bb-a54f">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="5cd6-66eb-a483-7633" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="542f-220c-3e94-4e9a" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sternguard Veteran Squad (Homebrew)" hidden="false" id="6d93-f943-2226-84a8" type="selectionEntry" targetId="6106-188e-b016-9b12">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="276a-bad7-4dd5-fc68" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="3d94-8970-9b77-abfb" name="Sanguinary Guard (Homebrew)" hidden="false" collective="false" import="true" targetId="b012-b5b3-0441-21dc" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="1c2e-d3d5-9b56-34a1" name="Blood Angels Special Rules" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="53b6-bec2-e5d6-dad2" name="Blood Angel" hidden="false" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Astorath the Grim (Homebrew)" hidden="false" id="3375-62e3-cdfa-8c95" type="selectionEntry" targetId="980f-8bea-2b87-7d45">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="10ba-06d9-fe4b-0020" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink import="true" name="The Sanguinor (Homebrew)" hidden="false" id="4670-faf4-bed6-7309" type="selectionEntry" targetId="cde0-b43b-041d-3cac">
+      <infoLinks>
+        <infoLink name="Blood Angels Special Rules" id="78f2-41fd-53ee-1889" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
+      </infoLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d1f7-6b7c-67ce-c814" name="Blood Angels Scout Squad" hidden="false" collective="false" import="true" type="unit">
@@ -2225,6 +2304,281 @@ Also counts as an extra close combat weapon (extra attack included in profile)</
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="120"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b012-b5b3-0441-21dc" name="Sanguinary Guard (Homebrew)" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="0033-57d3-e2e8-908c" name="Jump Packs" hidden="false" targetId="2563-092a-a5bc-992f" type="rule"/>
+        <infoLink id="7b07-ad58-af7d-0f85" name="Deep Strike" hidden="false" targetId="5715-6219-5059-9bcf" type="rule"/>
+        <infoLink id="30cb-12ae-0801-0eb5" name="And They Shall Know No Fear" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule"/>
+        <infoLink name="Space Marine Special Rules" id="4038-cc67-7681-def6" hidden="false" type="infoGroup" targetId="ff61-d90f-7ded-05e0"/>
+        <infoLink name="Artificer Armor" id="d58f-a3b3-6306-2cde" hidden="false" type="rule" targetId="7a02-cc04-9d97-3493"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="235e-8ce3-eaf9-e069" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4746-4b73-ee4c-17e7" name="Veterans" hidden="false" collective="false" import="true" defaultSelectionEntryId="7714-a733-5fce-8c7d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e770-6a31-1ebf-4aab" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e8e-cc1a-e989-ea85" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c42a-e165-2f29-276b" name="Sanguinary Guard" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5446-e5f2-a8cb-6461" name="Sanguinary Guard" hidden="false" targetId="dc98-8529-2a32-a7ab" type="profile"/>
+                <infoLink id="dc4b-3eaf-9abe-5632" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                <infoLink name="Krak Grenades" id="6724-722c-fb88-98c4" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40"/>
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapons" id="91f5-9646-de1f-9c23" hidden="false">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="CCW Hand" id="0788-273b-f4f1-a4e4" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6a7f-ffbb-e6aa-f352"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b89b-3c71-97d3-9237"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Encarmine Sword" hidden="false" id="a7d4-49aa-83ad-d77d">
+                          <infoLinks>
+                            <infoLink name="Master-crafted Weapons" id="cbff-92cc-b7f2-8abf" hidden="false" type="rule" targetId="0e54-6618-9b31-0f81"/>
+                            <infoLink name="Power Weapon" id="4ee1-ae45-49e2-ba9e" hidden="false" type="profile" targetId="5774-7187-2616-dd8a">
+                              <modifiers>
+                                <modifier type="set" value="Encarmine Sword (Master-crafted)" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Encarmine Axe" hidden="false" id="d1a9-1481-085b-5366">
+                          <infoLinks>
+                            <infoLink name="Master-crafted Weapons" id="1315-3b59-98fa-fe5c" hidden="false" type="rule" targetId="0e54-6618-9b31-0f81"/>
+                            <infoLink name="Relic Blade" id="88f5-e3a1-c819-0140" hidden="false" type="profile" targetId="eb8d-5db3-8789-054b">
+                              <modifiers>
+                                <modifier type="set" value="Encarmine Axe (Master-crafted)" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="0202-f22b-68e1-2acf">
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Power Fist/Claw" id="90bb-114c-891e-eabd" hidden="false" type="profile" targetId="a161-ed4b-bcb7-0a01">
+                              <modifiers>
+                                <modifier type="set" value="Power Fist" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Ranged Hand" id="dd50-2861-26d6-6359" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fdd0-2b20-b040-ddbe"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd8d-b6d4-7f64-a60e"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Angelus Boltgun" hidden="false" id="aaa3-98da-6b22-3728">
+                          <infoLinks>
+                            <infoLink name="Assault" id="88b7-9198-927d-0f7b" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                            <infoLink name="Angelus Boltgun" id="be9c-f387-f4a2-20a9" hidden="false" type="profile" targetId="32d6-9a69-3ebe-4155"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Inferno Pistol" hidden="false" id="7bd6-c9e9-029d-a7cc">
+                          <infoLinks>
+                            <infoLink name="Pistol" id="b590-90b5-174b-a40b" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+                            <infoLink name="Inferno Pistol" id="4026-ce80-46fd-ba46" hidden="false" type="profile" targetId="e5b7-6b22-1c0b-a128"/>
+                            <infoLink name="Melta" id="9bce-65a9-996d-4b47" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="6d49-7899-c7da-f5e2">
+                          <infoLinks>
+                            <infoLink name="Gets Hot!" id="5ed5-7243-e7f7-8c95" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+                            <infoLink name="Plasma Pistol" id="bdcf-1c89-b5e0-4da9" hidden="false" type="profile" targetId="7b91-b670-d042-7c88"/>
+                            <infoLink name="Pistol" id="ed4e-01f7-5f5c-0a32" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Equipment" id="5e6c-b890-6696-de83" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chapter Banner" hidden="false" id="daf1-f85f-27fe-46aa" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b89-09d6-45a0-b33b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b041-aade-970d-9916" includeChildSelections="true"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Chapter Banner" id="8951-6ec3-0074-48f4" hidden="false" type="rule" targetId="5df3-0068-e083-9213"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Death Masks" hidden="false" id="5214-e246-9d0f-d895" collective="false">
+              <modifiers>
+                <modifier type="increment" value="1" field="4ed5-2f92-9abc-2870">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bd6-86ec-bb5a-3107" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Death Mask" id="a763-8910-fa07-9b78" hidden="false" type="rule" targetId="c585-ce6a-bf8d-27a5"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Astorath the Grim (Homebrew)" hidden="false" id="980f-8bea-2b87-7d45">
+      <infoLinks>
+        <infoLink name="Relic Blade" id="9fa4-812c-7995-5f65" hidden="false" type="profile" targetId="eb8d-5db3-8789-054b">
+          <modifiers>
+            <modifier type="set" value="Executioner&apos;s Axe" field="name"/>
+            <modifier type="set" value="Ignores the target Armor Save (Sv) (but not Invulnerable Save). 
+
+
+When specified, grants a bonus to S or Wounds on a fixed value regardless of target Toughness (T).
+
+
+On a 6 To Wound, the target is wounded automatically, regardless of Toughness" field="492d-1f80-b777-26f2"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Litanies of Hate" id="8c7e-df55-870a-f256" hidden="false" type="rule" targetId="0d25-dd1a-2961-7de2"/>
+        <infoLink name="Rosarius" id="fb47-3b9b-a9b1-24f8" hidden="false" targetId="479f-929d-b531-a315" type="rule"/>
+        <infoLink name="Independent Character" id="ad04-cb56-b075-40b3" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+        <infoLink name="Honour The Chapter" id="2e92-26e2-a27f-c09c" hidden="false" type="rule" targetId="d763-ead4-5b96-9bf2"/>
+      </infoLinks>
+      <rules>
+        <rule name="Retinue" id="e0a3-b5af-6529-eb2e" hidden="false">
+          <description>A Blood Angels Chaplain always leads D3+3 Death Company Marines.
+
+
+All Blood Angels Chaplains and their Death Company Marines fight as a single unit</description>
+        </rule>
+        <rule name="Liturgies of Blood" id="d503-6c88-467c-a6b8" hidden="false">
+          <description>In a turn in which Astorath charges into combat, all Death Company Marines in his unit re-roll failed To Wound rolls in the Assault phase. </description>
+        </rule>
+        <rule name="Special Character" id="f71e-25fc-56e4-8d85" hidden="false">
+          <description>Astorath may be taken in a Blood Angels army of 1500 points or more as an HQ choice. You may not select additional items for him in the Armory</description>
+        </rule>
+      </rules>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="a8a7-7a4b-5f7e-2138" id="d824-00ea-570b-c44c" primary="true" name="HQ"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="165"/>
+      </costs>
+      <profiles>
+        <profile name="Astorath" typeId="1e16-2bd8-7cad-379b" typeName="Unit" hidden="false" id="40d3-e38c-09c3-8b19">
+          <characteristics>
+            <characteristic name="WS" typeId="c704-6128-f143-935a">6</characteristic>
+            <characteristic name="BS" typeId="7928-3a9b-6080-ed95">5</characteristic>
+            <characteristic name="S" typeId="df03-6292-d3f5-f778">5</characteristic>
+            <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">5</characteristic>
+            <characteristic name="W" typeId="4dc2-c603-0bc5-0561">4</characteristic>
+            <characteristic name="I" typeId="eeda-4fb4-901e-b70d">5</characteristic>
+            <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
+            <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
+            <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="985e-9c28-6b5e-e617" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The Sanguinor (Homebrew)" hidden="false" id="cde0-b43b-041d-3cac" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c433-e81f-f82a-653c" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <rules>
+        <rule name="Special Character" id="3743-9638-74d3-664b" hidden="false">
+          <description>The Sanguinor may be taken in a Blood Angels army of 1500 points or more as an HQ choice. You may not select additional items for him in the Armory</description>
+        </rule>
+        <rule name="Aura of Fervour" id="7664-bfcd-afc9-675b" hidden="false">
+          <description>All Blood Angels models that are within 6&quot; of the Sanguinor add +1 to their Attacks</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Power Weapon" id="5e1b-6306-142b-9e84" hidden="false" targetId="5774-7187-2616-dd8a" type="profile">
+          <modifiers>
+            <modifier type="set" value="Master-crafted Power Weapon" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Frag Grenades" id="d6cd-4c8e-f70b-d70c" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+        <infoLink name="Krak Grenades" id="f300-705e-a67e-c741" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+        <infoLink name="Jump Packs" id="ffbe-a9f0-8769-3b3e" hidden="false" targetId="2563-092a-a5bc-992f" type="rule"/>
+        <infoLink name="Artificer Armor" id="aff3-f2bc-890e-36f6" hidden="false" targetId="7a02-cc04-9d97-3493" type="rule"/>
+        <infoLink name="Iron Halo" id="7cc9-c600-fb69-8b91" hidden="false" targetId="c214-19e6-edea-0f81" type="rule"/>
+        <infoLink name="Space Marine Special Rules" id="052c-c9af-7e36-0dbf" hidden="false" type="infoGroup" targetId="ff61-d90f-7ded-05e0"/>
+        <infoLink name="Pistol" id="8fdc-81eb-5ddd-6904" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+        <infoLink name="Master-crafted Weapons" id="08c0-dbdb-4b69-c828" hidden="false" type="rule" targetId="0e54-6618-9b31-0f81"/>
+        <infoLink name="Death Mask" id="218e-95bb-f1e5-741a" hidden="false" type="rule" targetId="c585-ce6a-bf8d-27a5"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="b2f8-024c-ec9f-e410" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink name="Independent Character" hidden="false" id="ed80-d5e5-c46d-393b" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink name="Blood Angel" hidden="false" id="723c-a48d-1d44-50cb" targetId="a527-734f-2081-58cd" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Retinue" id="5d6c-5fde-72e2-1a98" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26c7-5c20-5b70-14c9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Blood Angels Honour Guard" hidden="false" id="b50c-b3f5-eda6-1944" collective="false" targetId="6d94-fc5b-d9d5-ca26" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="200"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="2893-070a-392e-4bc8" name="The Black Rage" hidden="false">
@@ -2464,6 +2818,28 @@ Devastator Squad</description>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol, Melta</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile name="Angelus Boltgun" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="32d6-9a69-3ebe-4155">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile name="Sanguinary Guard" typeId="1e16-2bd8-7cad-379b" typeName="Unit" hidden="false" id="dc98-8529-2a32-a7ab">
+      <characteristics>
+        <characteristic name="WS" typeId="c704-6128-f143-935a">4</characteristic>
+        <characteristic name="BS" typeId="7928-3a9b-6080-ed95">4</characteristic>
+        <characteristic name="S" typeId="df03-6292-d3f5-f778">4</characteristic>
+        <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4</characteristic>
+        <characteristic name="W" typeId="4dc2-c603-0bc5-0561">1</characteristic>
+        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">4</characteristic>
+        <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
+        <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
+        <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

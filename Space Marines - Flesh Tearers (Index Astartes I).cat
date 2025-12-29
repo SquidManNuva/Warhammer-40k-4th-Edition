@@ -116,10 +116,9 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
     <entryLink import="true" name="Chaplain Dreadnought (IA)" hidden="false" id="e344-38b1-1c1b-8d27" type="selectionEntry" targetId="3442-ad4d-bedd-a895">
       <categoryLinks>
         <categoryLink name="Elites" hidden="false" id="e467-d53f-cda4-2fec" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink targetId="a527-734f-2081-58cd" id="d52e-1a5d-9c2d-1942" primary="false" name="Blood Angel"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Chaplain Lemartes" hidden="false" id="94e1-5bfd-e104-71fe" collective="false" targetId="f2f0-1f3c-acea-bd23" type="selectionEntry"/>
-    <entryLink import="true" name="Chief Librarian Mephiston" hidden="false" id="9cd9-502d-d229-9b0c" collective="false" targetId="c722-8e89-b67e-9ee1" type="selectionEntry"/>
     <entryLink import="true" name="Damocles Command Rhino (IA)" hidden="false" id="2450-5e5d-5cfc-c02b" collective="false" targetId="56bf-16e9-79ee-abd3" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Blood Angel" hidden="false" id="5e5f-f331-b0f2-612e" targetId="a527-734f-2081-58cd" primary="false"/>
@@ -243,16 +242,6 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
         <categoryLink name="Blood Angel" hidden="false" id="6dab-7429-4de2-241a" targetId="a527-734f-2081-58cd" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Lord Dante" hidden="false" id="a5fa-7098-9610-ed31" collective="false" targetId="fbec-e532-c1b4-ca24" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Blood Angel" hidden="false" id="621d-724b-af5f-718f" targetId="a527-734f-2081-58cd" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Moriar the Chosen" hidden="false" id="e4a9-87d4-6911-c220" collective="false" targetId="804d-474e-74ef-fbfe" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Blood Angel" hidden="false" id="6662-4a78-3065-47ac" targetId="a527-734f-2081-58cd" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink import="true" name="Orbital Strike (IA)" hidden="true" id="53da-c029-041d-37e4" collective="false" targetId="9419-6303-5744-f2b2" type="selectionEntry">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -329,6 +318,7 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
     <entryLink import="true" name="Siege Dreadnought (IA)" hidden="false" id="b046-d51c-e8d6-4bff" type="selectionEntry" targetId="2c7e-b32c-968d-1faa">
       <categoryLinks>
         <categoryLink name="Elites" hidden="false" id="9142-aad0-6f8d-0982" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink targetId="a527-734f-2081-58cd" id="b754-0ee8-eb8a-dec9" primary="false" name="Blood Angel"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Tactical Squad" hidden="false" id="b65d-9787-2d4a-6b1d" collective="false" targetId="2a63-ef79-7e7a-03aa" type="selectionEntry">
@@ -383,14 +373,6 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
         <categoryLink name="Blood Angel" hidden="false" id="6257-7d9e-bafd-6ce0" targetId="a527-734f-2081-58cd" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Venerable Dreadnought (IA)" hidden="false" id="d0aa-5889-9bb9-490d" collective="false" targetId="784e-79ec-558e-26ee" type="selectionEntry">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ee53-63fb-058b-4d82" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink name="Blood Angel" hidden="false" id="6fa6-29f9-2281-15ce" targetId="a527-734f-2081-58cd" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink import="true" name="Veteran Squad" hidden="false" id="037e-11bf-3ba0-7e73" collective="false" targetId="9003-88bd-bc93-1355" type="selectionEntry">
       <infoLinks>
         <infoLink name="Blood Angels Special Rules" id="3ef5-a7c1-4848-a94e" hidden="false" targetId="bcc9-4a2a-8619-1b80" type="infoGroup"/>
@@ -432,14 +414,46 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Death Company Dreadnought" hidden="false" id="a868-e0f4-849f-151f" type="selectionEntry" targetId="44b5-2dd1-578c-318f"/>
-    <entryLink import="true" name="Contemptor Dreadnought (Homebrew)" hidden="false" id="e902-cc2a-2aa2-1ffa" collective="false" targetId="9042-1a04-ca8a-4f29" type="selectionEntry"/>
-    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="f2c1-ed7b-9e6d-6ec0" type="selectionEntry" targetId="37ce-ecbd-2347-a23d"/>
-    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="56da-2211-a317-6c32" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5"/>
-    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="4e31-8e87-835b-d68b" type="selectionEntry" targetId="4865-cd59-43c2-d504"/>
-    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="9371-e2fe-3012-531a" type="selectionEntry" targetId="3683-4a03-4746-7eda"/>
-    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="18ab-d7d5-90e7-f306" type="selectionEntry" targetId="c54e-73f7-32ca-6894"/>
-    <entryLink import="true" name="Vanguard Veteran Squad (Homebrew)" hidden="false" id="8b8c-691b-aaf1-1bbb" type="selectionEntry" targetId="779a-065c-56bb-a54f"/>
-    <entryLink import="true" name="Sternguard Veteran Squad (Homebrew)" hidden="false" id="39ba-b6e7-10aa-a8a9" type="selectionEntry" targetId="6106-188e-b016-9b12"/>
+    <entryLink import="true" name="Contemptor Dreadnought (Homebrew)" hidden="false" id="e902-cc2a-2aa2-1ffa" collective="false" targetId="9042-1a04-ca8a-4f29" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="6f70-d8fc-d1ea-41a7" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="f2c1-ed7b-9e6d-6ec0" type="selectionEntry" targetId="37ce-ecbd-2347-a23d">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="d51d-cd06-a132-9514" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="56da-2211-a317-6c32" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="84f6-780b-edb1-47cf" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="4e31-8e87-835b-d68b" type="selectionEntry" targetId="4865-cd59-43c2-d504">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="0eab-e7f2-7a5b-b838" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="9371-e2fe-3012-531a" type="selectionEntry" targetId="3683-4a03-4746-7eda">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="c548-f9e2-e5c7-0583" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="18ab-d7d5-90e7-f306" type="selectionEntry" targetId="c54e-73f7-32ca-6894">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="0c98-4f14-a7fb-be79" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vanguard Veteran Squad (Homebrew)" hidden="false" id="8b8c-691b-aaf1-1bbb" type="selectionEntry" targetId="779a-065c-56bb-a54f">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="d8cd-68eb-f32d-699b" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sternguard Veteran Squad (Homebrew)" hidden="false" id="39ba-b6e7-10aa-a8a9" type="selectionEntry" targetId="6106-188e-b016-9b12">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="ad9f-ee5a-b3e2-ef52" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Flesh Tearers Tank" id="27c3-48e4-fad7-03d3" hidden="false">

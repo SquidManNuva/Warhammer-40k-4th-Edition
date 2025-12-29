@@ -593,7 +593,7 @@
                 <entryLink import="true" name="Black Templars Armory" hidden="false" id="c3aa-05d0-af48-ab73" collective="false" targetId="7733-5c41-24dc-b8ba" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="31"/>
               </costs>
               <categoryLinks>
                 <categoryLink name="Veteran Sergeant" hidden="false" id="9562-e958-49dd-1781" targetId="1f99-c234-4b18-2900" primary="false"/>

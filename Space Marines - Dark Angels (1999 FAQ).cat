@@ -707,11 +707,13 @@
     <entryLink import="true" name="Mortis Dreadnought (IA)" hidden="false" id="109f-52e8-bf27-be19" type="selectionEntry" targetId="3522-f266-43b2-859b">
       <categoryLinks>
         <categoryLink targetId="6d25-b346-c314-6911" id="4a77-bf21-c86a-acc8" primary="true" name="Elites"/>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="20da-3c3d-e16e-bacd" primary="false" name="Dark Angel"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Siege Dreadnought (IA)" hidden="false" id="e045-9d00-91c6-384c" type="selectionEntry" targetId="2c7e-b32c-968d-1faa">
       <categoryLinks>
         <categoryLink targetId="6d25-b346-c314-6911" id="d9c8-31c9-de69-e5b8" primary="true" name="Elites"/>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="750b-1450-9c23-7c0b" primary="false" name="Dark Angel"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -721,7 +723,11 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Chaplain Dreadnought (IA)" hidden="false" id="16f3-7e8c-5a08-744b" type="selectionEntry" targetId="3442-ad4d-bedd-a895"/>
+    <entryLink import="true" name="Chaplain Dreadnought (IA)" hidden="false" id="16f3-7e8c-5a08-744b" type="selectionEntry" targetId="3442-ad4d-bedd-a895">
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="fce7-4608-29e2-aff5" primary="false" name="Dark Angel"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Thunderhawk Gunship (IA)" hidden="false" id="0a70-47d6-3606-8599" type="selectionEntry" targetId="81c2-8110-65c2-82cd"/>
     <entryLink import="true" name="Whirlwind Hyperios (IA)" hidden="false" id="6d40-c636-cb3f-9fab" type="selectionEntry" targetId="1466-696f-2a85-14b5">
       <modifiers>
@@ -731,8 +737,15 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="e95a-71fd-0270-9b14" primary="false" name="Dark Angel"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Hyperios Air Defence Battery (IA)" hidden="false" id="439f-b547-7eb2-4c8a" type="selectionEntry" targetId="fde5-3ce5-0c7a-820c"/>
+    <entryLink import="true" name="Hyperios Air Defence Battery (IA)" hidden="false" id="439f-b547-7eb2-4c8a" type="selectionEntry" targetId="fde5-3ce5-0c7a-820c">
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="df92-e8b9-54b0-b663" primary="false" name="Dark Angel"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Tarantula Sentry Gun (IA)" hidden="false" id="f8b9-1816-2dfc-75a8" type="selectionEntry" targetId="0172-2ae4-fad7-4482">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -741,10 +754,25 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="50aa-86d5-1e08-8f45" primary="false" name="Dark Angel"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Deathwind Drop Pod (IA)" hidden="false" id="6414-c7a7-beef-60b7" type="selectionEntry" targetId="9470-3822-9925-43d2"/>
-    <entryLink import="true" name="Contemptor Dreadnought (Homebrew)" hidden="false" id="6a5a-2915-c89a-8573" collective="false" targetId="9042-1a04-ca8a-4f29" type="selectionEntry"/>
-    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="ab47-38eb-de51-5104" type="selectionEntry" targetId="37ce-ecbd-2347-a23d"/>
+    <entryLink import="true" name="Deathwind Drop Pod (IA)" hidden="false" id="6414-c7a7-beef-60b7" type="selectionEntry" targetId="9470-3822-9925-43d2">
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="faa2-d2e4-b83b-8f9b" primary="false" name="Dark Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Contemptor Dreadnought (Homebrew)" hidden="false" id="6a5a-2915-c89a-8573" collective="false" targetId="9042-1a04-ca8a-4f29" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="5822-5e6f-46b1-7ff3" primary="false" name="Dark Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="ab47-38eb-de51-5104" type="selectionEntry" targetId="37ce-ecbd-2347-a23d">
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="5daa-00ae-4fb3-7c36" primary="false" name="Dark Angel"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="de50-931c-697e-1ddf" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -753,10 +781,25 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="ccb1-69a1-ca74-7cf8" primary="false" name="Dark Angel"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="3919-adc8-664f-a0a1" type="selectionEntry" targetId="4865-cd59-43c2-d504"/>
-    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="635a-f6a6-2487-66ba" type="selectionEntry" targetId="3683-4a03-4746-7eda"/>
-    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="5d1c-eb64-e953-ee71" type="selectionEntry" targetId="c54e-73f7-32ca-6894"/>
+    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="3919-adc8-664f-a0a1" type="selectionEntry" targetId="4865-cd59-43c2-d504">
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="048d-6ff9-ad0a-cefd" primary="false" name="Dark Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="635a-f6a6-2487-66ba" type="selectionEntry" targetId="3683-4a03-4746-7eda">
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="2434-2f55-ff79-ff10" primary="false" name="Dark Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="5d1c-eb64-e953-ee71" type="selectionEntry" targetId="c54e-73f7-32ca-6894">
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="90a4-2b5a-1a2f-3ec8" primary="false" name="Dark Angel"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="0263-5812-8b67-18e4" name="Deathwing Terminator Squad (Homebrew)" hidden="false" collective="false" import="true" targetId="6f49-f8af-f370-2d39" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -836,9 +879,16 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="00c0-e7ce-fe83-4b32" primary="false" name="Dark Angel"/>
+      </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Company Veteran Squad (Homebrew)" hidden="false" id="1ce4-0cc9-02cf-bfa8" type="selectionEntry" targetId="a31f-9d76-9e97-59ad"/>
-    <entryLink import="true" name="Caestus Assault Ram (Homebrew)" hidden="false" id="31e4-e63c-87be-a472" type="selectionEntry" targetId="9f00-abf1-5193-758c"/>
+    <entryLink import="true" name="Caestus Assault Ram (Homebrew)" hidden="false" id="31e4-e63c-87be-a472" type="selectionEntry" targetId="9f00-abf1-5193-758c">
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="08b1-36fc-9e06-b80b" primary="false" name="Dark Angel"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Land Raider Achilles (Homebrew)" hidden="false" id="2b40-e306-b740-b092" type="selectionEntry" targetId="3597-a3e1-2913-efb1">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -847,6 +897,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="a0a1-0673-b637-2cc4" id="881d-fc60-0c9e-c5f3" primary="false" name="Dark Angel"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
