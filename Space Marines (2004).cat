@@ -411,7 +411,7 @@
     <entryLink import="true" name="Land Raider Redeemer (Homebrew)" hidden="false" id="dcdb-6b48-2a52-1cef" type="selectionEntry" targetId="e0d1-5ce6-a63b-4ccd"/>
     <entryLink import="true" name="Thunderfire Cannon (Homebrew)" hidden="false" id="5850-dc25-a001-a41e" type="selectionEntry" targetId="3932-0c7c-0818-da62"/>
     <entryLink import="true" name="Siege Dreadnought Talon (Homebrew)" hidden="false" id="3aa0-6762-1883-d45f" type="selectionEntry" targetId="9deb-f115-a25c-91e5"/>
-    <entryLink import="true" name="Space Marine Siege Master (Homebrew)" hidden="false" id="c024-aa4b-5653-a09d" type="selectionEntry" targetId="b9d9-e73a-cbb6-52ca"/>
+    <entryLink import="true" name="Siege Master (Homebrew)" hidden="false" id="c024-aa4b-5653-a09d" type="selectionEntry" targetId="b9d9-e73a-cbb6-52ca"/>
     <entryLink import="true" name="Siege Tactical Squad (Homebrew)" hidden="false" id="3be9-7987-3af0-b794" type="selectionEntry" targetId="1073-d246-11e8-7d72"/>
     <entryLink id="5665-408c-6892-a99d" name="Siege Assault Squad (Homebrew)" hidden="false" collective="false" import="true" targetId="77b1-3289-1836-f72b" type="selectionEntry">
       <categoryLinks>
@@ -434,6 +434,8 @@
     </entryLink>
     <entryLink import="true" name="Caestus Assault Ram (Homebrew)" hidden="false" id="73c4-185d-221b-71ad" type="selectionEntry" targetId="9f00-abf1-5193-758c"/>
     <entryLink import="true" name="Land Raider Achilles (Homebrew)" hidden="false" id="3fd0-b685-a6fd-3695" type="selectionEntry" targetId="3597-a3e1-2913-efb1"/>
+    <entryLink import="true" name="Vulkan He&apos;stan, Forgefather of the Salamanders (Homebrew)" hidden="false" id="f294-dab5-2f7c-e0a4" type="selectionEntry" targetId="2a6f-426d-a340-d97c"/>
+    <entryLink import="true" name="Thunderhawk Transporter (IA)" hidden="false" id="eb5d-3aa8-e2d5-f74c" type="selectionEntry" targetId="0664-3f49-6615-3297"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="043b-1cc7-9a38-8133" name="Commander" hidden="false" collective="false" import="true" type="model">
@@ -8900,6 +8902,9 @@
                 </entryLink>
                 <entryLink import="true" name="Command Squad" hidden="false" id="58db-6c05-b3b5-2007" collective="false" targetId="bc53-c50d-f840-ebaa" type="selectionEntry"/>
               </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f5e-fcd0-ff85-bfe6"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
@@ -14756,6 +14761,11 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
             <condition type="equalTo" value="1" field="selections" scope="force" childId="3b03-f3cf-2bd3-456f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Gabriel Angelos of the Blood Ravens (Homebrew)" hidden="false" id="c65f-3068-99b2-52e0">
@@ -15205,8 +15215,8 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <constraints>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="6ed0-c074-eb7a-5b12" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="ec93-459c-17a5-99e0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="6ed0-c074-eb7a-5b12" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ec93-459c-17a5-99e0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <modifiers>
                 <modifier type="decrement" value="1" field="6ed0-c074-eb7a-5b12">
@@ -15341,64 +15351,6 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fac7-b206-8705-199f" name="Transport Vehicle" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="ece8-f656-dc6e-4d62" value="1">
-              <conditions>
-                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f0b-3e54-c10f-0a71" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6292-d550-834b-465e" type="max"/>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ece8-f656-dc6e-4d62" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="ccf9-3788-7b2e-2c71" name="Rhino" hidden="false" collective="false" import="true" targetId="a0bd-2758-8540-c713" type="selectionEntry">
-              <modifiers>
-                <modifier type="add" value="34e2-d53c-28ab-44cf" field="category">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="bdc2-53e9-7d56-b0b1" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="10d3-6d37-6439-c300" name="Razorback" hidden="false" collective="false" import="true" targetId="af87-d6ac-8955-8877" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="d9cf-e4b7-e3bc-5b50" value="0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b71-42e4-af80-5e2d" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-                <modifier type="add" value="34e2-d53c-28ab-44cf" field="category">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="bdc2-53e9-7d56-b0b1" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9cf-e4b7-e3bc-5b50" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="05fe-e6b2-4e59-9af7" name="Drop Pod" hidden="false" collective="false" import="true" targetId="a9cd-beaa-0d6b-0086" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4663-cb6b-fa64-6b84" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-                <modifier type="add" value="34e2-d53c-28ab-44cf" field="category">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="bdc2-53e9-7d56-b0b1" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d54b-239c-2a63-7e63" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup name="Equipment" id="b731-f4ab-640b-f83d" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Krak Grenades" hidden="false" id="fa59-f66e-0d6f-be77" collective="false">
@@ -15517,11 +15469,6 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Infiltrate" hidden="false" id="1258-00dc-c918-95bf" collective="false">
                   <modifiers>
-                    <modifier type="set" value="0" field="5535-49ca-13ed-2748">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="779a-065c-56bb-a54f" childId="fac7-b206-8705-199f" shared="true"/>
-                      </conditions>
-                    </modifier>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
                         <condition type="equalTo" value="1" field="selections" scope="force" childId="9da2-2e2b-3e77-801f" shared="true" includeChildSelections="true"/>
@@ -15687,6 +15634,11 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
             <condition type="equalTo" value="1" field="selections" scope="force" childId="3b03-f3cf-2bd3-456f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Centurion Assault Squad (Homebrew)" hidden="false" id="99ab-f700-7ed6-ab3e">
@@ -15719,28 +15671,7 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Land Raider Redeemer (Homebrew)" hidden="false" id="561a-974d-ad0e-e156" type="selectionEntry" targetId="e0d1-5ce6-a63b-4ccd"/>
-            <entryLink import="true" name="Land Raider" hidden="false" id="74a2-2be4-f53f-010d" collective="false" targetId="0432-2db6-5eda-20d8" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" value="0" field="8bf6-7222-9cb2-520e">
-                  <conditions>
-                    <condition type="greaterThan" value="5" field="selections" scope="parent" childId="3094-1297-cfba-e0d1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="4663-cb6b-fa64-6b84" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-                <modifier type="add" value="34e2-d53c-28ab-44cf" field="category">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="bdc2-53e9-7d56-b0b1" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bf6-7222-9cb2-520e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-            </entryLink>
+            <entryLink import="true" name="Land Raider Crusader" hidden="false" id="e357-75e6-7a63-dbfb" type="selectionEntry" targetId="d7d7-d12e-387b-1b3b"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9aa-eac5-e135-7d67"/>
@@ -15749,10 +15680,10 @@ Twin-Linked Krak Missile Long Barrel: 20+50%+50% / 2 = 40</comment>
         <selectionEntryGroup name="Centurions" id="f8a8-a9a7-433b-fb91" hidden="false">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="fa2e-27b5-66a0-156a"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b8ae-ab63-80d1-850d"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b8ae-ab63-80d1-850d"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Centurion" hidden="false" id="54a5-3994-e968-d3e6">
+            <selectionEntry type="model" import="true" name="Centurion" hidden="false" id="54a5-3994-e968-d3e6">
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55"/>
               </costs>
@@ -15844,6 +15775,18 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <modifiers>
+                <modifier type="set" value="3" field="b692-1be2-e4d8-5ddf">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="6" field="ae5a-4651-10b9-20e0">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -15853,7 +15796,7 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0aa0-d1d1-5dd2-fc02"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Centurion Sergeant" hidden="false" id="9430-b1d2-71ae-a450">
+                <selectionEntry type="model" import="true" name="Centurion Sergeant" hidden="false" id="9430-b1d2-71ae-a450">
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55"/>
                   </costs>
@@ -15960,7 +15903,7 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Centurion Veteran Sergeant" hidden="false" id="a3e4-fa80-a03e-62da">
+                <selectionEntry type="model" import="true" name="Centurion Veteran Sergeant" hidden="false" id="a3e4-fa80-a03e-62da">
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="70"/>
                   </costs>
@@ -16063,15 +16006,25 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
+              <modifiers>
+                <modifier type="set" value="0" field="66b2-3fbf-49d5-a810">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="0" field="0aa0-d1d1-5dd2-fc02">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
@@ -16128,10 +16081,10 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
         <selectionEntryGroup name="Centurions" id="05ee-b82a-7cec-1337" hidden="false">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="8074-097e-0428-47b2"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="106c-23b4-3fb3-657a"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="106c-23b4-3fb3-657a"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Centurion" hidden="false" id="e0de-21c9-da16-e18b">
+            <selectionEntry type="model" import="true" name="Centurion" hidden="false" id="e0de-21c9-da16-e18b">
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55"/>
               </costs>
@@ -16219,6 +16172,18 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <modifiers>
+                <modifier type="set" value="3" field="f1b1-bc1a-3d33-d75d">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="6" field="7031-e972-b7da-be8e">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -16228,7 +16193,7 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94c9-a25a-4617-7383"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Centurion Sergeant" hidden="false" id="96dc-4c5a-7071-5085">
+                <selectionEntry type="model" import="true" name="Centurion Sergeant" hidden="false" id="96dc-4c5a-7071-5085">
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55"/>
                   </costs>
@@ -16331,7 +16296,7 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Centurion Veteran Sergeant" hidden="false" id="2ad0-bd6b-2cc1-86b8">
+                <selectionEntry type="model" import="true" name="Centurion Veteran Sergeant" hidden="false" id="2ad0-bd6b-2cc1-86b8">
                   <costs>
                     <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="70"/>
                   </costs>
@@ -16430,15 +16395,25 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
+              <modifiers>
+                <modifier type="set" value="0" field="9860-35a4-b542-130f">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="0" field="94c9-a25a-4617-7383">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0e24-d2c1-5ce8-e7cb" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
@@ -16792,7 +16767,6 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
                 <entryLink import="true" name="Space Marine Armory" hidden="false" id="a2f5-9934-3605-f4de" type="selectionEntryGroup" targetId="bfc9-22b8-1379-3112"/>
               </entryLinks>
               <infoLinks>
-                <infoLink name="Bolt Pistol" id="4470-1421-0ce5-25f4" hidden="false" type="profile" targetId="e9ac-c779-51bb-3c9a"/>
                 <infoLink name="Power Weapon" id="37af-a4c8-365d-293e" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
                 <infoLink name="Servo-Arm" id="3fca-7813-0ba8-e804" hidden="false" type="profile" targetId="424f-b4b1-2884-2086">
                   <modifiers>
@@ -18488,6 +18462,112 @@ May make a Flamer attack against anyone inside a bunker/pillbox/building. Models
         <categoryLink targetId="06e9-45c0-5e4c-7ce3" id="c4a2-2e9f-ab25-931a" primary="false" name="Land Raider"/>
         <categoryLink targetId="aacb-8a81-62c0-3db8" id="493c-e908-5d9f-dd27" primary="true" name="Heavy Support"/>
       </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="2a6f-426d-a340-d97c" name="Vulkan He&apos;stan, Forgefather of the Salamanders (Homebrew)" hidden="false" collective="false" import="true" type="model">
+      <comment>200 points updated in Chapter Approved 2004</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="52d8-9148-50b7-99df" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="60c2-c3f9-70e9-61ee" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="35d5-4463-933b-a32d" type="max"/>
+      </constraints>
+      <rules>
+        <rule name="Special Character" id="d4fc-dc6f-2b2a-2c59" hidden="false">
+          <description>May only be taken in an Salamanders army of 1500 points or more</description>
+        </rule>
+        <rule name="The Forgefather" id="08a9-a738-9c9b-c338" hidden="false">
+          <description>All Melta weaponry in an army with Vulkan He&apos;stan is considered Master-crafted</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="740a-f0c5-f453-59fe" name="Heavy Flamer" hidden="false" targetId="6d36-2c09-dfc3-f257" type="profile">
+          <modifiers>
+            <modifier type="set" value="Gauntlet of the Forge" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9ef0-6234-a311-13e6" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+        <infoLink name="Space Marine Special Rules" id="1446-08c8-17b3-3066" hidden="false" type="infoGroup" targetId="ff61-d90f-7ded-05e0"/>
+        <infoLink name="Adamantine Mantle" id="9e1e-1792-e1e3-97e7" hidden="false" type="rule" targetId="47c0-d626-ee7b-ffdb"/>
+        <infoLink name="Assault" id="4a74-5f9e-cbd7-9ba0" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+        <infoLink name="Template" id="c65e-301a-ae37-383b" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+        <infoLink name="Relic Blade" id="609b-157c-2795-f1b2" hidden="false" type="profile" targetId="eb8d-5db3-8789-054b">
+          <modifiers>
+            <modifier type="set" value="Spear of Vulkan (Master-crafted Relic Blade)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Master-crafted Weapons" id="a808-76b1-0a44-89c8" hidden="false" type="rule" targetId="0e54-6618-9b31-0f81"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="636f-84bf-95f6-30f0" name="HQ" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="e7d0-a935-401d-ce8e" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fd04-a261-e7d5-024f" name="Command Squad" hidden="false" collective="false" import="true" targetId="bc53-c50d-f840-ebaa" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="190"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0664-3f49-6615-3297" name="Thunderhawk Transporter (IA)" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3261-6601-5bfe-f5d0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="f315-6550-4f6e-190b" name="Fire Control (IA)" hidden="false">
+          <description>The Thunderhawk may always fire one additional weapon system to those it would normally be able to fire. This shot may be against a different target to that engaged by the crew. Automatic targetting is less accurate and therefore conducted with BS2. If the crew are stunned or shaken, the Machine Spirit may still fire a weapon using this rule.</description>
+        </rule>
+        <rule id="dc26-5c90-a18e-e6ac" name="Ceramite Shielding" hidden="false">
+          <description>The Thunderhawk&apos;s reentry shielding makes it resistant to melta weapons. Melta weapons, including melta bombs, never roll a extra dice for armour penetration due to being at half range against a Thunderhawk.</description>
+        </rule>
+        <rule id="931f-17f9-4a90-bc9c" name="Decoy Flares" hidden="false">
+          <description>One use only. If the vehicle takes a glancing hit, it may re-roll the result.</description>
+        </rule>
+        <rule name="Unloading Vehicles" id="2067-3da3-2ae4-444e" hidden="false">
+          <description>The Transporter lands using the normal Orbital Lander rules. Simply leave the disembarking vehicle(s) in place when moving the Transporter again. The disembarked vehicles may begin moving, shooting, etc. as normal in their own turn.</description>
+        </rule>
+        <rule name="Loading Vehicles" id="d29a-97d0-ee69-57b3" hidden="false">
+          <description>An empty transporter may pick up vehicle(s) by using the Orbital Lander rules to land on top of a vehicle and must spend a complete turn securing it before it can take off. 
+
+
+Any damaged (not destroyed) vehicle removed from the battlefield is worth half of its normal Victory Points to its opponents.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ed4a-0075-7282-c173" name="Thunderhawk Transporter" hidden="false" targetId="a755-32fa-cafc-cf00" type="profile"/>
+        <infoLink id="f05f-9c81-98ce-f305" name="Super-Heavy Flyer" hidden="false" targetId="7ca6-da5f-a87c-f49b" type="rule"/>
+        <infoLink id="ad93-522f-fb4b-7c09" name="Orbital Lander" hidden="false" targetId="7b1f-05c8-5a14-f539" type="rule"/>
+        <infoLink id="a82d-127f-ab49-05b1" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+        <infoLink id="c512-800c-da8b-7f0e" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="4x Twin-linked Heavy Bolters"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy" id="e17b-b52b-da06-97c9" hidden="false" type="rule" targetId="7f8e-f30c-745f-fdb9"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f5aa-2fb1-d954-ec1b" name="Super-Heavy" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="455"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -22587,7 +22667,7 @@ If the Psyker rolls a 12 for the Psychic Test, check for Perils of the Warp on t
     </profile>
     <profile name="Vengeance" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="5d9f-ea41-41d7-3086">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;-47&quot; G</characteristic>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;- 47&quot; G</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Ordnance barrage, Large Blast marker</characteristic>
@@ -22864,6 +22944,19 @@ Any non-vehicle model that suffers one or more unsaved Wounds or passes one or m
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 4 Blast, One use</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="a755-32fa-cafc-cf00" name="Thunderhawk Transporter" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="85f4-de3e-abeb-67f7">12</characteristic>
+        <characteristic name="Side Armor" typeId="8ec2-d2f2-3bed-35ef">12</characteristic>
+        <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">10</characteristic>
+        <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
+        <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">3</characteristic>
+        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11">2 Rhino variants or 1 Land Raider Variant
+
+
+*Rhino Variants: Rhinos, Predators, Whirlwinds, Vindicators</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
