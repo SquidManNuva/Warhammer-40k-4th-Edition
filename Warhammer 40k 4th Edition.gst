@@ -2921,6 +2921,9 @@ Models in the targeted unit must still be in range in order for these additional
 
 These additional Hits do not themselves inflict more Hits and do not benefit from any other special rules possessed by the attacking model.</description>
     </rule>
+    <rule name="Sniper" id="1981-2cc7-c105-4e76" hidden="false">
+      <description>Always hits on 2+ regardless of BS &amp; wounds on 4+ regardless of the target&apos;s Toughness. Rolls 2D6 for Armour Penetration vs. vehicles, but with no additional bonux for Strength.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="9177-ce8a-92e3-157e" name="Flamer" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
@@ -2938,7 +2941,7 @@ These additional Hits do not themselves inflict more Hits and do not benefit fro
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 1 Blast</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Grenade Launchers can fire either frag or krak rounds. Choose which to shot before rolling to hit.</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Grenade Launchers can fire either frag or krak rounds. Choose which to shoot before rolling to hit.</characteristic>
       </characteristics>
     </profile>
     <profile id="d236-a268-4f05-49f0" name="Grenade Launcher (krak)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
@@ -2947,7 +2950,7 @@ These additional Hits do not themselves inflict more Hits and do not benefit fro
         <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 1</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Grenade Launchers can fire either frag or krak rounds. Choose which to shot before rolling to hit.</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Grenade Launchers can fire either frag or krak rounds. Choose which to shoot before rolling to hit.</characteristic>
       </characteristics>
     </profile>
     <profile id="b9aa-366b-bd62-4692" name="Heavy Bolter" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
@@ -3424,7 +3427,7 @@ For a single model equipped with two, +1 Attack.</characteristic>
 Ignores armor saves
 
 
-Counts as a [ower fist but strikes at the Dreadnought’s normal Initiative. &amp; If armed with two close combat weapons, the Dreadnought gains +1 Attack</characteristic>
+Counts as a power fist but strikes at the Dreadnought’s normal Initiative. &amp; If armed with two close combat weapons, the Dreadnought gains +1 Attack</characteristic>
       </characteristics>
     </profile>
     <profile id="ff9c-5b94-680f-36d5" name="Power Claw" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
@@ -3882,7 +3885,6 @@ Treats any Assault hits vs. vehicles as S5 + D6 AP.</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignores the target Armor Save (Sv) (but not Invulnerable Save). 
 
-
 When specified, grants a bonus to S or Wounds on a fixed value regardless of target Toughness (T).</characteristic>
       </characteristics>
     </profile>
@@ -3909,7 +3911,7 @@ When specified, grants a bonus to S or Wounds on a fixed value regardless of ta
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">X</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1 Sniper</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Sniper Rifles aways hit on a 2+ and its Strength always equals the Toughness of the target. Units suffering casualties from a sniper rifles must test to avoid pinning as for a barrage. A sniper rifle only has an armor penetration of D6 against a vehicle.</characteristic>
       </characteristics>
     </profile>
@@ -4467,6 +4469,15 @@ Against Vehicles only, additionally multiplies Strength (S) by 3, up to a maxim
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore Armour saves. 2D6 penetration vs vehicles.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a580-12ed-2654-7125" name="Missile Launcher (flakk)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">7</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1 Anti-Air</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Uses normal Ballistic Skill when shooting at Flyers</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

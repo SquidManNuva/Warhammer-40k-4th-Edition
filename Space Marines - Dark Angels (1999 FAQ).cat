@@ -768,38 +768,6 @@
         <categoryLink targetId="a0a1-0673-b637-2cc4" id="5822-5e6f-46b1-7ff3" primary="false" name="Dark Angel"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="ab47-38eb-de51-5104" type="selectionEntry" targetId="37ce-ecbd-2347-a23d">
-      <categoryLinks>
-        <categoryLink targetId="a0a1-0673-b637-2cc4" id="5daa-00ae-4fb3-7c36" primary="false" name="Dark Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="de50-931c-697e-1ddf" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5">
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="force" childId="88c7-1832-1739-6b80" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink targetId="a0a1-0673-b637-2cc4" id="ccb1-69a1-ca74-7cf8" primary="false" name="Dark Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="3919-adc8-664f-a0a1" type="selectionEntry" targetId="4865-cd59-43c2-d504">
-      <categoryLinks>
-        <categoryLink targetId="a0a1-0673-b637-2cc4" id="048d-6ff9-ad0a-cefd" primary="false" name="Dark Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="635a-f6a6-2487-66ba" type="selectionEntry" targetId="3683-4a03-4746-7eda">
-      <categoryLinks>
-        <categoryLink targetId="a0a1-0673-b637-2cc4" id="2434-2f55-ff79-ff10" primary="false" name="Dark Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="5d1c-eb64-e953-ee71" type="selectionEntry" targetId="c54e-73f7-32ca-6894">
-      <categoryLinks>
-        <categoryLink targetId="a0a1-0673-b637-2cc4" id="90a4-2b5a-1a2f-3ec8" primary="false" name="Dark Angel"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="0263-5812-8b67-18e4" name="Deathwing Terminator Squad (Homebrew)" hidden="false" collective="false" import="true" targetId="6f49-f8af-f370-2d39" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -901,6 +869,7 @@
         <categoryLink targetId="a0a1-0673-b637-2cc4" id="881d-fc60-0c9e-c5f3" primary="false" name="Dark Angel"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Thunderhawk Transporter (IA)" hidden="false" id="13cb-94c9-b16b-b3ae" type="selectionEntry" targetId="0664-3f49-6615-3297"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="6f49-f8af-f370-2d39" name="Deathwing Terminator Squad (Homebrew)" hidden="false" collective="false" import="true" type="unit">

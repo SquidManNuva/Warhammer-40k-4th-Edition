@@ -419,31 +419,6 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
         <categoryLink targetId="a527-734f-2081-58cd" id="6f70-d8fc-d1ea-41a7" primary="false" name="Blood Angel"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="f2c1-ed7b-9e6d-6ec0" type="selectionEntry" targetId="37ce-ecbd-2347-a23d">
-      <categoryLinks>
-        <categoryLink targetId="a527-734f-2081-58cd" id="d51d-cd06-a132-9514" primary="false" name="Blood Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="56da-2211-a317-6c32" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5">
-      <categoryLinks>
-        <categoryLink targetId="a527-734f-2081-58cd" id="84f6-780b-edb1-47cf" primary="false" name="Blood Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="4e31-8e87-835b-d68b" type="selectionEntry" targetId="4865-cd59-43c2-d504">
-      <categoryLinks>
-        <categoryLink targetId="a527-734f-2081-58cd" id="0eab-e7f2-7a5b-b838" primary="false" name="Blood Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="9371-e2fe-3012-531a" type="selectionEntry" targetId="3683-4a03-4746-7eda">
-      <categoryLinks>
-        <categoryLink targetId="a527-734f-2081-58cd" id="c548-f9e2-e5c7-0583" primary="false" name="Blood Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="18ab-d7d5-90e7-f306" type="selectionEntry" targetId="c54e-73f7-32ca-6894">
-      <categoryLinks>
-        <categoryLink targetId="a527-734f-2081-58cd" id="0c98-4f14-a7fb-be79" primary="false" name="Blood Angel"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink import="true" name="Vanguard Veteran Squad (Homebrew)" hidden="false" id="8b8c-691b-aaf1-1bbb" type="selectionEntry" targetId="779a-065c-56bb-a54f">
       <categoryLinks>
         <categoryLink targetId="a527-734f-2081-58cd" id="d8cd-68eb-f32d-699b" primary="false" name="Blood Angel"/>
@@ -454,6 +429,12 @@ Command, Veteran, &amp; Terminator squads re-roll on a 5 or 6</description>
         <categoryLink targetId="a527-734f-2081-58cd" id="ad9f-ee5a-b3e2-ef52" primary="false" name="Blood Angel"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="f003-27e1-5c11-72b7" type="selectionEntry" targetId="3683-4a03-4746-7eda">
+      <categoryLinks>
+        <categoryLink targetId="34e2-d53c-28ab-44cf" id="8917-bee0-ccb6-f6e2" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thunderhawk Transporter (IA)" hidden="false" id="1a88-5a8b-64f3-2bb1" type="selectionEntry" targetId="0664-3f49-6615-3297"/>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Flesh Tearers Tank" id="27c3-48e4-fad7-03d3" hidden="false">

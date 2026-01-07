@@ -391,34 +391,6 @@
         <categoryLink targetId="a527-734f-2081-58cd" id="e95b-597f-c9ab-6231" primary="false" name="Blood Angel"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="afd8-bd09-7e4e-f728" type="selectionEntry" targetId="37ce-ecbd-2347-a23d">
-      <categoryLinks>
-        <categoryLink targetId="a527-734f-2081-58cd" id="fa73-d5dd-2020-f14f" primary="false" name="Blood Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="06a2-c27c-e5df-16de" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5">
-      <infoLinks>
-        <infoLink name="Blood Angels Special Rules" id="49f5-b7b3-08d5-a0b2" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink targetId="a527-734f-2081-58cd" id="07f4-0781-4ef1-dca0" primary="false" name="Blood Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="1e79-bea6-e62a-7487" type="selectionEntry" targetId="4865-cd59-43c2-d504">
-      <categoryLinks>
-        <categoryLink targetId="a527-734f-2081-58cd" id="ea05-2aab-4248-78a2" primary="false" name="Blood Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="9229-bc9d-7a53-6027" type="selectionEntry" targetId="3683-4a03-4746-7eda">
-      <categoryLinks>
-        <categoryLink targetId="a527-734f-2081-58cd" id="9b66-aa48-5cb8-9a75" primary="false" name="Blood Angel"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="cbc5-138f-14f2-681d" type="selectionEntry" targetId="c54e-73f7-32ca-6894">
-      <categoryLinks>
-        <categoryLink targetId="a527-734f-2081-58cd" id="a434-9213-5a00-ea0b" primary="false" name="Blood Angel"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink import="true" name="Vanguard Veteran Squad (Homebrew)" hidden="false" id="1130-90c4-6b57-8ef5" type="selectionEntry" targetId="779a-065c-56bb-a54f">
       <infoLinks>
         <infoLink name="Blood Angels Special Rules" id="5cd6-66eb-a483-7633" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
@@ -450,6 +422,13 @@
         <infoLink name="Blood Angels Special Rules" id="78f2-41fd-53ee-1889" hidden="false" type="infoGroup" targetId="bcc9-4a2a-8619-1b80"/>
       </infoLinks>
     </entryLink>
+    <entryLink import="true" name="Librarian Dreadnought (Homebrew)" hidden="false" id="7ca0-ca30-f3bc-fff2" type="selectionEntry" targetId="b8b5-a251-0d45-2c5f"/>
+    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="ee93-4473-89ae-ed5e" type="selectionEntry" targetId="3683-4a03-4746-7eda">
+      <categoryLinks>
+        <categoryLink targetId="a527-734f-2081-58cd" id="c1a5-9211-3d21-b591" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thunderhawk Transporter (IA)" hidden="false" id="cf53-d951-c16f-1cc1" type="selectionEntry" targetId="0664-3f49-6615-3297"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d1f7-6b7c-67ce-c814" name="Blood Angels Scout Squad" hidden="false" collective="false" import="true" type="unit">
@@ -2487,7 +2466,7 @@ On a 6 To Wound, the target is wounded automatically, regardless of Toughness" f
 All Blood Angels Chaplains and their Death Company Marines fight as a single unit</description>
         </rule>
         <rule name="Liturgies of Blood" id="d503-6c88-467c-a6b8" hidden="false">
-          <description>In a turn in which Astorath charges into combat, all Death Company Marines in his unit re-roll failed To Wound rolls in the Assault phase. </description>
+          <description>In a turn in which Astorath charges into combat, all Death Company Marines in his unit re-roll failed To Wound rolls in the Assault phase.</description>
         </rule>
         <rule name="Special Character" id="f71e-25fc-56e4-8d85" hidden="false">
           <description>Astorath may be taken in a Blood Angels army of 1500 points or more as an HQ choice. You may not select additional items for him in the Armory</description>
@@ -2578,6 +2557,80 @@ All Blood Angels Chaplains and their Death Company Marines fight as a single uni
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Librarian Dreadnought (Homebrew)" hidden="false" id="b8b5-a251-0d45-2c5f">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="52d8-9148-50b7-99df" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Dreadnought" id="dfa5-9672-48a6-c423" hidden="false" type="profile" targetId="528d-0883-0dd5-a47d"/>
+        <infoLink name="Venerable" id="8540-3e96-665e-f7c6" hidden="false" type="rule" targetId="f052-5725-6515-6ddc"/>
+        <infoLink name="Dreadnought Close Combat Weapons" id="0978-b02e-8220-e33f" hidden="false" targetId="c7f7-e5ab-17a7-1cf9" type="profile"/>
+        <infoLink name="Psychic Hood" id="c72b-dbc4-06b6-8dc1" hidden="false" type="rule" targetId="d637-ddb3-5ed3-bee8"/>
+        <infoLink name="Force Weapon" id="4f84-65f5-8920-aa6a" hidden="false" type="profile" targetId="e5ab-52f0-b14b-e93c">
+          <modifiers>
+            <modifier type="set" value="Force Halberd" field="name"/>
+            <modifier type="set" value="x2" field="24d8-2110-08fa-d844"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="150"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Dreadnought" hidden="false" id="8e29-b247-396a-093e" targetId="8dd2-2313-fb9d-0368" primary="false"/>
+        <categoryLink targetId="a8a7-7a4b-5f7e-2138" id="3d2a-e18b-f9e8-1726" primary="true" name="HQ"/>
+        <categoryLink targetId="a527-734f-2081-58cd" id="1ca9-2777-972e-4e5f" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Ranged Weapon" id="2d61-f029-268e-f0f5" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e78-049e-a3f9-7837" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f7c4-daf3-ba47-e0aa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="7977-ac98-8de4-e99d" collective="false">
+              <infoLinks>
+                <infoLink name="Meltagun" id="7888-506d-a437-7380" hidden="false" targetId="737d-c7ef-4cb5-e6fa" type="profile"/>
+                <infoLink name="Assault" id="7bfa-3e0e-b0e9-9265" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                <infoLink name="Melta" id="9079-3fb5-bf15-5da7" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="42a9-8bcd-7d52-4023" collective="false">
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="e213-3801-1af2-0192" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
+                <infoLink name="Assault" id="db1f-1e9c-f24d-f7c7" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="18fc-45a0-44a0-cdec" collective="false">
+              <infoLinks>
+                <infoLink name="Heavy Flamer" id="c096-0df5-50b5-7811" hidden="false" targetId="6d36-2c09-dfc3-f257" type="profile"/>
+                <infoLink name="Template" id="63a5-d346-df49-0f4e" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+                <infoLink name="Assault" id="915d-f5f1-a4aa-4308" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Space Marine Vehicle Upgrades" hidden="false" id="de6b-428a-145b-6727" type="selectionEntryGroup" targetId="93a4-c4f2-3183-a640"/>
+        <entryLink import="true" name="Space Marine Librarian Psychic Powers" hidden="false" id="5863-1675-3def-9447" type="selectionEntryGroup" targetId="0dfb-30a7-673c-3c36"/>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>

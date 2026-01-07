@@ -157,7 +157,7 @@
         <infoLink name="Space Marine Special Rules" id="6756-47f0-a546-a986" hidden="false" type="infoGroup" targetId="ff61-d90f-7ded-05e0"/>
       </infoLinks>
     </entryLink>
-    <entryLink id="ec24-e43c-b7df-57b5" name="Leman Russ Exterminator" page="l" hidden="false" collective="false" import="true" targetId="4c22-47a4-8177-f8f5" type="selectionEntry">
+    <entryLink id="ec24-e43c-b7df-57b5" name="Space Wolves Leman Russ Exterminator" page="l" hidden="false" collective="false" import="true" targetId="4c22-47a4-8177-f8f5" type="selectionEntry">
       <infoLinks>
         <infoLink name="Space Marine Special Rules" id="f898-a456-8ceb-4ac4" hidden="false" type="infoGroup" targetId="ff61-d90f-7ded-05e0"/>
       </infoLinks>
@@ -332,31 +332,6 @@
         <categoryLink targetId="9bbd-df2b-520d-778d" id="44c7-06c2-6c7d-e9e6" primary="false" name="Space Wolf"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="660c-7605-ebf8-75d6" type="selectionEntry" targetId="37ce-ecbd-2347-a23d">
-      <categoryLinks>
-        <categoryLink targetId="9bbd-df2b-520d-778d" id="9d13-600d-cddd-2e8f" primary="false" name="Space Wolf"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="1ac0-a387-73e0-a51f" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5">
-      <categoryLinks>
-        <categoryLink targetId="9bbd-df2b-520d-778d" id="5b00-7549-5f51-d838" primary="false" name="Space Wolf"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="509a-139a-e73e-6e85" type="selectionEntry" targetId="4865-cd59-43c2-d504">
-      <categoryLinks>
-        <categoryLink targetId="9bbd-df2b-520d-778d" id="6a54-8183-93eb-4a3b" primary="false" name="Space Wolf"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="cf55-81c1-1eda-1ab5" type="selectionEntry" targetId="3683-4a03-4746-7eda">
-      <categoryLinks>
-        <categoryLink targetId="9bbd-df2b-520d-778d" id="695c-5f9c-a00f-60e2" primary="false" name="Space Wolf"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="6b7a-5958-9d6b-f003" type="selectionEntry" targetId="c54e-73f7-32ca-6894">
-      <categoryLinks>
-        <categoryLink targetId="9bbd-df2b-520d-778d" id="3723-04ed-8179-7df8" primary="false" name="Space Wolf"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink import="true" name="Caestus Assault Ram (Homebrew)" hidden="false" id="b391-f173-160b-0290" type="selectionEntry" targetId="9f00-abf1-5193-758c">
       <categoryLinks>
         <categoryLink targetId="9bbd-df2b-520d-778d" id="5f4f-d709-fc7d-45e7" primary="false" name="Space Wolf"/>
@@ -367,6 +342,7 @@
         <categoryLink targetId="9bbd-df2b-520d-778d" id="a1f8-4213-a287-107a" primary="false" name="Space Wolf"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Thunderhawk Transporter (IA)" hidden="false" id="1a30-e566-5acc-ee61" type="selectionEntry" targetId="0664-3f49-6615-3297"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="5a50-b1c6-a93a-cc0d" name="Wolf Lord" hidden="false" collective="false" import="true" type="unit">
