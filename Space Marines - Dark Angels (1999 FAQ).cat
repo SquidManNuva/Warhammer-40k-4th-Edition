@@ -1881,7 +1881,7 @@ Alternatively, in any missions using the Night FIghting rule the Ravenwing playe
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b14-94cd-78fe-73d9" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2c75-5ba4-851c-7933" name="Command Squad" hidden="false" collective="false" import="true" targetId="bc53-c50d-f840-ebaa" type="selectionEntry"/>
+            <entryLink id="2c75-5ba4-851c-7933" name="Command Squad (Librarium)" hidden="false" collective="false" import="true" targetId="48b2-2107-9aa1-5ca3" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
