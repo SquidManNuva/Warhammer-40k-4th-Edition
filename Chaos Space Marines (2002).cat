@@ -10481,9 +10481,6 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a2-f2ad-3534-b933" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="6589-83cd-f2c7-26e7" name="Aspiring Champion" hidden="false" targetId="2ebf-2280-15b9-ed00" type="profile"/>
-              </infoLinks>
               <entryLinks>
                 <entryLink id="9e61-b8fe-5510-1141" name="Chaos Armory" hidden="false" collective="false" import="true" targetId="e9b3-4e07-ad9a-6235" type="selectionEntryGroup"/>
               </entryLinks>
@@ -10526,6 +10523,21 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <profiles>
+                <profile name="Chosen of Ahriman" typeId="1e16-2bd8-7cad-379b" typeName="Unit" hidden="false" id="4104-13fa-8e38-54e1">
+                  <characteristics>
+                    <characteristic name="WS" typeId="c704-6128-f143-935a"/>
+                    <characteristic name="BS" typeId="7928-3a9b-6080-ed95"/>
+                    <characteristic name="S" typeId="df03-6292-d3f5-f778"/>
+                    <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8"/>
+                    <characteristic name="W" typeId="4dc2-c603-0bc5-0561"/>
+                    <characteristic name="I" typeId="eeda-4fb4-901e-b70d"/>
+                    <characteristic name="A" typeId="abbf-0d11-fd86-d938"/>
+                    <characteristic name="Ld" typeId="f47e-b15a-8f58-703c"/>
+                    <characteristic name="Sv" typeId="b309-5233-122f-82bb"/>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -10565,6 +10577,42 @@ May be used even if enemies are in base contact with these models</description>
 May be taken by other Chaos Space Marine forces but may never be the compulsory HQ choice</description>
         </rule>
       </rules>
+    </selectionEntry>
+    <selectionEntry id="a157-c4e2-102a-df0d" name="Zarakynel (IA)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e04-4929-9719-63a1" type="equalTo"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c0b7-60b7-488d-1c6a" type="equalTo"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="27ce-133c-8642-08c9" type="equalTo"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c55f-ec20-9309-e550" type="equalTo"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4eb5-4eb0-befd-4b10" type="equalTo"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bf11-860d-bf55-80d2" type="equalTo"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4bde-bf7f-8300-7011" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="952f-fad5-f4f1-f04e" name="Keeper of Secrets" hidden="false" targetId="a1ff-3b89-9a3e-68ee" type="profile"/>
+        <infoLink id="558b-b30c-3ca2-8c6f" name="Daemonic Visage" hidden="false" targetId="e8ac-c6ca-da7f-8b78" type="rule"/>
+        <infoLink id="04ea-d0a8-7251-e0ae" name="Fearless" hidden="false" targetId="b137-13a1-eb97-c5e5" type="rule"/>
+        <infoLink id="edcd-86c1-8f56-57f6" name="Invulnerable Saving Throw" hidden="false" targetId="97b3-810d-a09e-872b" type="rule"/>
+        <infoLink id="7d94-4aa2-974b-d266" name="Living Icons" hidden="false" targetId="7def-dbdd-4f3a-f4dc" type="rule"/>
+        <infoLink id="4b2b-8040-f396-06de" name="Possession" hidden="false" targetId="d1c9-1fdc-179b-02fa" type="rule"/>
+        <infoLink id="e0f9-aa31-0ebd-27ca" name="Warp Scream" hidden="false" targetId="861f-7563-6ff8-dcea" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a23c-b673-b7a1-2f1e" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="5921-d324-58fb-d731" name="Sorceror" hidden="false" targetId="d832-0917-094f-7627" primary="false"/>
+        <categoryLink id="1003-c821-1550-b480" name="Mark of Slaanesh" hidden="false" targetId="9b41-cfd0-0af7-2496" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="666"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
