@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="2956-de6c-4e68-c457" name="Space Marines - Relictors (Index Astartes)" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedInfoGroups>
+    <infoGroup name="Relictors Special Rules" id="ef4c-6d11-92fa-b282" hidden="false">
+      <rules>
+        <rule name="Outcasts" id="6af1-e229-b579-a1e1" hidden="false">
+          <description>May not take any allies other than Radical Daemonhunters</description>
+        </rule>
+      </rules>
+    </infoGroup>
+  </sharedInfoGroups>
+  <entryLinks>
+    <entryLink import="true" name="Additional Options" hidden="false" id="17d7-803e-095b-5124" collective="false" targetId="955f-86dd-474a-8af4" type="selectionEntry"/>
+    <entryLink import="true" name="Assault Squad" hidden="false" id="c750-24d5-6986-e550" collective="false" targetId="6f82-235d-a765-6ab6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" hidden="false" id="1353-ef86-c542-d549" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="d1ba-206f-e693-dda5" primary="false" name="Relictor"/>
+      </categoryLinks>
+      <comment>Fast Attack</comment>
+    </entryLink>
+    <entryLink import="true" name="Attack Bike Squadron" hidden="false" id="8443-55e3-ea4a-afe0" collective="false" targetId="26b2-8587-e170-87ee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" hidden="false" id="deeb-4aee-e3bd-bfdb" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="143b-721f-6c3c-a159" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bike Squadron" hidden="false" id="b453-0fe5-9342-4fcc" collective="false" targetId="b866-0628-5964-334c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" hidden="false" id="ca38-c2cf-fce5-2bed" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="c4c0-52bd-9655-5d7c" primary="false" name="Relictor"/>
+      </categoryLinks>
+      <comment>Fast Attack</comment>
+    </entryLink>
+    <entryLink import="true" name="Caestus Assault Ram (Homebrew)" hidden="false" id="8f76-e19d-24fa-244f" type="selectionEntry" targetId="9f00-abf1-5193-758c"/>
+    <entryLink import="true" name="Centurion Assault Squad (Homebrew)" hidden="false" id="994c-8ab1-95c8-856e" type="selectionEntry" targetId="99ab-f700-7ed6-ab3e"/>
+    <entryLink import="true" name="Centurion Devastator Squad (Homebrew)" hidden="false" id="8244-310b-defb-a62b" type="selectionEntry" targetId="1bf8-5534-e346-3742"/>
+    <entryLink import="true" name="Chaplain Dreadnought (IA)" hidden="false" id="7c8d-e5ad-3007-d064" type="selectionEntry" targetId="3442-ad4d-bedd-a895"/>
+    <entryLink import="true" name="Chapter Chaplain" hidden="false" id="a18e-2105-d4c4-2d7b" collective="false" targetId="45a7-a086-7339-c739" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="2092-9922-2fe3-734c" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chapter Librarian" hidden="false" id="781a-25f7-17a2-f71c" collective="false" targetId="5338-cafe-fa14-f5d7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="0545-caa9-a55a-fc9f" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Commander" hidden="false" id="2124-7e74-67de-68c3" collective="false" targetId="043b-1cc7-9a38-8133" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="63ff-398a-d77b-c27e" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Contemptor Dreadnought (Homebrew)" hidden="false" id="b47e-44a1-c7df-e1db" collective="false" targetId="9042-1a04-ca8a-4f29" type="selectionEntry"/>
+    <entryLink import="true" name="Damocles Command Rhino (IA)" hidden="false" id="888f-26bb-c370-feba" collective="false" targetId="56bf-16e9-79ee-abd3" type="selectionEntry"/>
+    <entryLink import="true" name="Deathwind Drop Pod (IA)" hidden="false" id="8a70-668b-17bf-af00" collective="false" targetId="9470-3822-9925-43d2" type="selectionEntry"/>
+    <entryLink import="true" name="Devastator Squad" hidden="false" id="fad3-43e5-9353-67e6" collective="false" targetId="cd84-93d1-4f4c-77b7" type="selectionEntry">
+      <comment>Heavy Support</comment>
+      <categoryLinks>
+        <categoryLink name="Heavy Support" hidden="false" id="421d-9ffc-2b60-37e3" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="a5a7-512b-d790-2362" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dreadnought" hidden="false" id="5f94-c5c5-5caa-eaa9" collective="false" targetId="3f7e-ad94-b024-1a57" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="9973-37e7-efe7-edce" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+      <comment>Elites</comment>
+    </entryLink>
+    <entryLink import="true" name="Grav-Attack Tank (Chapter Approved)" hidden="false" id="c1b8-3acd-5ca5-c84f" type="selectionEntry" targetId="b646-9e84-2bec-8c14"/>
+    <entryLink import="true" name="Hunter Multi-Launcher (Homebrew)" hidden="false" id="c3c4-c4f3-a201-f7a5" type="selectionEntry" targetId="37ce-ecbd-2347-a23d"/>
+    <entryLink import="true" name="Hyperios Air Defence Battery (IA)" hidden="false" id="d835-da4e-b83f-facc" collective="false" targetId="fde5-3ce5-0c7a-820c" type="selectionEntry"/>
+    <entryLink import="true" name="Imperial Navy Support (IA)" hidden="true" id="ae45-31a3-c3f8-4b97" collective="false" targetId="3e43-ec0f-64ff-daaa" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="888f-26bb-c370-feba" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="393c-610c-ac9a-554a">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="6781-0ecc-92b5-406a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="393c-610c-ac9a-554a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Ironclad Dreadnought (Homebrew)" hidden="false" id="db98-a92c-59dc-2405" collective="false" targetId="66f1-e821-78a4-ca3f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="0349-cb81-e250-62f6" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+      <comment>Elites</comment>
+    </entryLink>
+    <entryLink import="true" name="Land Raider" hidden="false" id="6a8f-357c-0ab8-b862" collective="false" targetId="0432-2db6-5eda-20d8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" hidden="false" id="8c47-c938-2b16-6431" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Achilles (Homebrew)" hidden="false" id="564f-c94d-9a4c-c3e7" type="selectionEntry" targetId="3597-a3e1-2913-efb1"/>
+    <entryLink import="true" name="Land Raider Crusader" hidden="false" id="4550-4792-a440-eef3" collective="false" targetId="d7d7-d12e-387b-1b3b" type="selectionEntry"/>
+    <entryLink import="true" name="Land Raider Helios (IA)" hidden="false" id="9629-9152-561c-8773" collective="false" targetId="1be4-df32-2640-9413" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3261-6601-5bfe-f5d0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="44d6-11ed-7018-8b39" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Redeemer (Homebrew)" hidden="false" id="dbf4-66b6-8cf3-b9a1" type="selectionEntry" targetId="e0d1-5ce6-a63b-4ccd"/>
+    <entryLink import="true" name="Land Speeder Squadron" hidden="false" id="11c5-b3ea-6077-9db6" collective="false" targetId="417c-9227-f9a3-8f58" type="selectionEntry"/>
+    <entryLink import="true" name="Land Speeder Tempest (IA)" hidden="false" id="92f3-cb20-8827-2aa3" collective="false" targetId="7c0e-8c2e-0bfb-7646" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3261-6601-5bfe-f5d0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Orbital Strike (IA)" hidden="true" id="6781-0ecc-92b5-406a" collective="false" targetId="9419-6303-5744-f2b2" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="888f-26bb-c370-feba" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="058d-51f9-7b42-ab14">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="ae45-31a3-c3f8-4b97" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3261-6601-5bfe-f5d0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="058d-51f9-7b42-ab14" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Predator Annihilator" hidden="false" id="ccf3-ad37-4c92-66e8" collective="false" targetId="75b1-7506-f196-951d" type="selectionEntry"/>
+    <entryLink import="true" name="Predator Destructor" hidden="false" id="32cd-5d48-a295-4836" collective="false" targetId="156e-b697-5422-38ff" type="selectionEntry"/>
+    <entryLink import="true" name="Scout Bike Squadron" hidden="false" id="8620-5810-3ecf-1d9c" collective="false" targetId="e8c8-4bfb-5e2b-7737" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="5b5a-0fa4-4973-0b9b" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scout Squad" hidden="false" id="80fc-f70c-1080-46e0" collective="false" targetId="e811-e637-bb36-1ad7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="46c6-d5f1-ae1e-f41e" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Siege Assault Squad (Homebrew)" hidden="false" id="06e3-5d50-4ad3-de0a" collective="false" targetId="77b1-3289-1836-f72b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" hidden="false" id="0140-6dc3-8d52-3ef6" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+      <comment>Fast Attack</comment>
+    </entryLink>
+    <entryLink import="true" name="Siege Dreadnought (IA)" hidden="false" id="171d-be10-8dbc-52cd" type="selectionEntry" targetId="2c7e-b32c-968d-1faa">
+      <comment>Elites</comment>
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="c726-52ff-75a6-bce1" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Siege Dreadnought Talon (Homebrew)" hidden="false" id="5042-5a23-542f-c3a9" type="selectionEntry" targetId="9deb-f115-a25c-91e5"/>
+    <entryLink import="true" name="Siege Master (Homebrew)" hidden="false" id="2708-767d-a3db-12a1" type="selectionEntry" targetId="b9d9-e73a-cbb6-52ca">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="25e1-5a8a-684e-9d4d" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Siege Tactical Squad (Homebrew)" hidden="false" id="45b0-93de-347b-4d1b" type="selectionEntry" targetId="1073-d246-11e8-7d72">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="9a8f-f1c4-453a-baf1" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stalker (Homebrew)" hidden="false" id="8420-a04f-2c52-aed8" type="selectionEntry" targetId="ee2f-a2b1-174e-fad5"/>
+    <entryLink import="true" name="Sternguard Veteran Squad (Homebrew)" hidden="false" id="8dec-5dd4-876d-323b" type="selectionEntry" targetId="6106-188e-b016-9b12">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="8b89-c14a-bb0c-b74f" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="5d64-e244-ae44-0f16" type="selectionEntry" targetId="4865-cd59-43c2-d504"/>
+    <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="6155-cae0-4b7b-7626" type="selectionEntry" targetId="3683-4a03-4746-7eda"/>
+    <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="6622-430e-3b6d-6ac1" type="selectionEntry" targetId="c54e-73f7-32ca-6894"/>
+    <entryLink import="true" name="Tactical Squad" hidden="false" id="4ea1-2de5-a507-1377" collective="false" targetId="2a63-ef79-7e7a-03aa" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="effd-afa8-d7bb-cfc0" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tarantula Sentry Gun (IA)" hidden="false" id="9bc9-36fc-38c6-490e" type="selectionEntry" targetId="0172-2ae4-fad7-4482"/>
+    <entryLink import="true" name="Techmarine" hidden="false" id="1ca4-14b4-264e-57f5" type="selectionEntry" targetId="5b12-8a99-a93d-dedc">
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="edac-bbfd-85a1-b289" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="edb8-5791-b3dd-4bf3" primary="false" name="Relictor"/>
+      </categoryLinks>
+      <comment>Elites</comment>
+    </entryLink>
+    <entryLink import="true" name="Terminator Assault Squad" hidden="false" id="fb1e-a663-ddd2-a0fe" collective="false" targetId="4e6a-bed3-e270-b411" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="9712-5025-4f56-8ca5" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Terminator Squad" hidden="false" id="822b-9c2b-31a9-b5be" collective="false" targetId="46ea-d664-7417-e3f7" type="selectionEntry"/>
+    <entryLink import="true" name="Thunderfire Cannon (Homebrew)" hidden="false" id="2b9d-f93b-312e-1d3d" type="selectionEntry" targetId="3932-0c7c-0818-da62">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="889e-2dcd-aa63-30c4" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thunderhawk Gunship (IA)" hidden="false" id="3001-1ba7-e0bc-07b3" collective="false" targetId="81c2-8110-65c2-82cd" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3261-6601-5bfe-f5d0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Thunderhawk Transporter (IA)" hidden="false" id="bc59-ca54-67b2-4011" type="selectionEntry" targetId="0664-3f49-6615-3297"/>
+    <entryLink import="true" name="Vanguard Veteran Squad (Homebrew)" hidden="false" id="984d-bcb1-7f4e-335c" type="selectionEntry" targetId="779a-065c-56bb-a54f">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="d648-32ce-0464-d054" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Veteran Squad" hidden="false" id="9d66-8a82-d093-0048" collective="false" targetId="9003-88bd-bc93-1355" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="f6b8-c623-f8bd-ab89" id="4088-4432-861d-852e" primary="false" name="Relictor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vindicator" hidden="false" id="add2-89be-5804-0af5" collective="false" targetId="86f9-0db1-c67b-3442" type="selectionEntry"/>
+    <entryLink import="true" name="Whirlwind" hidden="false" id="8b5f-4e6d-ca4d-4e6e" collective="false" targetId="d13e-3fe7-b445-511c" type="selectionEntry"/>
+    <entryLink import="true" name="Whirlwind Hyperios (IA)" hidden="false" id="e5fa-1401-cbe6-9ebe" collective="false" targetId="1466-696f-2a85-14b5" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3261-6601-5bfe-f5d0" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Imperial Guard (2003)" id="fbba-d1da-0f5e-53fe" targetId="04bd-002e-d5fe-e9a6"/>
+    <catalogueLink type="catalogue" name="Space Marines (2004)" id="5e93-ecaf-2d33-07f9" targetId="9d6b-d195-877e-09cb"/>
+    <catalogueLink type="catalogue" name="Chaos Space Marines (2002)" id="91e2-b898-d4e0-48d8" targetId="0f19-9487-acbb-e047"/>
+  </catalogueLinks>
+</catalogue>
