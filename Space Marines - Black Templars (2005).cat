@@ -274,7 +274,7 @@
     <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="c837-009d-14c5-df4a" type="selectionEntry" targetId="4865-cd59-43c2-d504"/>
     <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="3f09-b5d6-4575-2ee5" type="selectionEntry" targetId="3683-4a03-4746-7eda"/>
     <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="139c-e0d5-efac-8fdc" type="selectionEntry" targetId="c54e-73f7-32ca-6894"/>
-    <entryLink import="true" name="Centurion Assault Squad (Homebrew)" hidden="false" id="891d-333d-079c-7ec5" type="selectionEntry" targetId="99ab-f700-7ed6-ab3e">
+    <entryLink import="true" name="Black Templars Centurion Assault Squad (Homebrew)" hidden="false" id="891d-333d-079c-7ec5" type="selectionEntry" targetId="99ab-f700-7ed6-ab3e">
       <categoryLinks>
         <categoryLink targetId="0e24-d2c1-5ce8-e7cb" id="bbe3-8e99-a0ee-9b32" primary="false" name="Black Templar"/>
       </categoryLinks>
@@ -709,6 +709,18 @@
                   </conditions>
                 </modifier>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Drop Pod" hidden="false" id="24ae-4da9-7e42-09d6" collective="false" targetId="a9cd-beaa-0d6b-0086" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="10" field="selections" scope="parent" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db99-4bab-86b5-702a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
