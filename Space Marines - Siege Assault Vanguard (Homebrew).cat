@@ -46,6 +46,16 @@
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="911a-793b-d817-c409" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="1" field="0d6f-74f4-858d-4a66">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="635d-4c6e-9d36-a652" childId="4fd4-4279-41cf-2920" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="1" field="e51b-e380-7d4a-6cb7">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="635d-4c6e-9d36-a652" childId="4fd4-4279-41cf-2920" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink name="Space Marine" id="50f7-141d-40d0-bcb8" hidden="false" targetId="9514-67fd-b082-445f" type="profile"/>
@@ -611,6 +621,9 @@
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink import="true" name="Ultramarines Honour Guard" hidden="false" id="4fd4-4279-41cf-2920" type="selectionEntry" targetId="bef5-a64f-d506-358e"/>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Equipment" id="81a9-f0e4-28f7-8818" hidden="false">
           <selectionEntries>
@@ -1589,22 +1602,52 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Caestus Assault Ram (Homebrew)" hidden="false" id="f68a-7afc-dca2-c737" type="selectionEntry" targetId="9f00-abf1-5193-758c"/>
-    <entryLink import="true" name="Assault Squad" hidden="false" id="0bf5-9800-e8a7-6f27" type="selectionEntry" targetId="6f82-235d-a765-6ab6">
-      <categoryLinks>
-        <categoryLink targetId="34e2-d53c-28ab-44cf" id="cd24-354d-9243-8cdf" primary="true" name="Fast Attack"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink import="true" name="Siege Tactical Squad" hidden="false" id="6572-a156-4da5-e36f" type="selectionEntry" targetId="1073-d246-11e8-7d72"/>
     <entryLink import="true" name="Predator Tank Squadron" hidden="false" id="58ec-3d1c-3b7c-2655" type="selectionEntry" targetId="39d4-afda-056e-2a93"/>
     <entryLink import="true" name="Thunderfire Cannon (Homebrew)" hidden="false" id="bbb5-1940-b3c2-59f1" type="selectionEntry" targetId="3932-0c7c-0818-da62"/>
-    <entryLink import="true" name="Devastator Squad" hidden="false" id="37a7-df25-78df-44b6" type="selectionEntry" targetId="cd84-93d1-4f4c-77b7">
-      <categoryLinks>
-        <categoryLink targetId="aacb-8a81-62c0-3db8" id="7ea1-d31e-b7fd-c0dc" primary="true" name="Heavy Support"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink import="true" name="Whirlwind Support Squadron" hidden="false" id="ae4e-523f-9182-70c2" type="selectionEntry" targetId="26f1-ec23-8db9-b6c2"/>
     <entryLink import="true" name="Vindicator Tank Squadron" hidden="false" id="4be2-85f2-0cbe-48d3" type="selectionEntry" targetId="0b12-61a1-9138-04d6"/>
     <entryLink import="true" name="Land Raider Achilles (Homebrew)" hidden="false" id="ac37-0bc7-df52-227e" type="selectionEntry" targetId="3597-a3e1-2913-efb1"/>
     <entryLink import="true" name="Land Raider Helios (IA)" hidden="false" id="d9ac-b603-c72e-1f35" type="selectionEntry" targetId="1be4-df32-2640-9413"/>
+    <entryLink import="true" name="Assault Squad" hidden="false" id="da09-f722-aee8-d31c" collective="false" targetId="6f82-235d-a765-6ab6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" hidden="false" id="8b9b-148b-9818-eb18" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+      <comment>Fast Attack</comment>
+    </entryLink>
+    <entryLink import="true" name="Assault Squad" hidden="false" id="9e1e-e158-4c39-c277" collective="false" targetId="6f82-235d-a765-6ab6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="946c-992f-5a90-e721" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+      <comment>Elites</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="9b63-a2cc-fcb6-5955" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Devastator Squad" hidden="false" id="9f9b-36a5-25c1-8569" collective="false" targetId="cd84-93d1-4f4c-77b7" type="selectionEntry">
+      <comment>Heavy Support</comment>
+      <categoryLinks>
+        <categoryLink name="Heavy Support" hidden="false" id="9c80-a928-8b4c-b9b6" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Devastator Squad" hidden="false" id="7917-b2b9-a470-0272" collective="false" targetId="cd84-93d1-4f4c-77b7" type="selectionEntry">
+      <comment>Elites</comment>
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="8dce-fc80-9acf-2d3a" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="54d7-3a71-cab1-68cc" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Chapter Traits" hidden="false" id="7ff6-1a23-07f9-a199" type="selectionEntryGroup" targetId="fc76-abff-eb97-8bbc"/>
+    <entryLink import="true" name="Show Special Characters &amp; Units" hidden="false" id="be1b-3ae1-7a53-7c85" type="selectionEntryGroup" targetId="4227-5011-e1e0-545e"/>
   </entryLinks>
 </catalogue>
