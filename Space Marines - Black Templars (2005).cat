@@ -168,7 +168,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Sword Brethren" hidden="false" id="604c-70dd-8478-5c86" collective="false" targetId="f421-e20f-6d7b-f5cc" type="selectionEntry">
+    <entryLink import="true" name="Sword Brethren Squad" hidden="false" id="604c-70dd-8478-5c86" collective="false" targetId="f421-e20f-6d7b-f5cc" type="selectionEntry">
       <infoLinks>
         <infoLink name="Black Templars Special Rules" id="7c0f-9dd0-30ec-c76d" hidden="false" type="infoGroup" targetId="3e5c-1c60-750b-cef5"/>
       </infoLinks>
@@ -282,7 +282,7 @@
     <entryLink import="true" name="Stormhawk Interceptor (Homebrew)" hidden="false" id="c837-009d-14c5-df4a" type="selectionEntry" targetId="4865-cd59-43c2-d504"/>
     <entryLink import="true" name="Stormraven Gunship (Homebrew)" hidden="false" id="3f09-b5d6-4575-2ee5" type="selectionEntry" targetId="3683-4a03-4746-7eda"/>
     <entryLink import="true" name="Stormtalon Gunship (Homebrew)" hidden="false" id="139c-e0d5-efac-8fdc" type="selectionEntry" targetId="c54e-73f7-32ca-6894"/>
-    <entryLink import="true" name="Black Templars Centurion Assault Squad (Homebrew)" hidden="false" id="891d-333d-079c-7ec5" type="selectionEntry" targetId="99ab-f700-7ed6-ab3e">
+    <entryLink import="true" name="Centurion Assault Squad (Homebrew)" hidden="false" id="891d-333d-079c-7ec5" type="selectionEntry" targetId="99ab-f700-7ed6-ab3e">
       <categoryLinks>
         <categoryLink targetId="0e24-d2c1-5ce8-e7cb" id="bbe3-8e99-a0ee-9b32" primary="false" name="Black Templar"/>
       </categoryLinks>
@@ -1476,6 +1476,161 @@
                         </modifier>
                       </modifiers>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-Flamer (Homebrew)" hidden="false" id="c25e-d85b-f21f-cf9c">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="8de0-e494-3ce0-2adf" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
+                        <infoLink name="Rapid Fire" id="38ca-7c4a-c73c-b17c" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                        <infoLink name="Combi Weapons" id="588d-1be3-c14b-7a96" hidden="false" type="rule" targetId="e65f-0536-e057-e2d2"/>
+                        <infoLink name="Flamer" id="8a0d-bb6a-61eb-62a0" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
+                        <infoLink name="Assault" id="26bf-2dcf-1366-24da" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                        <infoLink name="Template" id="d36d-d381-a167-31c6" hidden="false" type="rule" targetId="166e-71a4-3e35-c13f"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-Grav (Homebrew)" hidden="false" id="0301-14f3-6109-f089">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="49c8-1171-b859-8bcb" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
+                        <infoLink name="Rapid Fire" id="40a4-b1d1-8f9f-59bd" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                        <infoLink name="Combi Weapons" id="9aa4-e468-15ff-7fe8" hidden="false" type="rule" targetId="e65f-0536-e057-e2d2"/>
+                        <infoLink name="Grav-gun" id="acfa-040c-ddbb-cad4" hidden="false" targetId="4bce-8ee0-3396-80f5" type="profile"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-Melta (Homebrew)" hidden="false" id="686f-f4cf-1621-489d">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="364e-591c-2298-2dfa" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
+                        <infoLink name="Rapid Fire" id="eaf3-2989-0790-4990" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                        <infoLink name="Combi Weapons" id="32dc-855b-13eb-233b" hidden="false" type="rule" targetId="e65f-0536-e057-e2d2"/>
+                        <infoLink name="Meltagun" id="747c-fc3b-b52d-3705" hidden="false" targetId="737d-c7ef-4cb5-e6fa" type="profile"/>
+                        <infoLink name="Melta" id="d80e-121c-db6b-051c" hidden="false" type="rule" targetId="59e2-ae31-ebc7-5d2f"/>
+                        <infoLink name="Assault" id="303d-9e98-a676-6af4" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-Plasma (Homebrew)" hidden="false" id="a2ce-73b7-1000-a55a">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="6cc6-c8bb-3bfa-2b05" hidden="false" type="profile" targetId="60bf-18fd-f6e6-6eb4"/>
+                        <infoLink name="Rapid Fire" id="5e40-3318-f69f-1abb" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                        <infoLink name="Combi Weapons" id="27c0-5935-8075-42c4" hidden="false" type="rule" targetId="e65f-0536-e057-e2d2"/>
+                        <infoLink name="Plasma Gun" id="42f8-4d73-4a39-a713" hidden="false" targetId="112a-baea-9eeb-b1b5" type="profile"/>
+                        <infoLink name="Rapid Fire" id="015b-bc69-7dfb-1639" hidden="false" type="rule" targetId="d104-bdaf-f9ed-c744"/>
+                        <infoLink name="Gets Hot!" id="9d05-27d0-2c13-e145" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Storm Bolter (Homebrew)" hidden="false" id="5679-2425-e5e6-5ad2">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Storm Bolter" id="ddda-57a9-3963-f975" hidden="false" type="profile" targetId="4c6c-9de1-00a8-8016"/>
+                        <infoLink name="Assault" id="c580-0277-c10e-4e5a" hidden="false" type="rule" targetId="82cc-d450-2fe6-32aa"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol &amp; CCW (Homebrew)" hidden="false" id="a636-f47e-f853-e06a">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <infoLinks>
+                        <infoLink name="Close Combat Weapon (CCW)" id="4576-9534-0e6c-6f64" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
+                        <infoLink name="Plasma Pistol" id="5ad4-0fee-ec5e-7b9c" hidden="false" type="profile" targetId="7b91-b670-d042-7c88"/>
+                        <infoLink name="Gets Hot!" id="db53-6259-d7ff-1deb" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+                        <infoLink name="Pistol" id="b99e-02db-9eb9-024e" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Combat Shield" hidden="false" id="c116-0fae-f926-7407">
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                          </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="bb49-0095-f685-f75f" childId="9048-938d-7596-cdc7" shared="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="32de-cc17-fb6d-23c1"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Combat Shield" id="ccc8-1395-db03-c6bb" hidden="false" type="profile" targetId="d379-6cd6-1236-df4a"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol &amp; Storm Shield (Homebrew)" hidden="false" id="9119-bbbc-1209-5517">
+                      <infoLinks>
+                        <infoLink name="Storm Shield" id="0ba4-ee4d-bf0a-ed09" hidden="false" targetId="760f-5fa1-30ed-2c09" type="profile"/>
+                        <infoLink name="Pistol" id="5288-c94a-369c-614f" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+                        <infoLink name="Plasma Pistol" id="8fc6-0cf8-6e97-7d23" hidden="false" type="profile" targetId="7b91-b670-d042-7c88"/>
+                        <infoLink name="Gets Hot!" id="8444-3f76-5836-a253" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="bb49-0095-f685-f75f" childId="9048-938d-7596-cdc7" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
                   </selectionEntries>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb83-c96d-e7f8-1853"/>
@@ -1571,6 +1726,44 @@
                           <costs>
                             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
                           </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Power Weapon and Plasma Pistol (Homebrew)" hidden="false" id="c9a7-e308-b066-0b36" collective="false">
+                          <infoLinks>
+                            <infoLink name="Power Weapon" id="5328-ae60-79c9-c0b4" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
+                            <infoLink name="Plasma Pistol" id="2022-d84a-d7e3-fe88" hidden="false" targetId="7b91-b670-d042-7c88" type="profile"/>
+                            <infoLink name="Pistol" id="8f06-4ce1-3d27-2349" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+                            <infoLink name="Gets Hot!" id="4afd-4951-190a-3966" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
+                          </costs>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Combat Shield" hidden="false" id="8957-f0bb-8e27-e715">
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <modifiers>
+                                <modifier type="set" value="true" field="hidden">
+                                  <conditions>
+                                    <condition type="equalTo" value="0" field="selections" scope="bb49-0095-f685-f75f" childId="9048-938d-7596-cdc7" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47ba-08f8-23fa-7258"/>
+                              </constraints>
+                              <infoLinks>
+                                <infoLink name="Combat Shield" id="e766-20cf-d04d-5d69" hidden="false" type="profile" targetId="d379-6cd6-1236-df4a"/>
+                              </infoLinks>
+                            </selectionEntry>
+                          </selectionEntries>
                           <modifiers>
                             <modifier type="set" value="true" field="hidden">
                               <conditions>
@@ -1714,6 +1907,48 @@
                           <costs>
                             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
                           </costs>
+                          <modifiers>
+                            <modifier type="set" value="true" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eca8-ace3-d503-7923" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Power Fist and Plasma Pistol (Homebrew)" hidden="false" id="6c3b-1c76-a832-77b1" collective="false">
+                          <infoLinks>
+                            <infoLink name="Power Fist/Claw" id="d388-387d-329a-cd30" hidden="false" targetId="a161-ed4b-bcb7-0a01" type="profile">
+                              <modifiers>
+                                <modifier type="set" value="Power Fist" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                            <infoLink name="Plasma Pistol" id="a980-3912-4032-165a" hidden="false" targetId="7b91-b670-d042-7c88" type="profile"/>
+                            <infoLink name="Pistol" id="3fba-58ca-af63-3288" hidden="false" type="rule" targetId="8e25-63d7-b84f-1d72"/>
+                            <infoLink name="Gets Hot!" id="72f3-4833-2580-6880" hidden="false" type="rule" targetId="ec38-606e-e9f5-4563"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
+                          </costs>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Combat Shield" hidden="false" id="be1e-aec8-5151-83a2">
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                              </costs>
+                              <modifiers>
+                                <modifier type="set" value="true" field="hidden">
+                                  <conditions>
+                                    <condition type="equalTo" value="0" field="selections" scope="bb49-0095-f685-f75f" childId="9048-938d-7596-cdc7" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d97-244a-3a1d-6429"/>
+                              </constraints>
+                              <infoLinks>
+                                <infoLink name="Combat Shield" id="cb99-71c4-6c97-689c" hidden="false" type="profile" targetId="d379-6cd6-1236-df4a"/>
+                              </infoLinks>
+                            </selectionEntry>
+                          </selectionEntries>
                           <modifiers>
                             <modifier type="set" value="true" field="hidden">
                               <conditions>
